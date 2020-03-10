@@ -2,36 +2,35 @@
   "sco": {
     "naam": "Strategy and concepting",
     "afkorting": "SCO",
-    "leerdoelen": {
-      "oordeelvorming": ["item 1", "item 2", "item 3"],
-      "trends": ["item 1", "item 2", "item 3"],
-      "concept": ["item 1", "item 2", "item 3"],
-      "businessModel": ["item 1", "item 2", "item 3"],
-      "marketing": ["item 1", "item 2", "item 3"],
-      "communicatie": ["item 1", "item 2", "item 3"]
-    }
+    "leerdoelen": [
+      { "naam": "Oordeelvorming", "data": ["item 1", "item 2", "item 3"] },
+      { "naam": "Concept", "data": ["item 1", "item 2", "item 3"] },
+      { "naam": "Business Model", "data": ["item 1", "item 2", "item 3"] },
+      { "naam": "Marketing", "data": ["item 1", "item 2", "item 3"] },
+      { "naam": "Communicatie", "data": ["item 1", "item 2", "item 3"] }
+    ]
   },
   "pro": {
     "naam": "Professionele ontwikkeling",
     "afkorting": "PRO",
-    "leerdoelen": {
-      "houding": ["item 1", "item 2", "item 3"]
-    }
+    "leerdoelen": [
+      { "naam": "Houding", "data": ["item 1", "item 2", "item 3"] }
+    ]
   },
   "uxu": {
     "naam": "User experience & user centered design",
     "afkorting": "UXU",
-    "leerdoelen": {
-      "design": ["item 1", "item 2", "item 3"],
-      "userExperience": ["item 1", "item 2", "item 3"],
-      "gebruikersOnderzoek": ["item 1", "item 2", "item 3"]
-    }
+    "leerdoelen": [
+      { "naam": "Design", "data": ["item 1", "item 2", "item 3"] },
+      { "naam": "User Experience", "data": ["item 1", "item 2", "item 3"] },
+      { "naam": "Gebruikers Onderzoek", "data": ["item 1", "item 2", "item 3"] }
+    ]
   },
   "ded": {
     "naam": "Design & development",
     "afkorting": "DED",
-    "leerdoelen": {
-      "programmeren": ["item 1", "item 2", "item 3"]
-    }
+    "leerdoelen": [
+      { "naam": "Programmeren", "data": ["item 1", "item 2", "item 3"] }
+    ]
   }
 }
