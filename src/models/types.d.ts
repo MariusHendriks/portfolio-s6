@@ -1,6 +1,6 @@
 interface iDocument {
   naam: string;
-  link: string;
+  id: string;
   week: number;
 }
 interface iLeerdoel {

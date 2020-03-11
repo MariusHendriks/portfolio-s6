@@ -4,14 +4,20 @@ import Producten from "../producten/Index";
 import Opdracht from "../opdracht/Index";
 import Aanpak from "../aanpak/Index";
 import Reflectie from "../reflectie/Index";
-export default function Index(): ReactElement {
+
+interface Props {
+  sortedData?: iWeek[];
+}
+
+const Homepage: React.FC<Props> = ({ sortedData }) => {
   return (
     <div className="container">
       <Opdracht />
       <Aanpak />
       <Reflectie />
-      <Producten />
-      <Leeswijzer />
+      <Producten sortedData={sortedData} />
+      {/* <Leeswijzer /> */}
     </div>
   );
-}
+};
+export default Homepage;

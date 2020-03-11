@@ -21,11 +21,11 @@ const CourseTable: React.FC<Props> = ({ data }) => {
                   {leerdoel.naam}
                 </div>
                 <div>
-                  {leerdoel.documenten.map(item => {
+                  {leerdoel.documenten.map(document => {
                     return (
-                      <div key={item.naam}>
-                        <Link to={item.link}>
-                          <div>{item.naam}</div>
+                      <div key={document.id}>
+                        <Link to={`/documents/${document.id}`}>
+                          <div>{document.naam}</div>
                         </Link>
                       </div>
                     );

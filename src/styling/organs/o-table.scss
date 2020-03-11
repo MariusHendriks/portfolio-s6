@@ -17,6 +17,7 @@
     padding: $extra-small-spacing 0 $extra-small-spacing;
   }
   &__left {
-    width: 35%;
+    width: 40%;
+    word-break: break-word;
   }
 }
