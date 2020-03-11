@@ -4,6 +4,7 @@ import Homepage from "../homepage/Index";
 import Document from "../document/Index";
 import SortDataByWeek from "../../functions/dataFormatting";
 import data from "../../data/data.json";
+import Leeswijzer from "../leeswijzer/Index";
 function Router() {
   let sortedWeken: iWeek[];
   if (typeof data !== "undefined") {
@@ -12,18 +13,25 @@ function Router() {
     return (
       <Switch>
         <Route exact path="/">
-          <Homepage sortedData={sortedWeken} />
+          <Homepage data={data} sortedData={sortedWeken} />
         </Route>
-        <Route
-          path="/documents/:documentId"
-          render={({ match }) => (
-            <Document
-              pDocument={sortedWeken
-                .flatMap(w => w.documenten)
-                .find(document => document.id === match.params.documentId)}
-            />
-          )}
-        />
+        <Route exact path="/leeswijzer">
+          <div className="container">
+            <Leeswijzer data={data} />
+          </div>
+        </Route>
+        <div className="container">
+          <Route
+            path="/documents/:documentId"
+            render={({ match }) => (
+              <Document
+                pDocument={sortedWeken
+                  .flatMap(w => w.documenten)
+                  .find(document => document.id === match.params.documentId)}
+              />
+            )}
+          />
+        </div>
       </Switch>
     );
   } else {

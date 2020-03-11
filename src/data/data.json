@@ -6,37 +6,35 @@
       {
         "naam": "Oordeelvorming",
         "documenten": [
-          { "naam": "Dit en dat", "id": "1", "week": 1 },
-          { "naam": "item 60", "id": "2", "week": 3 }
+          {
+            "naam": "Kritische vragen",
+            "id": "1vTK4WElLGK2SxPd0zZvUv1WCNXj2ZaMQl0hG8L0_DOmBDR-rTnTTGxmOC3xTx_JuSXSpWh0zxZHzxl_",
+            "week": 1,
+            "beschrijving": "In dit document doe ik dit en dit"
+          },
+          {
+            "naam": "Project plan",
+            "id": "1vS8cqlrkLP7ddy3sV_el5xRl4niysz8Su6qZaRnQiYEsFP3KGqw22yiLhDqXGAzBcWTYMD2RTQ5Ljbq",
+            "week": 1,
+            "beschrijving": "In dit document doe ik dit en dit"
+          }
         ]
       },
       {
         "naam": "Concept",
-        "documenten": [
-          { "naam": "item 1", "id": "3", "week": 1 },
-          { "naam": "item 2", "id": "4", "week": 2 }
-        ]
+        "documenten": []
       },
       {
         "naam": "Business Model",
-        "documenten": [
-          { "naam": "item 3", "id": "5", "week": 1 },
-          { "naam": "item 4", "id": "6", "week": 2 }
-        ]
+        "documenten": []
       },
       {
         "naam": "Marketing",
-        "documenten": [
-          { "naam": "item 5", "id": "7", "week": 1 },
-          { "naam": "item 6", "id": "8", "week": 2 }
-        ]
+        "documenten": []
       },
       {
         "naam": "Communicatie",
-        "documenten": [
-          { "naam": "item 7", "id": "9", "week": 1 },
-          { "naam": "item 8", "id": "10", "week": 2 }
-        ]
+        "documenten": []
       }
     ]
   },
@@ -46,10 +44,7 @@
     "leerdoelen": [
       {
         "naam": "Houding",
-        "documenten": [
-          { "naam": "item 9", "id": "11", "week": 1 },
-          { "naam": "item 10", "id": "12", "week": 2 }
-        ]
+        "documenten": []
       }
     ]
   },
@@ -60,22 +55,34 @@
       {
         "naam": "Design",
         "documenten": [
-          { "naam": "item 11", "id": "13", "week": 1 },
-          { "naam": "item 12", "id": "14", "week": 2 }
+          {
+            "naam": "Ontwerpdocument",
+            "id": "1vQJM07MdsEiRAL2_OgkwqOwGGa0kYDXkAlEv9arYwZ9q24XUrwDVDqMQok2KOCqpz8gne3_rmnXiGhW",
+            "week": 3,
+            "beschrijving": "In dit document doe ik dit en dit"
+          }
         ]
       },
       {
         "naam": "User Experience",
         "documenten": [
-          { "naam": "item 13", "id": "15", "week": 1 },
-          { "naam": "item 14", "id": "16", "week": 2 }
+          {
+            "naam": "Usability test plan | Pagebuilder",
+            "id": "1vRL8qQOXxphefaBVltJRAe0dWSVUsPXTtsPG6MeLfADHjrm6XBCr7Di2fH3cGOzpSq7k-_P-cT2L91r",
+            "week": 4,
+            "beschrijving": "In dit document doe ik dit en dit"
+          }
         ]
       },
       {
         "naam": "Gebruikers Onderzoek",
         "documenten": [
-          { "naam": "item 15", "id": "17", "week": 1 },
-          { "naam": "item 162", "id": "18", "week": 2 }
+          {
+            "naam": "Onderzoeksdocument deelvraag - Hoe zien de processen binnen de stichting er uit?",
+            "id": "1vRsEvN_ERhKo_X8a9WmUimdNVOiJq9E0eHBOjWCAcFTn0p-p4SYXHxav5h_8j8hl7TMiJf1ucVIclEL",
+            "week": 2,
+            "beschrijving": "In dit document doe ik dit en dit"
+          }
         ]
       }
     ]
@@ -87,8 +94,12 @@
       {
         "naam": "Programmeren",
         "documenten": [
-          { "naam": "item 16", "id": "19", "week": 1 },
-          { "naam": "item 17", "id": "20", "week": 2 }
+          {
+            "naam": "Prototype developen",
+            "id": "1vTU6u2qITc5Io73aqqAu8tM-jM8BTrAvq8YChHS3uQUW6QC0Mwfgc41fLta1ZgHlY9mhu16H0ugQVRu",
+            "week": 4,
+            "beschrijving": "In dit document doe ik dit en dit"
+          }
         ]
       }
     ]

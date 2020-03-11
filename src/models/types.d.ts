@@ -2,6 +2,7 @@ interface iDocument {
   naam: string;
   id: string;
   week: number;
+  beschrijving?: string;
 }
 interface iLeerdoel {
   naam: string;
@@ -15,4 +16,10 @@ interface iOnderwerp {
 interface iWeek {
   weekNummer: number;
   documenten: iDocument[];
+}
+interface iVakken {
+  sco: iOnderwerp;
+  pro: iOnderwerp;
+  uxu: iOnderwerp;
+  ded: iOnderwerp;
 }
