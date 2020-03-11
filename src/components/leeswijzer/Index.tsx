@@ -1,4 +1,4 @@
-import React, { ReactElement } from "react";
+import React from "react";
 import FadeIn from "react-fade-in";
 import CourseTable from "./courseTable";
 import data from "../../data/data.json";
@@ -6,10 +6,9 @@ import data from "../../data/data.json";
 /*
 https://portal.fhict.nl/Blokboeken/s6_media_blokboek_2020.pdf
 */
-
-export default function Homepage(): ReactElement {
+const Homepage: React.FC = () => {
   return (
-    <div className="container">
+    <div>
       <FadeIn delay={100}>
         <h1>Bam</h1>
       </FadeIn>
@@ -24,4 +23,5 @@ export default function Homepage(): ReactElement {
       </FadeIn>
     </div>
   );
-}
+};
+export default Homepage;

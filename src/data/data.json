@@ -3,34 +3,94 @@
     "naam": "Strategy and concepting",
     "afkorting": "SCO",
     "leerdoelen": [
-      { "naam": "Oordeelvorming", "data": ["item 1", "item 2", "item 3"] },
-      { "naam": "Concept", "data": ["item 1", "item 2", "item 3"] },
-      { "naam": "Business Model", "data": ["item 1", "item 2", "item 3"] },
-      { "naam": "Marketing", "data": ["item 1", "item 2", "item 3"] },
-      { "naam": "Communicatie", "data": ["item 1", "item 2", "item 3"] }
+      {
+        "naam": "Oordeelvorming",
+        "documenten": [
+          { "naam": "Dit en dat", "link": "/documents/1", "week": 1 },
+          { "naam": "item 60", "link": "/documents/2", "week": 3 }
+        ]
+      },
+      {
+        "naam": "Concept",
+        "documenten": [
+          { "naam": "item 1", "link": "/documents/1", "week": 1 },
+          { "naam": "item 2", "link": "/documents/2", "week": 2 }
+        ]
+      },
+      {
+        "naam": "Business Model",
+        "documenten": [
+          { "naam": "item 1", "link": "/documents/1", "week": 1 },
+          { "naam": "item 2", "link": "/documents/2", "week": 2 }
+        ]
+      },
+      {
+        "naam": "Marketing",
+        "documenten": [
+          { "naam": "item 1", "link": "/documents/1", "week": 1 },
+          { "naam": "item 2", "link": "/documents/2", "week": 2 }
+        ]
+      },
+      {
+        "naam": "Communicatie",
+        "documenten": [
+          { "naam": "item 1", "link": "/documents/1", "week": 1 },
+          { "naam": "item 2", "link": "/documents/2", "week": 2 }
+        ]
+      }
     ]
   },
   "pro": {
     "naam": "Professionele ontwikkeling",
     "afkorting": "PRO",
     "leerdoelen": [
-      { "naam": "Houding", "data": ["item 1", "item 2", "item 3"] }
+      {
+        "naam": "Houding",
+        "documenten": [
+          { "naam": "item 1", "link": "/documents/1", "week": 1 },
+          { "naam": "item 2", "link": "/documents/2", "week": 2 }
+        ]
+      }
     ]
   },
   "uxu": {
     "naam": "User experience & user centered design",
     "afkorting": "UXU",
     "leerdoelen": [
-      { "naam": "Design", "data": ["item 1", "item 2", "item 3"] },
-      { "naam": "User Experience", "data": ["item 1", "item 2", "item 3"] },
-      { "naam": "Gebruikers Onderzoek", "data": ["item 1", "item 2", "item 3"] }
+      {
+        "naam": "Design",
+        "documenten": [
+          { "naam": "item 1", "link": "/documents/1", "week": 1 },
+          { "naam": "item 2", "link": "/documents/2", "week": 2 }
+        ]
+      },
+      {
+        "naam": "User Experience",
+        "documenten": [
+          { "naam": "item 1", "link": "/documents/1", "week": 1 },
+          { "naam": "item 2", "link": "/documents/2", "week": 2 }
+        ]
+      },
+      {
+        "naam": "Gebruikers Onderzoek",
+        "documenten": [
+          { "naam": "item 1", "link": "/documents/1", "week": 1 },
+          { "naam": "item 2", "link": "/documents/2", "week": 2 }
+        ]
+      }
     ]
   },
   "ded": {
     "naam": "Design & development",
     "afkorting": "DED",
     "leerdoelen": [
-      { "naam": "Programmeren", "data": ["item 1", "item 2", "item 3"] }
+      {
+        "naam": "Programmeren",
+        "documenten": [
+          { "naam": "item 1", "link": "/documents/1", "week": 1 },
+          { "naam": "item 2", "link": "/documents/2", "week": 2 }
+        ]
+      }
     ]
   }
 }

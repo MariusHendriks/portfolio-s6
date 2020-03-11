@@ -1,19 +1,10 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-interface expectedLeerdoel {
-  naam: string;
-  data: Array<string>;
-}
-interface expectedProp {
-  naam: string;
-  afkorting: string;
-  leerdoelen: expectedLeerdoel[];
-}
 interface Props {
-  data?: expectedProp;
+  data?: iOnderwerp;
 }
 const CourseTable: React.FC<Props> = ({ data }) => {
-  console.log("data :", data);
   if (typeof data !== "undefined") {
     return (
       <div className="o-table__container">
@@ -30,8 +21,14 @@ const CourseTable: React.FC<Props> = ({ data }) => {
                   {leerdoel.naam}
                 </div>
                 <div>
-                  {leerdoel.data.map(item => {
-                    return <div>{item}</div>;
+                  {leerdoel.documenten.map(item => {
+                    return (
+                      <div>
+                        <Link to={item.link}>
+                          <div>{item.naam}</div>
+                        </Link>
+                      </div>
+                    );
                   })}
                 </div>
               </div>
