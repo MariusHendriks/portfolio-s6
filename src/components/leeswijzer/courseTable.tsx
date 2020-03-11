@@ -16,14 +16,14 @@ const CourseTable: React.FC<Props> = ({ data }) => {
           </div>
           {data.leerdoelen.map(leerdoel => {
             return (
-              <div className="o-table__row">
+              <div key={leerdoel.naam} className="o-table__row">
                 <div className="o-table__row__leerdoel o-table__left">
                   {leerdoel.naam}
                 </div>
                 <div>
                   {leerdoel.documenten.map(item => {
                     return (
-                      <div>
+                      <div key={item.naam}>
                         <Link to={item.link}>
                           <div>{item.naam}</div>
                         </Link>
