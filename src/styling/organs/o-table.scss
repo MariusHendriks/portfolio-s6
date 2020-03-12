@@ -4,20 +4,36 @@
 .o-table {
   display: flex;
   flex-direction: column;
-
+  border: 1px solid $color-grey;
   text-align: left;
   width: 80%;
 
   &__header {
     display: flex;
+    background-color: $color-light-blue;
+    padding: $extra-small-spacing;
+    color: $color-white;
+    font-weight: bold;
   }
 
   &__row {
     display: flex;
-    padding: $extra-small-spacing 0 $extra-small-spacing;
+
+    border: 1px solid $color-grey;
+    padding: $extra-small-spacing;
+    &:nth-child(even) {
+      background-color: $color-grey-light;
+    }
+    a {
+      color: unset;
+      text-decoration: unset;
+    }
   }
   &__left {
     width: 40%;
     word-break: break-word;
+  }
+  &__right {
+    width: 60%;
   }
 }

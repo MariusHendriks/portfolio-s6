@@ -11,7 +11,7 @@ const Producten: React.FC<Props> = ({ sortedData }) => {
     return (
       <div>
         <h1>Producten</h1>
-        <h2>op chronologische volgorde</h2>
+
         <div className="o-table__container">
           <h3>Geen idee wat hier komt</h3>
           <div className="o-table">
@@ -27,16 +27,19 @@ const Producten: React.FC<Props> = ({ sortedData }) => {
                   <div className="o-table__row__leerdoel o-table__left">
                     Week {week.weekNummer}
                   </div>
-                  <div>
-                    <div>
-                      {week.documenten.map(document => {
-                        return (
-                          <Link to={`/documents/${document.id}`}>
-                            <div key={document.id}>{document.naam}</div>
-                          </Link>
-                        );
-                      })}
-                    </div>
+                  <div className="o-table__right">
+                    {week.documenten.map(document => {
+                      return (
+                        <Link to={`/documents/${document.id}`}>
+                          <div
+                            className="o-table__row__leerdoel_bewijs"
+                            key={document.id}
+                          >
+                            - {document.naam}
+                          </div>
+                        </Link>
+                      );
+                    })}
                   </div>
                 </div>
               );

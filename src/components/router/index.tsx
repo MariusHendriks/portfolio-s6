@@ -9,7 +9,7 @@ function Router() {
   let sortedWeken: iWeek[];
   if (typeof data !== "undefined") {
     sortedWeken = SortDataByWeek(data);
-    console.log("sortedWeken. :", sortedWeken);
+
     return (
       <Switch>
         <Route exact path="/">

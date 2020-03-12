@@ -5,7 +5,12 @@ $large-spacing: 30px;
 $extra-large-spacing: 45px;
 $huge-spacing: 90px;
 
+$color-white: #ffffff;
+$color-grey: #dddddd;
+$color-grey-light: #f2f2f2;
+$color-light-blue: #6eaef9;
 .container {
+  padding: $medium-spacing 0;
   width: 80%;
   margin: 0 auto;
 }
