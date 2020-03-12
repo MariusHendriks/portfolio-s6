@@ -25,7 +25,7 @@ const CourseTable: React.FC<Props> = ({ data }) => {
                     return (
                       <div key={document.id}>
                         <Link to={`/documents/${document.id}`}>
-                          <div>{document.naam}</div>
+                          <div>- {document.naam}</div>
                         </Link>
                       </div>
                     );

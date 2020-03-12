@@ -24,9 +24,19 @@
     &:nth-child(even) {
       background-color: $color-grey-light;
     }
+    &__leerdoel {
+      padding: $line-spacing 0;
+      &__bewijs {
+        padding: $line-spacing 0;
+      }
+    }
     a {
       color: unset;
       text-decoration: unset;
+      &:hover {
+        color: $color-light-blue;
+        transition: 0.2s;
+      }
     }
   }
   &__left {

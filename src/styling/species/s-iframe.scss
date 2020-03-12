@@ -1,0 +1,8 @@
+.s-iframe {
+  border: unset;
+  height: 75vh;
+  &__container {
+    display: flex;
+    justify-content: center;
+  }
+}

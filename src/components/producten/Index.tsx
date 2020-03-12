@@ -30,7 +30,7 @@ const Producten: React.FC<Props> = ({ sortedData }) => {
                       return (
                         <Link to={`/documents/${document.id}`}>
                           <div
-                            className="o-table__row__leerdoel_bewijs"
+                            className="o-table__row__leerdoel__bewijs"
                             key={document.id}
                           >
                             - {document.naam}

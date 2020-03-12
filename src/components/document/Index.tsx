@@ -11,12 +11,14 @@ const cDocument: React.FC<Props> = ({ pDocument }) => {
         <BackButton />
         <h1>{pDocument.naam}</h1>
         <p>{pDocument.beschrijving}</p>
-        <iframe
-          title={pDocument.naam}
-          src={`https://docs.google.com/document/d/${pDocument.id}/preview`}
-          width={"100%"}
-          height={500}
-        ></iframe>
+        <div className="s-iframe__container">
+          <iframe
+            title={pDocument.naam}
+            width={"100%"}
+            src={`https://docs.google.com/document/d/${pDocument.id}/preview`}
+            className="s-iframe"
+          ></iframe>
+        </div>
       </div>
     );
   } else {
