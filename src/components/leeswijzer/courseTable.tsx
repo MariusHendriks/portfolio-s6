@@ -11,8 +11,8 @@ const CourseTable: React.FC<Props> = ({ data }) => {
         <h3>{data.naam}</h3>
         <div className="o-table">
           <div className="o-table__header">
-            <div className="o-table__header__item o-table__left">Tijd</div>
-            <div className="o-table__header__item">Wat gedaan</div>
+            <div className="o-table__header__item o-table__left">Criteria</div>
+            <div className="o-table__header__item">Bewijs</div>
           </div>
           {data.leerdoelen.map(leerdoel => {
             return (

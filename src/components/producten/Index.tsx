@@ -16,10 +16,8 @@ const Producten: React.FC<Props> = ({ sortedData }) => {
           <h3>Geen idee wat hier komt</h3>
           <div className="o-table">
             <div className="o-table__header">
-              <div className="o-table__header__item o-table__left">
-                Criteria
-              </div>
-              <div className="o-table__header__item">Bewijs</div>
+              <div className="o-table__header__item o-table__left">Tijd</div>
+              <div className="o-table__header__item">Wat gedaan</div>
             </div>
             {sortedData.map(week => {
               return (
