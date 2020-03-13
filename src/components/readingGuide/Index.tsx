@@ -3,7 +3,7 @@ import FadeIn from "react-fade-in";
 import CourseTable from "./courseTable";
 
 interface Props {
-  data?: iVakLeeswijzer[];
+  data?: iCourseReadingGuide[];
 }
 
 const Homepage: React.FC<Props> = ({ data }) => {
@@ -16,8 +16,8 @@ const Homepage: React.FC<Props> = ({ data }) => {
         <FadeIn delay={500}>
           <h2>Leeswijzer</h2>
           <div className="s-tables">
-            {data.map(vak => {
-              return <CourseTable key={vak.naam} data={vak} />;
+            {data.map(course => {
+              return <CourseTable key={course.name} data={course} />;
             })}
           </div>
         </FadeIn>

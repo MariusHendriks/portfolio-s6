@@ -1,23 +1,17 @@
 import React from "react";
-import Leeswijzer from "../leeswijzer/Index";
+import ReadingGuide from "../readingGuide/Index";
 import Producten from "../producten/Index";
-import Opdracht from "../opdracht/Index";
-import Aanpak from "../aanpak/Index";
-import Reflectie from "../reflectie/Index";
 
 interface Props {
-  leeswijzerData?: iVakLeeswijzer[];
+  readingGuideData?: iCourseReadingGuide[];
   sortedData?: iWeek[];
 }
 
-const Homepage: React.FC<Props> = ({ sortedData, leeswijzerData }) => {
+const Homepage: React.FC<Props> = ({ sortedData, readingGuideData }) => {
   return (
     <div className="container">
-      <Opdracht />
-      <Aanpak />
-      <Reflectie />
       <Producten sortedData={sortedData} />
-      <Leeswijzer data={leeswijzerData} />
+      <ReadingGuide data={readingGuideData} />
     </div>
   );
 };

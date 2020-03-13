@@ -8,11 +8,11 @@ const cDocument: React.FC<Props> = ({ pDocument }) => {
     return (
       <div>
         <BackButton />
-        <h1>{pDocument.naam}</h1>
-        <p>{pDocument.beschrijving}</p>
+        <h1>{pDocument.name}</h1>
+        <p>{pDocument.description}</p>
         <div className="s-iframe__container">
           <iframe
-            title={pDocument.naam}
+            title={pDocument.name}
             width={"100%"}
             src={`https://docs.google.com/document/d/${pDocument.id}/preview`}
             className="s-iframe"

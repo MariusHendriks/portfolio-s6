@@ -4,30 +4,32 @@ export function SortDataByWeek(data: any) {
   let formattedWeken: iWeek[] = [];
 
   const maxWeek = GetMaxWeek(data);
+
   for (let i = 1; i <= maxWeek; i++) {
     formattedWeken.push({
       weekNummer: i,
-      documenten: jp.query(data, "$..documenten[?(@.week==" + i + ")]")
+      documents: jp.query(data, "$..documents[?(@.week==" + i + ")]")
     });
   }
+
   return formattedWeken;
 }
 
 export function SortDataByCourse(data: any) {
-  let courses: iVakLeeswijzer[] = jp.query(data, "$..vakken[*]");
+  let courses: iCourseReadingGuide[] = jp.query(data, "$..courses[*]");
   const documents: iDocument[] = GetAllDocuments(data);
   courses.forEach(course => {
-    course.leerdoelen.forEach(leerdoel => {
+    course.learningGoals.forEach(learningGoal => {
       let containedDocuments = documents.filter(document =>
-        document.leerdoelen.includes(leerdoel.id)
+        document.learningGoals.includes(learningGoal.id)
       );
 
       if (containedDocuments && containedDocuments.length > 0) {
-        if (!leerdoel.documenten) {
-          leerdoel.documenten = [];
+        if (!learningGoal.documents) {
+          learningGoal.documents = [];
         }
 
-        leerdoel.documenten = containedDocuments;
+        learningGoal.documents = containedDocuments;
       }
     });
   });
@@ -35,13 +37,13 @@ export function SortDataByCourse(data: any) {
 }
 
 function GetMaxWeek(data: any) {
-  return Math.max(...jp.query(data, "$..documenten..week"));
+  return Math.max(...jp.query(data, "$..documents..week"));
 }
 
 function GetAllDocuments(data: any) {
-  return jp.query(data, "$..documenten[*]");
+  return jp.query(data, "$..documents[*]");
 }
 
 // function GetAllLearningGoals(data: any) {
-//   return jp.query(data, "$..vakken..leerdoelen[*]");
+//   return jp.query(data, "$..courses..learningGoals[*]");
 // }

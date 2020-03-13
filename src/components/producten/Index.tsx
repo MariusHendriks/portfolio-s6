@@ -22,18 +22,18 @@ const Producten: React.FC<Props> = ({ sortedData }) => {
             {sortedData.map(week => {
               return (
                 <div key={week.weekNummer} className="o-table__row">
-                  <div className="o-table__row__leerdoel o-table__left">
+                  <div className="o-table__row__learning_goal o-table__left">
                     Week {week.weekNummer}
                   </div>
                   <div className="o-table__right">
-                    {week.documenten.map(document => {
+                    {week.documents.map(document => {
                       return (
                         <Link
                           key={document.id}
                           to={`/documents/${document.id}`}
                         >
-                          <div className="o-table__row__leerdoel__bewijs">
-                            - {document.naam}
+                          <div className="o-table__row__learning_goal__bewijs">
+                            - {document.name}
                           </div>
                         </Link>
                       );

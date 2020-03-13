@@ -8,11 +8,11 @@ import {
 } from "../../functions/dataFunctions";
 
 import data from "../../data/data.json";
-import Leeswijzer from "../leeswijzer/Index";
+import ReadingGuide from "../readingGuide/Index";
 
 function Router() {
   let dataByWeek: iWeek[];
-  let dataByLearningGoal: iVakLeeswijzer[];
+  let dataByLearningGoal: iCourseReadingGuide[];
 
   if (typeof data !== "undefined") {
     dataByWeek = SortDataByWeek(data);
@@ -22,13 +22,13 @@ function Router() {
       <Switch>
         <Route exact path="/">
           <Homepage
-            leeswijzerData={dataByLearningGoal}
+            readingGuideData={dataByLearningGoal}
             sortedData={dataByWeek}
           />
         </Route>
         <Route exact path="/leeswijzer">
           <div className="container">
-            <Leeswijzer data={dataByLearningGoal} />
+            <ReadingGuide data={dataByLearningGoal} />
           </div>
         </Route>
         <div className="container">
@@ -37,7 +37,7 @@ function Router() {
             render={({ match }) => (
               <Document
                 pDocument={dataByWeek
-                  .flatMap(w => w.documenten)
+                  .flatMap(w => w.documents)
                   .find(document => document.id === match.params.documentId)}
               />
             )}
