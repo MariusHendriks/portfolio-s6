@@ -16,7 +16,7 @@ const CourseTable: React.FC<Props> = ({ data }) => {
           </div>
           {data.leerdoelen.map(leerdoel => {
             return (
-              <div key={leerdoel.naam} className="o-table__row">
+              <div key={leerdoel.id} className="o-table__row">
                 <div className="o-table__row__leerdoel o-table__left">
                   {leerdoel.naam}
                 </div>

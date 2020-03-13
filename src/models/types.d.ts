@@ -27,5 +27,6 @@ interface iVakLeeswijzer {
 }
 interface iLeerdoel {
   naam: string;
+  id: string;
   documenten: iDocument[];
 }

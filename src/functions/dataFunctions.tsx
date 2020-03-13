@@ -19,7 +19,7 @@ export function SortDataByCourse(data: any) {
   courses.forEach(course => {
     course.leerdoelen.forEach(leerdoel => {
       let containedDocuments = documents.filter(document =>
-        document.leerdoelen.includes(leerdoel.naam)
+        document.leerdoelen.includes(leerdoel.id)
       );
 
       if (containedDocuments && containedDocuments.length > 0) {
