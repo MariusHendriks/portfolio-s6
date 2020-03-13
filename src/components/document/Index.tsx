@@ -4,7 +4,6 @@ interface Props {
   pDocument: iDocument | undefined;
 }
 const cDocument: React.FC<Props> = ({ pDocument }) => {
-  console.log("pDocument :", pDocument);
   if (typeof pDocument !== "undefined") {
     return (
       <div>

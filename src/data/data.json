@@ -1,107 +1,74 @@
 {
-  "sco": {
-    "naam": "Strategy and concepting",
-    "afkorting": "SCO",
-    "leerdoelen": [
-      {
-        "naam": "Oordeelvorming",
-        "documenten": [
-          {
-            "naam": "Kritische vragen",
-            "id": "16Pqc4DTWgRuIPezrqxgDaJvTg6ZRU5Oy7yB1pkPMJZQ",
-            "week": 1,
-            "beschrijving": "In dit document doe ik dit en dit"
-          },
-          {
-            "naam": "Project plan",
-            "id": "1CblzGJNiU5XxT1wFxFUqnG3bsVKgAWGWm5LJKTsd6xU",
-            "week": 1,
-            "beschrijving": "In dit document doe ik dit en dit"
-          }
-        ]
-      },
-      {
-        "naam": "Concept",
-        "documenten": []
-      },
-      {
-        "naam": "Business Model",
-        "documenten": []
-      },
-      {
-        "naam": "Marketing",
-        "documenten": []
-      },
-      {
-        "naam": "Communicatie",
-        "documenten": []
-      }
-    ]
-  },
-  "pro": {
-    "naam": "Professionele ontwikkeling",
-    "afkorting": "PRO",
-    "leerdoelen": [
-      {
-        "naam": "Houding",
-        "documenten": []
-      }
-    ]
-  },
-  "uxu": {
-    "naam": "User experience & user centered design",
-    "afkorting": "UXU",
-    "leerdoelen": [
-      {
-        "naam": "Design",
-        "documenten": [
-          {
-            "naam": "Ontwerpdocument",
-            "id": "1Qq96zcYrjX9nusrSHT96cpUn0lJB0Fw5jet7OnMC-Y0",
-            "week": 3,
-            "beschrijving": "In dit document bevindt zich alle informatie over het ontwerp van het eerst gemaakte prototype. Dit is enkel een eerste iteratie, nadat dit bestand is uitgewerkt met code is het ontwerp van Bart uitgewerkt."
-          }
-        ]
-      },
-      {
-        "naam": "User Experience",
-        "documenten": [
-          {
-            "naam": "Usability test plan | Pagebuilder",
-            "id": "1eKkCSBw990wbWkYzXfjE9jieW6VNXMKixRn_Y39cFf0",
-            "week": 4,
-            "beschrijving": "In dit document doe ik dit en dit"
-          }
-        ]
-      },
-      {
-        "naam": "Gebruikers Onderzoek",
-        "documenten": [
-          {
-            "naam": "Onderzoeksdocument deelvraag | Hoe zien de processen binnen de stichting er uit?",
-            "id": "1NaAHDAAggWa-ntBYvd4xIPey24lokFSVc_S-LP7SYLs",
-            "week": 2,
-            "beschrijving": "In dit document doe ik dit en dit"
-          }
-        ]
-      }
-    ]
-  },
-  "ded": {
-    "naam": "Design & development",
-    "afkorting": "DED",
-    "leerdoelen": [
-      {
-        "naam": "Programmeren",
-        "documenten": [
-          {
-            "naam": "Prototype developen",
-            "id": "12Pd-IznJ8ZQ7GIV7avYJi3n7abhwFAHR_RvYa5EJxzk",
-            "week": 4,
-            "beschrijving": "In dit document doe ik dit en dit"
-          }
-        ]
-      }
-    ]
-  }
+  "documenten": [
+    {
+      "naam": "Kritische vragen",
+      "id": "16Pqc4DTWgRuIPezrqxgDaJvTg6ZRU5Oy7yB1pkPMJZQ",
+      "week": 1,
+      "beschrijving": "In dit document doe ik dit en dit",
+      "leerdoelen": ["Oordeelvorming"]
+    },
+    {
+      "naam": "Project plan",
+      "id": "1CblzGJNiU5XxT1wFxFUqnG3bsVKgAWGWm5LJKTsd6xU",
+      "week": 1,
+      "beschrijving": "In dit document doe ik dit en dit",
+      "leerdoelen": ["Oordeelvorming", "Concept"]
+    },
+    {
+      "naam": "Ontwerpdocument",
+      "id": "1Qq96zcYrjX9nusrSHT96cpUn0lJB0Fw5jet7OnMC-Y0",
+      "week": 3,
+      "beschrijving": "In dit document bevindt zich alle informatie over het ontwerp van het eerst gemaakte prototype. Dit is enkel een eerste iteratie, nadat dit bestand is uitgewerkt met code is het ontwerp van Bart uitgewerkt.",
+      "leerdoelen": ["Design"]
+    },
+    {
+      "naam": "Usability test plan | Pagebuilder",
+      "id": "1eKkCSBw990wbWkYzXfjE9jieW6VNXMKixRn_Y39cFf0",
+      "week": 4,
+      "beschrijving": "In dit document doe ik dit en dit",
+      "leerdoelen": ["User Experience"]
+    },
+    {
+      "naam": "Onderzoeksdocument deelvraag | Hoe zien de processen binnen de stichting er uit?",
+      "id": "1NaAHDAAggWa-ntBYvd4xIPey24lokFSVc_S-LP7SYLs",
+      "week": 2,
+      "beschrijving": "In dit document doe ik dit en dit",
+      "leerdoelen": ["Gebruikers Onderzoek", "Concept", "Programmeren"]
+    },
+    {
+      "naam": "Prototype developen",
+      "id": "12Pd-IznJ8ZQ7GIV7avYJi3n7abhwFAHR_RvYa5EJxzk",
+      "week": 4,
+      "beschrijving": "In dit document doe ik dit en dit",
+      "leerdoelen": ["Programmeren", "Gebruikers Onderzoek"]
+    }
+  ],
+  "vakken": [
+    {
+      "naam": "SCO",
+      "leerdoelen": [
+        { "naam": "Oordeelvorming" },
+        { "naam": "Concept" },
+        { "naam": "Business model" },
+        { "naam": "Marketing" },
+        { "naam": "Communicatie" }
+      ]
+    },
+    {
+      "naam": "PRO",
+      "leerdoelen": [{ "naam": "Professionele ontwikkeling" }]
+    },
+    {
+      "naam": "UXU",
+      "leerdoelen": [
+        { "naam": "User Experience" },
+        { "naam": "Gebruikers Onderzoek" },
+        { "naam": "Design" }
+      ]
+    },
+    {
+      "naam": "DED",
+      "leerdoelen": [{ "naam": "Programmeren" }]
+    }
+  ]
 }

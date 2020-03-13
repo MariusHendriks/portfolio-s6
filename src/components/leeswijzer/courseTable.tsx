@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 interface Props {
-  data?: iOnderwerp;
+  data?: iVakLeeswijzer;
 }
 const CourseTable: React.FC<Props> = ({ data }) => {
   if (typeof data !== "undefined") {
@@ -21,15 +21,20 @@ const CourseTable: React.FC<Props> = ({ data }) => {
                   {leerdoel.naam}
                 </div>
                 <div className="o-table__right">
-                  {leerdoel.documenten.map(document => {
-                    return (
-                      <div key={document.id}>
-                        <Link to={`/documents/${document.id}`}>
-                          <div>- {document.naam}</div>
-                        </Link>
-                      </div>
-                    );
-                  })}
+                  {typeof leerdoel.documenten !== "undefined" &&
+                  leerdoel.documenten !== [] ? (
+                    leerdoel.documenten.map(document => {
+                      return (
+                        <div key={document.id}>
+                          <Link to={`/documents/${document.id}`}>
+                            <div>- {document.naam}</div>
+                          </Link>
+                        </div>
+                      );
+                    })
+                  ) : (
+                    <></>
+                  )}
                 </div>
               </div>
             );

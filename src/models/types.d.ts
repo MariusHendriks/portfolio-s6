@@ -3,23 +3,29 @@ interface iDocument {
   id: string;
   week: number;
   beschrijving?: string;
-}
-interface iLeerdoel {
-  naam: string;
-  documenten: iDocument[];
-}
-interface iOnderwerp {
-  naam: string;
-  afkorting: string;
-  leerdoelen: iLeerdoel[];
+  leerdoelen: string[];
 }
 interface iWeek {
   weekNummer: number;
   documenten: iDocument[];
 }
-interface iVakken {
-  sco: iOnderwerp;
-  pro: iOnderwerp;
-  uxu: iOnderwerp;
-  ded: iOnderwerp;
+interface iVak {
+  naam: string;
+  leerdoelen: string[];
+}
+interface iData {
+  documenten: iDocument[];
+  vakken: iVak[];
+}
+interface iDataLeeswijzer {
+  vakken: iVakLeeswijzer[];
+}
+interface iVakLeeswijzer {
+  naam: string;
+  afkorting: string;
+  leerdoelen: iLeerdoel[];
+}
+interface iLeerdoel {
+  naam: string;
+  documenten: iDocument[];
 }

@@ -6,18 +6,18 @@ import Aanpak from "../aanpak/Index";
 import Reflectie from "../reflectie/Index";
 
 interface Props {
-  data?: iVakken;
+  leeswijzerData?: iVakLeeswijzer[];
   sortedData?: iWeek[];
 }
 
-const Homepage: React.FC<Props> = ({ sortedData, data }) => {
+const Homepage: React.FC<Props> = ({ sortedData, leeswijzerData }) => {
   return (
     <div className="container">
       <Opdracht />
       <Aanpak />
       <Reflectie />
       <Producten sortedData={sortedData} />
-      <Leeswijzer data={data} />
+      <Leeswijzer data={leeswijzerData} />
     </div>
   );
 };
