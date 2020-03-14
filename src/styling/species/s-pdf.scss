@@ -8,9 +8,10 @@
 
   &__buttons {
     display: flex;
+    position: absolute;
     justify-content: space-between;
-    width: 30%;
-    padding-top: $spacing-huge;
+    width: 90%;
+    top: 80%;
   }
   &__fullscreenbutton {
     margin-left: 80%;

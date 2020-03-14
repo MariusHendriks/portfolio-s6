@@ -1,8 +1,16 @@
 @import "./dna/dna.scss";
+
+/* Species */
+
 @import "./species/s-tables.scss";
 @import "./species/s-iframe.scss";
 @import "./species/s-document.scss";
 @import "./species/s-pdf.scss";
+
+/* Organs */
 @import "./organs/o-table.scss";
 @import "./organs/o-card.scss";
 @import "./organs/o-back-button.scss";
+
+/* Animations */
+@import "./animations/leftTick.scss";

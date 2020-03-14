@@ -7,7 +7,6 @@ interface Props {
   docName: string | undefined;
 }
 function getScale() {
-  console.log("window.innerWidth :", window.innerWidth);
   if (window.innerWidth <= 1920) {
     return 1.22;
   } else if (window.innerWidth <= 2560) {

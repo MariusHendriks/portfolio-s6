@@ -2,16 +2,18 @@
   "documents": [
     {
       "name": "Kritische vragen",
-      "id": "16Pqc4DTWgRuIPezrqxgDaJvTg6ZRU5Oy7yB1pkPMJZQ",
+      "pdfName": "KritischeVragen",
+      "id": "kritische-vragen",
       "week": 1,
-      "description": "In dit document doe ik dit en dit",
+      "description": "Dit document is gemaakt vanwege de schoolopdracht 'Kritische vragen'. De vragen zijn opgesteld door de gehele groep, de interviews zijn gehouden door mij.",
       "learningGoals": [1]
     },
     {
       "name": "Project plan",
-      "id": "1CblzGJNiU5XxT1wFxFUqnG3bsVKgAWGWm5LJKTsd6xU",
+      "id": "project-plan",
       "week": 1,
-      "description": "In dit document doe ik dit en dit",
+      "pdfName": "Projectplan",
+      "description": "In dit document bevindt zich alle informatie over het project plan. Er staat informatie over onder andere het bedrijf, de opdracht, onderzoeksvragen, aanpak en een planning. Ik ben in dit document verantwoordelijk geweest voor de kopjes 'Afspraken rondom communicatie' en 'Overig'. Verder werdt er veel als groep besproken en door een groepsgenoot ingevuld.",
       "learningGoals": [1, 2]
     },
     {
@@ -31,16 +33,17 @@
     },
     {
       "name": "Onderzoeksdocument deelvraag | Hoe zien de processen binnen de stichting er uit?",
+      "pdfName": "OnderzoekProcessen",
       "id": "1NaAHDAAggWa-ntBYvd4xIPey24lokFSVc_S-LP7SYLs",
       "week": 2,
-      "description": "In dit document doe ik dit en dit",
+      "description": "Dit document is gemaakt door Timo van de Laar en ikzelf. We hebben dezelfde deelvraag beantwoord, maar beide individueel onderzoek gedaan. De algemene informatie en conclusie zijn samen geschreven. Het interview met de deelnemers en a day in the life onderzoeken zijn uitgevoerd door mij, bij het interview met Stephan heb ik notities gemaakt. Timo heeft de customer journey gemaakt.",
       "learningGoals": [9]
     },
     {
       "name": "Prototype developen",
       "id": "12Pd-IznJ8ZQ7GIV7avYJi3n7abhwFAHR_RvYa5EJxzk",
       "week": 4,
-      "description": "In dit document doe ik dit en dit",
+      "description": "test",
       "learningGoals": [11]
     }
   ],

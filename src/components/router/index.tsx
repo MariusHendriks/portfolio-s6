@@ -2,6 +2,7 @@ import React from "react";
 import { Switch, Route } from "react-router-dom";
 import Homepage from "../homepage/Index";
 import Document from "../document/Index";
+import Producten from "../producten/Index";
 import {
   SortDataByWeek,
   SortDataByCourse
@@ -29,6 +30,11 @@ function Router() {
         <Route exact path="/leeswijzer">
           <div className="container">
             <ReadingGuide data={dataByLearningGoal} />
+          </div>
+        </Route>
+        <Route exact path="/documents">
+          <div className="container">
+            <Producten sortedData={dataByWeek} />
           </div>
         </Route>
         <div className="container">
