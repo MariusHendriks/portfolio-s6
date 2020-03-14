@@ -3,6 +3,7 @@ interface iDocument {
   id: string;
   week: number;
   description?: string;
+  pdfName?: string;
   learningGoals: string[];
 }
 interface iWeek {

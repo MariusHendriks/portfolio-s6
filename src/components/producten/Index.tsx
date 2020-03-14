@@ -1,5 +1,4 @@
 import React from "react";
-
 import { Link } from "react-router-dom";
 
 interface Props {
@@ -13,8 +12,8 @@ const Producten: React.FC<Props> = ({ sortedData }) => {
         <h1>Producten</h1>
 
         <div className="o-table__container">
-          <h3>Geen idee wat hier komt</h3>
           <div className="o-table">
+            <h3>Per week</h3>
             <div className="o-table__header">
               <div className="o-table__header__item o-table__left">Tijd</div>
               <div className="o-table__header__item">Wat gedaan</div>

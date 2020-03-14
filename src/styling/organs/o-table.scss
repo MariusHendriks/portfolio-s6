@@ -1,33 +1,30 @@
 .o-table__container {
-  width: 25%;
+  width: 23%;
 }
 .o-table {
+  box-shadow: $shadow-regular;
   display: flex;
   flex-direction: column;
-  border: 1px solid $color-grey;
   text-align: left;
-  width: 80%;
-
+  background-color: $color-white;
+  border-radius: $border-table-body;
+  padding: 0 $spacing-medium;
   &__header {
     display: flex;
-    background-color: $color-light-blue;
-    padding: $extra-small-spacing;
-    color: $color-white;
+    border-radius: $border-table-header;
+    padding-bottom: $spacing-small;
     font-weight: bold;
+    border-bottom: 1px solid $color-grey;
   }
 
   &__row {
     display: flex;
-
-    border: 1px solid $color-grey;
-    padding: $extra-small-spacing;
-    &:nth-child(even) {
-      background-color: $color-grey-light;
-    }
+    padding: $spacing-small 0;
+    border-bottom: 1px solid $color-grey;
     &__learning_goal {
-      padding: $line-spacing 0;
+      padding: $spacing-line 0;
       &__bewijs {
-        padding: $line-spacing 0;
+        padding: $spacing-line 0;
       }
     }
     a {
@@ -37,6 +34,9 @@
         color: $color-light-blue;
         transition: 0.2s;
       }
+    }
+    &:last-child {
+      border-bottom: unset;
     }
   }
   &__left {

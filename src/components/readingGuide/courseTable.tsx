@@ -8,8 +8,8 @@ const CourseTable: React.FC<Props> = ({ data }) => {
   if (typeof data !== "undefined") {
     return (
       <div className="o-table__container">
-        <h3>{data.name}</h3>
         <div className="o-table">
+          <h3>{data.name}</h3>
           <div className="o-table__header">
             <div className="o-table__header__item o-table__left">Criteria</div>
             <div className="o-table__header__item">Bewijs</div>

@@ -1,0 +1,24 @@
+.s-pdf {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: $color-grey-light;
+  padding: $spacing-large;
+
+  &__buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    padding-top: $spacing-huge;
+  }
+  &__fullscreenbutton {
+    margin-left: 80%;
+  }
+  canvas {
+    box-shadow: $shadow-regular;
+  }
+  button {
+    font-size: $font-huge;
+  }
+}

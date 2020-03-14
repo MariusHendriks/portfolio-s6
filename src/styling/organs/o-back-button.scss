@@ -1,0 +1,11 @@
+.o-back-button {
+  a {
+    text-decoration: none;
+    color: $color-black;
+    font-size: $font-huge;
+    &:hover {
+      color: $color-light-blue;
+      transition: $transition-basic-quick;
+    }
+  }
+}

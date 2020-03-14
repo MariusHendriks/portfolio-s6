@@ -1,19 +1,57 @@
-$line-spacing: 3px;
-$extra-small-spacing: 7.5px;
-$small-spacing: 15px;
-$medium-spacing: 22.5px;
-$large-spacing: 30px;
-$extra-large-spacing: 45px;
-$huge-spacing: 90px;
+$spacing-line: 3px;
+$spacing-extra-small: 7.5px;
+$spacing-small: 15px;
+$spacing-medium: 22.5px;
+$spacing-large: 30px;
+$spacing-extra-large: 45px;
+$spacing-huge: 90px;
 
+$color-black: #121214;
 $color-white: #ffffff;
 $color-grey: #dddddd;
 $color-grey-light: #f2f2f2;
 
 $color-light-blue: #6eaef9;
 
+$font-huge: 3rem;
+$font-big: 2rem;
+$font-large: 1.5rem;
+$font-normal: 1rem;
+
+$border-regular: 4px;
+$border-table-header: 4px 4px 0 0;
+$border-table-body: 0 0 4px 4px;
+
+$shadow-regular: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+$transition-basic-quick: 0.3s;
+
+html {
+  background-color: $color-grey-light;
+}
 .container {
-  padding: $medium-spacing 0;
+  padding: $spacing-medium 0;
   width: 80%;
   margin: 0 auto;
+}
+button {
+  transition: $transition-basic-quick;
+  cursor: pointer;
+  width: fit-content;
+  background: unset;
+  border: unset;
+  &:focus {
+    outline: unset;
+  }
+  &:hover {
+    color: $color-light-blue;
+  }
+  &:disabled {
+    cursor: unset;
+    color: $color-grey;
+    &:hover {
+      color: $color-grey;
+    }
+  }
 }

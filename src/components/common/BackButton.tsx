@@ -5,9 +5,11 @@ import { Link } from "react-router-dom";
 
 const BackButton: React.FC = () => {
   return (
-    <Link to="/">
-      <FontAwesomeIcon icon={faArrowLeft} /> back
-    </Link>
+    <div className="o-back-button">
+      <Link to="/">
+        <FontAwesomeIcon icon={faArrowLeft} />
+      </Link>
+    </div>
   );
 };
 export default BackButton;
