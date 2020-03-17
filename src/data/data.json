@@ -45,6 +45,15 @@
       "week": 4,
       "description": "test",
       "learningGoals": [11]
+    },
+    {
+      "name": "Tussentijdse presentatie",
+      "id": "tussentijdse-presentatie",
+      "pdfName": "TussentijdsePresentatie",
+      "week": 5,
+      "description": "Om te valideren of we op het goede spoor zaten is er een tussentijdse presentatie gegeven waarin verteld werdt wat we als groep hebben gedaan in de afgelopen weken, wat de onderzoeksresultaten zijn en wat de vervolgstappen zijn. De presentatie is vanwegen Corona (COVID-19) via Skype gehouden, en is opgenomen. Bekijk de beschrijving voor relevante timestamps",
+      "video": "https://www.youtube.com/watch?v=FL9UQu7-wX0",
+      "learningGoals": [7, 6, 2]
     }
   ],
   "courses": [

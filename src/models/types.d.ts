@@ -5,6 +5,7 @@ interface iDocument {
   description?: string;
   pdfName?: string;
   learningGoals: string[];
+  video?: string;
 }
 interface iWeek {
   weekNummer: number;
