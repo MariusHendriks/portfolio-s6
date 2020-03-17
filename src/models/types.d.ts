@@ -5,7 +5,10 @@ interface iDocument {
   description?: string;
   pdfName?: string;
   learningGoals: string[];
-  video?: string;
+  link?: string;
+  linkText?: string;
+  link2?: string;
+  linkText2?: string;
 }
 interface iWeek {
   weekNummer: number;

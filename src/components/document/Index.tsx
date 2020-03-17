@@ -1,6 +1,7 @@
 import React from "react";
 import BackButton from "../common/BackButton";
 import PDF from "./PDF";
+import Link from "./Link";
 interface Props {
   pDocument: iDocument | undefined;
 }
@@ -13,20 +14,9 @@ const cDocument: React.FC<Props> = ({ pDocument }) => {
         <div className="o-card">
           <h1>{pDocument.name}</h1>
           <p>{pDocument.description}</p>
-          {typeof pDocument.video !== "undefined" ? (
-            <p>
-              De video is hier te bekijken{" "}
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href={pDocument.video}
-              >
-                {pDocument.video}
-              </a>
-            </p>
-          ) : (
-            <></>
-          )}
+
+          <Link name={pDocument.link} text={pDocument.linkText} />
+          <Link name={pDocument.link2} text={pDocument.linkText2} />
         </div>
         <div>
           <PDF docName={pDocument.pdfName} />
