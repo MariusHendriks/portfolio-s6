@@ -1,93 +1,94 @@
 {
-  "documents": [
-    {
-      "name": "Kritische vragen",
-      "pdfName": "KritischeVragen",
-      "id": "kritische-vragen",
-      "week": 1,
-      "description": "Dit document is gemaakt vanwege de schoolopdracht 'Kritische vragen'. De vragen zijn opgesteld door de gehele groep, de interviews zijn gehouden door mij.",
-      "learningGoals": [1]
-    },
-    {
-      "name": "Project plan",
-      "id": "project-plan",
-      "week": 1,
-      "pdfName": "Projectplan",
-      "description": "In dit document bevindt zich alle informatie over het project plan. Er staat informatie over onder andere het bedrijf, de opdracht, onderzoeksvragen, aanpak en een planning. Ik ben in dit document verantwoordelijk geweest voor de kopjes 'Afspraken rondom communicatie' en 'Overig'. Verder werdt er veel als groep besproken en door een groepsgenoot ingevuld.",
-      "learningGoals": [1, 2]
-    },
-    {
-      "name": "Ontwerpdocument",
-      "pdfName": "Ontwerpdocument",
-      "id": "1Qq96zcYrjX9nusrSHT96cpUn0lJB0Fw5jet7OnMC-Y0",
-      "week": 3,
-      "description": "In dit document bevindt zich alle informatie over het ontwerp van het eerst gemaakte prototype. Dit is enkel een eerste iteratie, nadat dit bestand is uitgewerkt met code is het ontwerp van Bart uitgewerkt.",
-      "learningGoals": [10]
-    },
-    {
-      "name": "Usability test plan | Pagebuilder",
-      "id": "1eKkCSBw990wbWkYzXfjE9jieW6VNXMKixRn_Y39cFf0",
-      "week": 4,
-      "description": "In dit document doe ik dit en dit",
-      "learningGoals": [8]
-    },
-    {
-      "name": "Onderzoeksdocument deelvraag | Hoe zien de processen binnen de stichting er uit?",
-      "pdfName": "OnderzoekProcessen",
-      "id": "1NaAHDAAggWa-ntBYvd4xIPey24lokFSVc_S-LP7SYLs",
-      "week": 2,
-      "description": "Dit document is gemaakt door Timo van de Laar en ikzelf. We hebben dezelfde deelvraag beantwoord, maar beide individueel onderzoek gedaan. De algemene informatie en conclusie zijn samen geschreven. Het interview met de deelnemers en a day in the life onderzoeken zijn uitgevoerd door mij, bij het interview met Stephan heb ik notities gemaakt. Timo heeft de customer journey gemaakt.",
-      "learningGoals": [9]
-    },
-    {
-      "name": "Prototype developen",
-      "id": "12Pd-IznJ8ZQ7GIV7avYJi3n7abhwFAHR_RvYa5EJxzk",
-      "week": 4,
-      "description": "test",
-      "learningGoals": [11],
-      "link": "https://youtu.be/FL9UQu7-wX0?t=236",
-      "linkText": "De video vind je hier ",
-      "link2": "test",
-      "linkText2": "https://youtu.be/FL9UQu7-wX0?t=236"
-    },
-    {
-      "name": "Tussentijdse presentatie",
-      "id": "tussentijdse-presentatie",
-      "pdfName": "TussentijdsePresentatie",
-      "week": 5,
-      "description": "Om te valideren of we op het goede spoor zaten is er een tussentijdse presentatie gegeven waarin verteld werdt wat we als groep hebben gedaan in de afgelopen weken, wat de onderzoeksresultaten zijn en wat de vervolgstappen zijn. De presentatie is vanwegen Corona (COVID-19) via Skype gehouden, en is opgenomen. Bekijk de beschrijving voor relevante timestamps",
-      "link": "https://youtu.be/FL9UQu7-wX0?t=236",
-      "linkText": "De video vind je hier",
+    "documents": [
+        {
+            "name": "Kritische vragen",
+            "pdfName": "KritischeVragen",
+            "id": "kritische-vragen",
+            "week": 1,
+            "description": "Dit document is gemaakt vanwege de schoolopdracht 'Kritische vragen'. De vragen zijn opgesteld door de gehele groep, de interviews zijn gehouden door mij.",
+            "learningGoals": [1]
+        },
+        {
+            "name": "Project plan",
+            "id": "project-plan",
+            "week": 1,
+            "pdfName": "Projectplan",
+            "description": "In dit document bevindt zich alle informatie over het project plan. Er staat informatie over onder andere het bedrijf, de opdracht, onderzoeksvragen, aanpak en een planning. Ik ben in dit document verantwoordelijk geweest voor de kopjes 'Afspraken rondom communicatie' en 'Overig'. Verder werdt er veel als groep besproken en door een groepsgenoot ingevuld.",
+            "learningGoals": [1, 2]
+        },
+        {
+            "name": "Ontwerpdocument",
+            "pdfName": "Ontwerpdocument",
+            "id": "ontwerpdocument-prototype",
+            "week": 3,
+            "description": "In dit document bevindt zich alle informatie over het ontwerp van het eerst gemaakte prototype. Dit is enkel een eerste iteratie, nadat dit bestand is uitgewerkt met code is het ontwerp van Bart uitgewerkt.",
+            "learningGoals": [10]
+        },
+        {
+            "name": "Usability test plan | Pagebuilder",
+            "id": "usability-testplan",
+            "week": 4,
+            "description": "In dit document vindt je de gemaakte usertests. Bart van de Kluntert heeft het document opgesteld, en de test met Patrick gemaakt. Ook heeft Bart voor mij genotuleerd. Ik heb de tests gedaan met: Houda, Stephan, Ziya, Ineke en Sigrid. Ook heb ik de conclusie geschreven. ",
+            "learningGoals": [8],
+            "pdfName": "UsabilityTestplan"
+        },
+        {
+            "name": "Onderzoeksdocument deelvraag | Hoe zien de processen binnen de stichting er uit?",
+            "pdfName": "OnderzoekProcessen",
+            "id": "1NaAHDAAggWa-ntBYvd4xIPey24lokFSVc_S-LP7SYLs",
+            "week": 2,
+            "description": "Dit document is gemaakt door Timo van de Laar en ikzelf. We hebben dezelfde deelvraag beantwoord, maar beide individueel onderzoek gedaan. De algemene informatie en conclusie zijn samen geschreven. Het interview met de deelnemers en a day in the life onderzoeken zijn uitgevoerd door mij, bij het interview met Stephan heb ik notities gemaakt. Timo heeft de customer journey gemaakt.",
+            "learningGoals": [9]
+        },
+        {
+            "name": "Prototype developen",
+            "id": "12Pd-IznJ8ZQ7GIV7avYJi3n7abhwFAHR_RvYa5EJxzk",
+            "week": 4,
+            "description": "test",
+            "learningGoals": [11],
+            "link": "https://youtu.be/FL9UQu7-wX0?t=236",
+            "linkText": "De video vind je hier ",
+            "link2": "test",
+            "linkText2": "https://youtu.be/FL9UQu7-wX0?t=236"
+        },
+        {
+            "name": "Tussentijdse presentatie",
+            "id": "tussentijdse-presentatie",
+            "pdfName": "TussentijdsePresentatie",
+            "week": 5,
+            "description": "Om te valideren of we op het goede spoor zaten is er een tussentijdse presentatie gegeven waarin verteld werdt wat we als groep hebben gedaan in de afgelopen weken, wat de onderzoeksresultaten zijn en wat de vervolgstappen zijn. De presentatie is vanwegen Corona (COVID-19) via Skype gehouden, en is opgenomen. Bekijk de beschrijving voor relevante timestamps",
+            "link": "https://youtu.be/FL9UQu7-wX0?t=236",
+            "linkText": "De video vind je hier",
 
-      "learningGoals": [7, 6, 2]
-    }
-  ],
-  "courses": [
-    {
-      "name": "SCO",
-      "learningGoals": [
-        { "name": "Oordeelvorming", "id": 1 },
-        { "name": "Concept", "id": 2 },
-        { "name": "Business model", "id": 3 },
-        { "name": "Marketing", "id": 4 },
-        { "name": "Communicatie", "id": 6 }
-      ]
-    },
-    {
-      "name": "PRO",
-      "learningGoals": [{ "name": "Professionele ontwikkeling", "id": 7 }]
-    },
-    {
-      "name": "UXU",
-      "learningGoals": [
-        { "name": "User Experience", "id": 8 },
-        { "name": "Gebruikers Onderzoek", "id": 9 },
-        { "name": "Design", "id": 10 }
-      ]
-    },
-    {
-      "name": "DED",
-      "learningGoals": [{ "name": "Programmeren", "id": 11 }]
-    }
-  ]
+            "learningGoals": [7, 6, 2]
+        }
+    ],
+    "courses": [
+        {
+            "name": "SCO",
+            "learningGoals": [
+                { "name": "Oordeelvorming", "id": 1 },
+                { "name": "Concept", "id": 2 },
+                { "name": "Business model", "id": 3 },
+                { "name": "Marketing", "id": 4 },
+                { "name": "Communicatie", "id": 6 }
+            ]
+        },
+        {
+            "name": "PRO",
+            "learningGoals": [{ "name": "Professionele ontwikkeling", "id": 7 }]
+        },
+        {
+            "name": "UXU",
+            "learningGoals": [
+                { "name": "User Experience", "id": 8 },
+                { "name": "Gebruikers Onderzoek", "id": 9 },
+                { "name": "Design", "id": 10 }
+            ]
+        },
+        {
+            "name": "DED",
+            "learningGoals": [{ "name": "Programmeren", "id": 11 }]
+        }
+    ]
 }
