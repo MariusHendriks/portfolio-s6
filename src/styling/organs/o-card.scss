@@ -4,4 +4,8 @@
   padding: $spacing-medium;
   box-shadow: $shadow-regular;
   margin: $spacing-medium;
+  a {
+    color: $color-light-blue;
+    font-weight: bold;
+  }
 }

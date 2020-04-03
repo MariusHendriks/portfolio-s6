@@ -1,7 +1,7 @@
 import React from "react";
 import ReadingGuide from "../readingGuide/Index";
 import Producten from "../producten/Index";
-
+import Intro from "../intro/Index";
 interface Props {
   readingGuideData?: iCourseReadingGuide[];
   sortedData?: iWeek[];
@@ -9,9 +9,10 @@ interface Props {
 
 const Homepage: React.FC<Props> = ({ sortedData, readingGuideData }) => {
   return (
-    <div className="container">
+    <div>
+      <Intro />
       <Producten sortedData={sortedData} />
-      <ReadingGuide data={readingGuideData} />
+      {/* <ReadingGuide data={readingGuideData} /> */}
     </div>
   );
 };

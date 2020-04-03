@@ -1,0 +1,17 @@
+.o-timeline {
+  &__icon {
+    width: 100%;
+    padding: $spacing-small;
+  }
+  h1 {
+    text-align: center;
+    color: $color-light-blue;
+  }
+  h3 {
+    color: white;
+    img {
+      width: 30px;
+      margin-right: 5px;
+    }
+  }
+}

@@ -33,9 +33,7 @@ function Router() {
           </div>
         </Route>
         <Route exact path="/documents">
-          <div className="container">
-            <Producten sortedData={dataByWeek} />
-          </div>
+          <Producten sortedData={dataByWeek} />
         </Route>
         <div className="container">
           <Route
