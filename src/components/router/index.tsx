@@ -7,7 +7,7 @@ import {
   SortDataByWeek,
   SortDataByCourse
 } from "../../functions/dataFunctions";
-
+import FadeIn from "react-fade-in";
 import data from "../../data/data.json";
 import ReadingGuide from "../readingGuide/Index";
 
@@ -22,10 +22,13 @@ function Router() {
     return (
       <Switch>
         <Route exact path="/">
-          <Homepage
-            readingGuideData={dataByLearningGoal}
-            sortedData={dataByWeek}
-          />
+          <FadeIn>
+            <div className="o-me"></div>
+            <Homepage
+              readingGuideData={dataByLearningGoal}
+              sortedData={dataByWeek}
+            />
+          </FadeIn>
         </Route>
         <Route exact path="/leeswijzer">
           <div className="container">
