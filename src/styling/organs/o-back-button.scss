@@ -1,18 +1,15 @@
 .o-back-button {
-  padding-left: $spacing-medium;
-
+  margin-top: $spacing-medium;
+  transition: 0.3s;
   a {
     text-decoration: none;
     &:hover {
       color: $color-light-blue;
     }
     color: $color-black;
-    font-size: $font-huge;
+    font-size: $font-normal;
   }
   &:hover {
-    -webkit-animation: swing 1s ease;
-    animation: swing 1s ease;
-    -webkit-animation-iteration-count: 1;
-    animation-iteration-count: 1;
+    transition: 0.3s;
   }
 }

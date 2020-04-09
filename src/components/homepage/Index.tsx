@@ -1,5 +1,5 @@
 import React from "react";
-import ReadingGuide from "../readingGuide/Index";
+// import ReadingGuide from "../readingGuide/Index";
 import Producten from "../producten/Index";
 import Intro from "../intro/Index";
 import Menu from "../menu/Index";

@@ -1,0 +1,41 @@
+.s-page {
+  display: flex;
+  justify-content: center;
+  animation: fadein 2s;
+  flex-direction: column;
+  line-height: 1.5em;
+  align-items: center;
+  b {
+    color: $color-light-blue;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    color: $color-light-blue;
+  }
+  h1,
+  h2 {
+    margin: $spacing-large 0 $spacing-small 0;
+  }
+
+  ol {
+    list-style: none;
+    counter-reset: li;
+  }
+  li::before {
+    content: counter(li);
+    font-weight: bold;
+    color: $color-light-blue;
+    display: inline-block;
+    width: 2em;
+    margin-left: -2em;
+  }
+  li {
+    margin: $spacing-medium 0;
+    counter-increment: li;
+  }
+  &__content {
+    width: 40%;
+  }
+}

@@ -18,6 +18,7 @@ const cDocument: React.FC<Props> = ({ pDocument }) => {
           <Link name={pDocument.link} text={pDocument.linkText} />
           <Link name={pDocument.link2} text={pDocument.linkText2} />
         </div>
+
         <div>
           <PDF docName={pDocument.pdfName} />
         </div>

@@ -1,0 +1,18 @@
+.c-double-ul {
+  ol {
+    list-style: none;
+    counter-reset: li;
+  }
+  li {
+    margin: unset;
+    list-style-type: none;
+  }
+  li::before {
+    content: "•";
+
+    color: $color-light-blue;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+}

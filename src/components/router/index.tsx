@@ -5,15 +5,21 @@ import Document from "../document/Index";
 import Producten from "../producten/Index";
 import {
   SortDataByWeek,
-  SortDataByCourse
+  SortDataByCourse,
 } from "../../functions/dataFunctions";
 import FadeIn from "react-fade-in";
 import data from "../../data/data.json";
 import ReadingGuide from "../readingGuide/Index";
 
+import KritischeVragen from "../pages/KritischeVragen";
+
 function Router() {
   let dataByWeek: iWeek[];
   let dataByLearningGoal: iCourseReadingGuide[];
+
+  const components: any = {
+    KritischeVragen: KritischeVragen,
+  };
 
   if (typeof data !== "undefined") {
     dataByWeek = SortDataByWeek(data);
@@ -38,14 +44,21 @@ function Router() {
         <Route exact path="/documents">
           <Producten sortedData={dataByWeek} />
         </Route>
+        <Route
+          path="/page/:pageId"
+          render={({ match }) => {
+            const Component = components[match.params.pageId];
+            return <Component />;
+          }}
+        />
         <div className="container">
           <Route
             path="/documents/:documentId"
             render={({ match }) => (
               <Document
                 pDocument={dataByWeek
-                  .flatMap(w => w.documents)
-                  .find(document => document.id === match.params.documentId)}
+                  .flatMap((w) => w.documents)
+                  .find((document) => document.id === match.params.documentId)}
               />
             )}
           />

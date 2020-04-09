@@ -29,6 +29,7 @@ $transition-basic-quick: 0.3s;
 
 html {
   background-color: $color-grey-light;
+  background-image: url("../../img/background.png");
 }
 .container {
   padding: $spacing-medium 0;
