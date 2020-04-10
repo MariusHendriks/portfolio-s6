@@ -2,36 +2,25 @@
   "documents": [
     {
       "name": "Kritische vragen",
-      "pdfName": "KritischeVragen",
       "page": "KritischeVragen",
       "id": "kritische-vragen",
       "week": 1,
-      "description": "Dit document is gemaakt om tot een goede probleemanalyse te komen. De vragen zijn opgesteld door de gehele groep, de interviews zijn gehouden door mij.",
       "learningGoals": [1]
     },
-    {
-      "name": "Project plan",
-      "id": "project-plan",
-      "week": 1,
-      "pdfName": "Projectplan",
-      "description": "In dit document bevindt zich alle informatie over het project plan. Er staat informatie over onder andere het bedrijf, de opdracht, onderzoeksvragen, aanpak en een planning. Ik heb zelf weinig toevoeging gehad aan dit document, aangezien ik bezig was met het maken van de kritische vragen. ",
-      "learningGoals": []
-    },
+
     {
       "name": "Ontwerpdocument",
-      "pdfName": "Ontwerpdocument",
+      "page": "OntwerpDocument",
       "id": "ontwerpdocument-prototype",
       "week": 3,
-      "description": "In dit document bevindt zich alle informatie over het ontwerp van het eerst gemaakte prototype. Dit is enkel een eerste iteratie, nadat dit bestand is uitgewerkt met code is het ontwerp van Bart uitgewerkt.",
       "learningGoals": [10]
     },
     {
-      "name": "Usability test plan | Pagebuilder",
-      "id": "usability-testplan",
+      "name": "Usability test | Pagebuilder",
+      "page": "UsabilityTest",
+      "id": "usability-test",
       "week": 4,
-      "description": "In dit document vindt je de gemaakte usertests. Bart van de Kluntert heeft het document opgesteld, en de test met Patrick gemaakt. Ook heeft Bart voor mij genotuleerd. Ik heb de tests gedaan met: Houda, Stephan, Ziya, Ineke en Sigrid. Ook heb ik de conclusie geschreven. ",
-      "learningGoals": [8],
-      "pdfName": "UsabilityTestplan"
+      "learningGoals": [8]
     },
     {
       "name": "Onderzoeksdocument deelvraag | Hoe zien de processen binnen de stichting er uit?",

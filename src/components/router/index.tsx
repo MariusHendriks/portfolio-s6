@@ -12,13 +12,15 @@ import data from "../../data/data.json";
 import ReadingGuide from "../readingGuide/Index";
 
 import KritischeVragen from "../pages/KritischeVragen";
+import OntwerpDocument from "../pages/OntwerpDocument";
 
 function Router() {
   let dataByWeek: iWeek[];
   let dataByLearningGoal: iCourseReadingGuide[];
 
   const components: any = {
-    KritischeVragen: KritischeVragen,
+    KritischeVragen,
+    OntwerpDocument,
   };
 
   if (typeof data !== "undefined") {

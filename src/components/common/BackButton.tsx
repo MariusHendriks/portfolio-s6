@@ -7,7 +7,7 @@ const BackButton: React.FC = () => {
   return (
     <div className="o-back-button">
       <Link to="/">
-        <FontAwesomeIcon icon={faArrowLeft} /> Ga terug
+        <FontAwesomeIcon icon={faArrowLeft} /> <i>Ga terug</i>
       </Link>
     </div>
   );

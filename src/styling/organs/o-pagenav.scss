@@ -1,0 +1,25 @@
+.o-pagenav {
+  width: 100vw;
+  background-color: $color-light-blue;
+  padding: $spacing-medium;
+  display: flex;
+  justify-content: space-around;
+  color: $color-white;
+  font-size: 1.3em;
+  font-family: "Montserrat", sans-serif;
+  position: fixed;
+  z-index: 1;
+  button {
+    font-family: "Montserrat", sans-serif;
+    color: $color-white;
+    letter-spacing: 0.2rem;
+    margin: 0 $spacing-medium;
+    text-transform: uppercase;
+    &:hover {
+      font-weight: bold;
+    }
+  }
+}
+.hasNav {
+  padding-top: $spacing-huge;
+}

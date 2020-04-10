@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import FadeIn from "react-fade-in";
 import BackButton from "../common/BackButton";
 
-const KritischeVragen: React.FC = () => {
+const Page: React.FC = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="s-page">
       <div className="s-page__content">
@@ -148,4 +151,4 @@ const KritischeVragen: React.FC = () => {
     </div>
   );
 };
-export default KritischeVragen;
+export default Page;
