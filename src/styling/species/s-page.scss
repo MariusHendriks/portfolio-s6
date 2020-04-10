@@ -3,7 +3,7 @@
   justify-content: center;
   margin-bottom: $spacing-huge;
   flex-direction: column;
-  line-height: 1.5em;
+
   align-items: center;
   b {
     color: $color-light-blue;
@@ -16,6 +16,7 @@
   }
   h1 {
     margin: $spacing-huge 0 $spacing-small 0;
+    line-height: 1.2em;
   }
   h2 {
     margin: $spacing-extra-large 0 $spacing-small 0;
@@ -30,6 +31,9 @@
   ol {
     list-style: none;
     counter-reset: li;
+  }
+  p {
+    line-height: 1.7em;
   }
   li::before {
     content: counter(li);

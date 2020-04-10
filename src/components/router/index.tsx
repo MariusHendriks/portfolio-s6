@@ -13,6 +13,10 @@ import ReadingGuide from "../readingGuide/Index";
 
 import KritischeVragen from "../pages/KritischeVragen";
 import OntwerpDocument from "../pages/OntwerpDocument";
+import UsabilityTest from "../pages/UsabilityTest";
+import OnderzoeksDocument from "../pages/OnderzoeksDocument";
+import PrototypeDevelopen from "../pages/PrototypeDevelopen";
+import VoortgangsPresentatie from "../pages/VoortgangsPresentatie";
 
 function Router() {
   let dataByWeek: iWeek[];
@@ -21,6 +25,10 @@ function Router() {
   const components: any = {
     KritischeVragen,
     OntwerpDocument,
+    UsabilityTest,
+    OnderzoeksDocument,
+    PrototypeDevelopen,
+    VoortgangsPresentatie,
   };
 
   if (typeof data !== "undefined") {
