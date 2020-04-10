@@ -17,6 +17,8 @@ import UsabilityTest from "../pages/UsabilityTest";
 import OnderzoeksDocument from "../pages/OnderzoeksDocument";
 import PrototypeDevelopen from "../pages/PrototypeDevelopen";
 import VoortgangsPresentatie from "../pages/VoortgangsPresentatie";
+import Developen from "../pages/Developen";
+import Brainstorm from "../pages/Brainstorm";
 
 function Router() {
   let dataByWeek: iWeek[];
@@ -29,6 +31,8 @@ function Router() {
     OnderzoeksDocument,
     PrototypeDevelopen,
     VoortgangsPresentatie,
+    Developen,
+    Brainstorm,
   };
 
   if (typeof data !== "undefined") {

@@ -41,26 +41,21 @@
       "id": "voortgangs-presentatie",
       "page": "VoortgangsPresentatie",
       "week": 5,
-
       "learningGoals": [7, 6, 2]
     },
     {
       "name": "Developen",
       "id": "developen-opzet",
       "week": 6,
-      "description": "content",
-      "link": "",
-      "linkText": "",
+      "page": "Developen",
       "learningGoals": [11]
     },
     {
-      "name": "Developen",
-      "id": "developen-opzet",
-      "week": 7,
-      "description": "content",
-      "link": "",
-      "linkText": "",
-      "learningGoals": [11]
+      "name": "Brainstorm sessie",
+      "id": "brainstorm",
+      "week": 2,
+      "page": "Brainstorm",
+      "learningGoals": [2]
     }
   ],
   "courses": [

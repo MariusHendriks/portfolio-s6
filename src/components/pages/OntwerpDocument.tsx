@@ -89,7 +89,7 @@ const Page: React.FC = () => {
               <p>
                 Van het gemaakte ontwerp is een quick-prototype gemaakt in
                 React. Dit vind je{" "}
-                <Link to="/pages/PrototypeDevelopen">
+                <Link to="/page/PrototypeDevelopen">
                   <i>hier</i>
                 </Link>
               </p>

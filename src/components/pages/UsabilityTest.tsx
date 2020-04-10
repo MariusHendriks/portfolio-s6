@@ -44,7 +44,7 @@ const Page: React.FC = () => {
             <p>
               De test is opgezet door Bart van de Klundert, terwijl ik het
               prototype aan het bouwen was (meer hierover in
-              <Link to="/pages/PrototypeDevelopen"> dit document</Link>).
+              <Link to="/page/PrototypeDevelopen"> dit document</Link>).
             </p>
             <p>
               De eerste iteratie is getest met 3 personen en de tweede iteratie

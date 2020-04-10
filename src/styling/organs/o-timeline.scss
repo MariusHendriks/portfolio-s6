@@ -1,5 +1,9 @@
 .o-timeline {
   margin-top: $spacing-huge;
+  color: $color-white;
+  p {
+    color: $color-white;
+  }
   &__icon {
     width: 100%;
     padding: $spacing-small;
@@ -13,5 +17,9 @@
       width: 30px;
       margin-right: 5px;
     }
+  }
+  &__product {
+    color: $color-white;
+    margin-top: $spacing-medium;
   }
 }
