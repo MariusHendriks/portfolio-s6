@@ -81,3 +81,11 @@ h1 {
 p {
   margin: $spacing-small 0;
 }
+a {
+  color: $color-light-blue;
+}
+.proof {
+  text-align: center;
+  margin-top: $spacing-huge;
+  margin-bottom: $spacing-large;
+}

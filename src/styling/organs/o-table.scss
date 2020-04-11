@@ -9,7 +9,12 @@
   background-color: $color-white;
   border-radius: $border-table-body;
   padding: 0 $spacing-medium;
+  h2 {
+    color: $color-light-blue;
+    padding: $spacing-large 0 0 0;
+  }
   &__header {
+    padding: $spacing-medium 0;
     display: flex;
     border-radius: $border-table-header;
     padding-bottom: $spacing-small;
@@ -45,5 +50,14 @@
   }
   &__right {
     width: 60%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .o-table {
+    &__container {
+      width: 100%;
+      margin-bottom: $spacing-medium;
+    }
   }
 }

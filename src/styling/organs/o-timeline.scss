@@ -22,4 +22,11 @@
     color: $color-white;
     margin-top: $spacing-medium;
   }
+  a {
+    color: $color-white;
+
+    &:hover {
+      font-weight: 600;
+    }
+  }
 }

@@ -53,7 +53,7 @@ const Producten: React.FC<Props> = ({ sortedData }) => {
     let aanvulling = <></>;
     switch (weekNummer) {
       case 1:
-        header = <h3>Projectinitialisatie</h3>;
+        header = <h3>Initialisatiefase</h3>;
         aanvulling = (
           <p>
             Start van het project. In deze fase is er actief gezocht naar
@@ -130,7 +130,7 @@ const Producten: React.FC<Props> = ({ sortedData }) => {
   if (typeof sortedData !== "undefined") {
     return (
       <div className="o-timeline">
-        <h1>Producten per week</h1>
+        <h1>Verloop project</h1>
         <div className="">
           <div className="">
             <VerticalTimeline>
@@ -138,6 +138,7 @@ const Producten: React.FC<Props> = ({ sortedData }) => {
                 return (
                   <VerticalTimelineElement
                     className="vertical-timeline-element--work"
+                    key={week.weekNummer}
                     contentStyle={{
                       background: "rgb(110, 174, 249)",
                       color: "#000",
@@ -157,7 +158,7 @@ const Producten: React.FC<Props> = ({ sortedData }) => {
                   >
                     {Fase(week.weekNummer).header}
                     {Fase(week.weekNummer).aanvulling}
-                    <div key={week.weekNummer} className="">
+                    <div className="">
                       <div className="o-timeline__product">
                         Producten:
                         {week.documents.map((document) => {

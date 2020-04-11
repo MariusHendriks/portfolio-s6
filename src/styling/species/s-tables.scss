@@ -1,4 +1,11 @@
 .s-tables {
   display: flex;
   justify-content: space-between;
+  margin-bottom: $spacing-huge;
+}
+@media only screen and (max-width: 600px) {
+  .s-tables {
+    display: flex;
+    flex-direction: column;
+  }
 }

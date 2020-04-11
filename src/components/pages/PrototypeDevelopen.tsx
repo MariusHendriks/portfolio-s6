@@ -11,7 +11,7 @@ const Page: React.FC = () => {
       <div className="s-page__content">
         <FadeIn>
           <BackButton />
-          <h1>Prototype developen</h1>
+          <h1>Prototype ontwikkelen</h1>
           <div>
             <h2>Aanleiding</h2>
             <p>
