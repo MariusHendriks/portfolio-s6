@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import FadeIn from "react-fade-in";
 import BackButton from "../common/BackButton";
-import { Link } from "react-router-dom";
 
 const Page: React.FC = () => {
   useEffect(() => {
