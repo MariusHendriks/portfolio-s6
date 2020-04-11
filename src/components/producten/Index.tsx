@@ -121,6 +121,7 @@ const Producten: React.FC<Props> = ({ sortedData }) => {
         break;
       case 6:
         aanvulling = <p>Deze weken is er enkel geprogrammeerd.</p>;
+        break;
       default:
         break;
     }

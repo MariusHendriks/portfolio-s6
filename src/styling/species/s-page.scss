@@ -56,3 +56,10 @@
     }
   }
 }
+@media only screen and (max-width: 600px) {
+  .s-page {
+    &__content {
+      width: 75%;
+    }
+  }
+}

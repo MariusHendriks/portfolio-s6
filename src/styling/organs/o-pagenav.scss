@@ -23,3 +23,8 @@
 .hasNav {
   padding-top: $spacing-huge;
 }
+@media only screen and (max-width: 600px) {
+  .o-pagenav {
+    display: none;
+  }
+}
