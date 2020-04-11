@@ -9,7 +9,7 @@ interface Props {
 const Homepage: React.FC<Props> = ({ data }) => {
   if (typeof data !== "undefined") {
     return (
-      <div className="block">
+      <div className="">
         <Leeswijzer />
         <h1 className="proof">Bewijs</h1>
         <div className="s-tables">

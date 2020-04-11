@@ -13,7 +13,7 @@ const index: React.FC = () => {
         <p>
           Op deze website wordt gerefereerd naar "de groep". Hiermee wordt
           bedoelt: Dylano Hartman, Noël Herwig, Mike Hendriks, Bart van de
-          Klundert, Timo van de Laar en Max altena.
+          Klundert, Timo van de Laar en Max Altena.
         </p>
       </div>
       <br />

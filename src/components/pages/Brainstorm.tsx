@@ -83,8 +83,7 @@ const Page: React.FC = () => {
                 <b>Een pagebuilder.</b> <br /> Dit idee helpt beginnende
                 bedrijven die veel in de stichting zitten te promoten door
                 eenvoudig een professionele website voor ze te genereren. Dit
-                idee is opgepakt door{" "}
-                <i>Mark Hendriks en Bart van de Klundert</i>
+                idee is opgepakt door <i>Mij en Bart van de Klundert</i>
                 <br />
               </li>
               <li>

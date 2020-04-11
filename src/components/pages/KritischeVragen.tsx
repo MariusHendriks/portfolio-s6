@@ -31,7 +31,7 @@ const Page: React.FC = () => {
           <div>
             <h2>Verantwoording</h2>
             <p>
-              Dit product is gemaakt door Mark Hendriks. Timo van de Laar heeft
+              Dit product is gemaakt door Mij. Timo van de Laar heeft
               genotuleerd en toevoegende vragen gesteld.
             </p>
           </div>

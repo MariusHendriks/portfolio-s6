@@ -37,9 +37,7 @@ const Page: React.FC = () => {
           </div>
           <div>
             <h2>Verantwoording</h2>
-            <p>
-              Dit product is gemaakt door Mark Hendriks en Timo van de Laar.
-            </p>
+            <p>Dit product is gemaakt door Mij en Timo van de Laar.</p>
             <p>
               Timo heeft andere onderzoeken gemaakt die toevoeging hadden voor
               de conclusie van dit document. Timo heeft 2 andere onderzoeken

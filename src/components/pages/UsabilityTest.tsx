@@ -86,7 +86,7 @@ const Page: React.FC = () => {
               de Nederlandse overheid de stichting gesloten voor ten minste een
               maand. In deze tijd is er een{" "}
               <Link to="/pages/VoortgangsPresentatie.tsx">
-                presentatie gegeven
+                presentatie gegeven{" "}
               </Link>
               met alle gemaakte producten en komt dit product op een andere,
               kleinere manier terug waardoor deze derde versie irrelevant is
