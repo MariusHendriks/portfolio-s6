@@ -9,16 +9,22 @@ import ResearchIcon from "../../img/research-icon.png";
 import DevelopmentIcon from "../../img/development-icon.png";
 import DocumentIcon from "../../img/document-icon.png";
 import DesignIcon from "../../img/design-icon.png";
+import DoneIcon from "../../img/done-icon.png";
 // import BrainstormIcon from "../../img/brainstorm-icon.png";
 import PresentationIcon from "../../img/presentation-icon.png";
 import UsabilityIcon from "../../img/usability-icon.png";
+import Milestone0 from "../../img/milestone0.png";
 import Milestone1 from "../../img/milestone1.png";
 import Milestone2 from "../../img/milestone2.png";
 import Milestone3 from "../../img/milestone3.png";
+import Milestone4 from "../../img/milestone4.png";
 
 interface Props {
   sortedData?: iWeek[];
 }
+let lastIcon = (
+  <img className="o-timeline__icon" src={DoneIcon} alt="Done icon" />
+);
 let icons: any = [
   <img className="o-timeline__icon" src={DocumentIcon} alt="Document icon" />,
   <img className="o-timeline__icon" src={ResearchIcon} alt="Research icon" />,
@@ -53,7 +59,12 @@ const Producten: React.FC<Props> = ({ sortedData }) => {
     let aanvulling = <></>;
     switch (weekNummer) {
       case 1:
-        header = <h3>Initialisatiefase</h3>;
+        header = (
+          <h3>
+            <img src={Milestone0} alt="milestone zero" />
+            Initialisatiefase
+          </h3>
+        );
         aanvulling = (
           <p>
             Start van het project. In deze fase is er actief gezocht naar
@@ -79,7 +90,7 @@ const Producten: React.FC<Props> = ({ sortedData }) => {
         header = (
           <h3>
             <img src={Milestone2} alt="milestone two" />
-            Ideation Fase
+            Ideation Fase (1/2)
           </h3>
         );
         aanvulling = (
@@ -87,15 +98,21 @@ const Producten: React.FC<Props> = ({ sortedData }) => {
             Nadat de brainstorm sessie had plaatsgevonden, zijn er 4 mogelijke
             oplossingen verzonnen. Deze worden in duo's uitgewerkt. In deze fase
             zijn Bart van de Klundert en ik bezig geweest met een page-builder.
-            Daar gaan de producten binnen de ideation fase over.
+            Daar gaan de producten binFnen de ideation fase over.
           </p>
         );
         break;
       case 4:
+        header = (
+          <h3>
+            <img src={Milestone2} alt="milestone two" />
+            Ideation Fase (2/2)
+          </h3>
+        );
         aanvulling = (
           <p>
             Tijdens deze fase werkte ik samen met Bart van de Klundert. Terwijl
-            Bart de resultaten van de usability tests verwerktte, verwerktte ik
+            Bart de resultaten van de usability tests verwerkte, verwerkte ikTha
             het prototype.
           </p>
         );
@@ -104,7 +121,7 @@ const Producten: React.FC<Props> = ({ sortedData }) => {
         header = (
           <h3>
             <img src={Milestone3} alt="milestone three" />
-            implementation Fase
+            implementation Fase (1/2)
           </h3>
         );
         aanvulling = (
@@ -120,6 +137,21 @@ const Producten: React.FC<Props> = ({ sortedData }) => {
         );
         break;
       case 6:
+        header = (
+          <h3>
+            <img src={Milestone3} alt="milestone three" />
+            implementation Fase (2/2)
+          </h3>
+        );
+        aanvulling = <p>Deze weken is er enkel geprogrammeerd.</p>;
+        break;
+      case 9:
+        header = (
+          <h3>
+            <img src={Milestone4} alt="milestone four" />
+            Eindfase
+          </h3>
+        );
         aanvulling = <p>Deze weken is er enkel geprogrammeerd.</p>;
         break;
       default:
@@ -135,6 +167,9 @@ const Producten: React.FC<Props> = ({ sortedData }) => {
           <div className="">
             <VerticalTimeline>
               {sortedData.map((week) => {
+                if (week.weekNummer >= 7 && week.weekNummer <= 8) {
+                  return null;
+                }
                 return (
                   <VerticalTimelineElement
                     className="vertical-timeline-element--work"
@@ -147,14 +182,18 @@ const Producten: React.FC<Props> = ({ sortedData }) => {
                       borderRight: "7px solid  rgb(110, 174, 249)",
                     }}
                     date={
-                      week.weekNummer !== 6
-                        ? "week " + week.weekNummer
-                        : "week 6 - 8"
+                      week.weekNummer === 6
+                        ? "week 6 tot 8"
+                        : "week " + week.weekNummer
                     }
                     iconStyle={{
                       background: "rgb(110, 174, 249)",
                     }}
-                    icon={icons[week.weekNummer - 1]}
+                    icon={
+                      week.weekNummer !== 9
+                        ? icons[week.weekNummer - 1]
+                        : lastIcon
+                    }
                   >
                     {Fase(week.weekNummer).header}
                     {Fase(week.weekNummer).aanvulling}

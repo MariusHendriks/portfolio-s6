@@ -8,7 +8,7 @@ export function SortDataByWeek(data: any) {
   for (let i = 1; i <= maxWeek; i++) {
     formattedWeken.push({
       weekNummer: i,
-      documents: jp.query(data, "$..documents[?(@.week==" + i + ")]")
+      documents: jp.query(data, "$..documents[?(@.week==" + i + ")]"),
     });
   }
 
@@ -18,12 +18,12 @@ export function SortDataByWeek(data: any) {
 export function SortDataByCourse(data: any) {
   let courses: iCourseReadingGuide[] = jp.query(data, "$..courses[*]");
   const documents: iDocument[] = GetAllDocuments(data);
-  courses.forEach(course => {
-    course.learningGoals.forEach(learningGoal => {
-      let containedDocuments = documents.filter(document =>
-        document.learningGoals.includes(learningGoal.id)
+  courses.forEach((course) => {
+    course.learningGoals.forEach((learningGoal) => {
+      let containedDocuments = documents.filter((document) =>
+        document.learningGoals.find((item: any) => item.id === learningGoal.id)
       );
-
+      console.log("containedDocuments :", containedDocuments);
       if (containedDocuments && containedDocuments.length > 0) {
         if (!learningGoal.documents) {
           learningGoal.documents = [];

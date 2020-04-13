@@ -65,16 +65,24 @@ const Page: React.FC = () => {
               <div ref={Opdrachtgever}>
                 <h2>De Opdrachtgever</h2>
                 <p>
-                  Stichting ik wil is een plek waar mensen samenkomen voor het
-                  zoeken van verbinding en het delen van talenten, voor
-                  iedereen. De stichting bouwt aan een samenleving waar iedereen
-                  bij hoort. Bezoekers komen naar de stichting om verschillende
-                  redenen. Je kan er heen om dingen te leren, te ontspannen,
-                  vrienden te maken en elkaar te helpen. Er zijn activiteiten
-                  als schilderen, papierwerk, naaien of het leren van een taal.
-                  De laatste tijd houdt de stichting zich ook bezig met
-                  beginnende bedrijven die binnen de stichting zijn ontstaan
-                  door de gevonden talenten bij de deelnemers.
+                  Stichting ik wil (
+                  <a
+                    href="http://www.stichtingikwil.nl/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    http://www.stichtingikwil.nl/
+                  </a>
+                  ) is een plek waar mensen samenkomen voor het zoeken van
+                  verbinding en het delen van talenten, voor iedereen. De
+                  stichting bouwt aan een samenleving waar iedereen bij hoort.
+                  Bezoekers komen naar de stichting om verschillende redenen. Je
+                  kan er heen om dingen te leren, te ontspannen, vrienden te
+                  maken en elkaar te helpen. Er zijn activiteiten als
+                  schilderen, papierwerk, naaien of het leren van een taal. De
+                  laatste tijd houdt de stichting zich ook bezig met beginnende
+                  bedrijven die binnen de stichting zijn ontstaan door de
+                  gevonden talenten bij de deelnemers.
                 </p>
               </div>
               <div ref={Opdracht}>
@@ -96,6 +104,16 @@ const Page: React.FC = () => {
                   overzicht welke activiteiten er waren en hoe je je voor
                   activiteiten kon aanmelden en het pand had geen serieuze
                   uitstraling.
+                </p>
+                <p>
+                  Met de groep is besproken de volgende hoofdvraag te
+                  beantwoorden
+                </p>
+                <p>
+                  “Hoe kunnen we een middel maken dat Stichting Ik Wil en/of hun
+                  bezoekers helpt om duidelijkheid te creëren in termen van:
+                  activiteiten, aanwezigheid van het bestuur en andere zaken
+                  binnen de stichting”.
                 </p>
               </div>
               <div ref={Aanpak}>
@@ -165,9 +183,8 @@ const Page: React.FC = () => {
                   </li>
                 </ul>
                 <p>
-                  Deze oplossingen zijn uitgewerkt in duo’s uitgewerkt door
-                  middel van design thinking. De page builder is eerst ontworpen
-                  (
+                  Deze oplossingen zijn in duo’s uitgewerkt door middel van
+                  design thinking. De page builder is eerst ontworpen (
                   <Link to="http://localhost:3000/page/OntwerpDocument">
                     Link naar ontwerp
                   </Link>
@@ -242,10 +259,14 @@ const Page: React.FC = () => {
                   dag te beginnen en rollen te verdelen. Leiderschap deed ik
                   vaker, maar ik heb er tijdens dit project extra op gelet dat
                   iedereen er achter stond wat hun taken waren en dat iedereen
-                  duidelijk wist wie welke taak op zich had genomen. Dit ging
-                  beter dan het vorige semester waar ik met een groep moest
-                  werken, aangezien daar veel onduidelijkheid was over wie wat
-                  aan het doen was.{" "}
+                  duidelijk wist wie welke taak op zich had genomen. Dat deed ik
+                  door vaak de stand-up te leiden, en te vragen of iedereen wist
+                  wat zijn taak was voor de dag. Als ik er over twijfelde of ze
+                  het echt wisten vroeg ik soms iets in de richting van:
+                  "Persoon A, wat gaat Persoon B vandaag doen?". Dit ging beter
+                  dan het vorige semester waar ik met een groep moest werken,
+                  aangezien daar veel onduidelijkheid was over wie wat aan het
+                  doen was.
                 </p>
                 <p>
                   Daarnaast heb ik het dit semester op me genomen de backend te

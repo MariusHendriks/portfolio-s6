@@ -21,8 +21,9 @@ const index: React.FC = () => {
         <h1>Bekijk eerst de leeswijzer!</h1>
         <p>
           Om dit project beter te begrijpen, kun je het best eerst de leeswijzer
-          lezen. Klik daarvoor <Link to="/leeswijzer">hier.</Link>
+          lezen.
         </p>
+        <Link to="/leeswijzer">Naar leeswijzer!</Link>
       </div>
     </div>
   );

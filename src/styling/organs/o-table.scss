@@ -50,6 +50,9 @@
   }
   &__right {
     width: 60%;
+    a {
+      color: $color-dark-blue;
+    }
   }
 }
 

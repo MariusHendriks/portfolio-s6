@@ -5,57 +5,146 @@
       "page": "KritischeVragen",
       "id": "kritische-vragen",
       "week": 1,
-      "learningGoals": [1]
-    },
-
-    {
-      "name": "Ontwerpdocument",
-      "page": "OntwerpDocument",
-      "id": "ontwerpdocument-prototype",
-      "week": 3,
-      "learningGoals": [10]
+      "learningGoals": [
+        {
+          "id": 1,
+          "why": "Dit hoort bij oordeelsvorming omdat dit product tot een betere probleemanalyse heeft geleid. "
+        }
+      ]
     },
     {
-      "name": "Usability test | Pagebuilder",
-      "page": "UsabilityTest",
-      "id": "usability-test",
-      "week": 4,
-      "learningGoals": [8]
-    },
-    {
-      "name": "Onderzoek deelvraag",
-      "page": "OnderzoeksDocument",
-      "id": "onderzoeks-document",
-      "week": 2,
-      "learningGoals": [9]
-    },
-    {
-      "name": "Prototype ontwikkelen",
-      "id": "prototype-developen",
-      "page": "PrototypeDevelopen",
-      "week": 4,
-      "learningGoals": [11]
-    },
-    {
-      "name": "Voortgangs presentatie",
-      "id": "voortgangs-presentatie",
-      "page": "VoortgangsPresentatie",
-      "week": 5,
-      "learningGoals": [7, 6, 2]
-    },
-    {
-      "name": "Developen",
-      "id": "developen-opzet",
-      "week": 6,
-      "page": "Developen",
-      "learningGoals": [11]
+      "name": "Probleemanalyse",
+      "page": "ProbleemAnalyse",
+      "id": "probleem-analyse",
+      "week": 1,
+      "learningGoals": [
+        {
+          "id": 1,
+          "why": "Dit hoort bij oordeelsvorming omdat dit product een probleemanalyse is"
+        }
+      ]
     },
     {
       "name": "Brainstorm sessie",
       "id": "brainstorm",
       "week": 2,
       "page": "Brainstorm",
-      "learningGoals": [2]
+      "learningGoals": [
+        {
+          "id": 2,
+          "why": "Dit hoort bij concept omdat hierdoor de ideeën voor de concepten ontstaan zijn"
+        }
+      ]
+    },
+    {
+      "name": "Ontwerpdocument",
+      "page": "OntwerpDocument",
+      "id": "ontwerpdocument-prototype",
+      "week": 3,
+      "learningGoals": [
+        { "id": 10 },
+        {
+          "id": 2,
+          "why": "Dit hoort bij concept omdat door het ontwerp het concept versterkt wordt."
+        }
+      ]
+    },
+    {
+      "name": "Usability test | Pagebuilder",
+      "page": "UsabilityTest",
+      "id": "usability-test",
+      "week": 4,
+      "learningGoals": [
+        { "id": 8 },
+        {
+          "id": 2,
+          "why": "Dit hoort bij concept omdat door het door de usability tests een scherper concept werd."
+        }
+      ]
+    },
+    {
+      "name": "Onderzoek deelvraag",
+      "page": "OnderzoeksDocument",
+      "id": "onderzoeks-document",
+      "week": 2,
+      "learningGoals": [
+        {
+          "id": 1,
+          "why": "Dit hoort bij oordeelsvorming omdat dit product gebaseerd is op de probleemanalyse"
+        },
+        {
+          "id": 9,
+          "why": "Dit hoort bij gebruikersonderzoek omdat er onderzoek is gedaan naar wie de gebruiker is."
+        }
+      ]
+    },
+
+    {
+      "name": "Prototype ontwikkelen",
+      "id": "prototype-developen",
+      "page": "PrototypeDevelopen",
+      "week": 4,
+      "learningGoals": [
+        {
+          "id": 11,
+          "why": "Dit hoort bij programmeren omdat er een POC is geprogrammeerd om beter te kunnen usability testen"
+        }
+      ]
+    },
+    {
+      "name": "Voortgangs presentatie",
+      "id": "voortgangs-presentatie",
+      "page": "VoortgangsPresentatie",
+      "week": 5,
+      "learningGoals": [
+        {
+          "id": 6,
+          "why": "Dit hoort bij communicatie omdat de presetnatie verteld wat de groep heeft gedaan in de eerste 6 weken."
+        },
+        {
+          "id": 2,
+          "why": "Dit hoort bij concept omdat er hier door de opdrachtgever werd afgebakend met welke concepten verder gewerkt moest worden"
+        }
+      ]
+    },
+    {
+      "name": "Developen",
+      "id": "developen",
+      "week": 6,
+      "page": "Developen",
+      "learningGoals": [
+        {
+          "id": 11,
+          "why": "Dit leerdoel zou hiermee behaald moeten zijn. Er is een geheel product gebouwd met volledig werkende CMS in een relatief geavanceerde taal."
+        }
+      ]
+    },
+
+    {
+      "name": "Eindproduct",
+      "id": "finish",
+      "week": 9,
+      "page": "EndProduct",
+      "learningGoals": []
+    },
+    {
+      "name": "Business model",
+      "id": "business-model",
+      "week": 9,
+      "page": "BusinessModel",
+      "learningGoals": [{ "id": 3 }]
+    },
+    {
+      "name": "Leeswijzer",
+      "id": "reading-guide",
+      "week": 9,
+      "page": "ReadingGuide",
+      "learningGoals": [
+        {
+          "id": 7,
+          "why": "Dit hoort bij professionele houding omdat hier gereflecteerd word op de werkzaamheden."
+        }
+      ]
     }
   ],
   "courses": [

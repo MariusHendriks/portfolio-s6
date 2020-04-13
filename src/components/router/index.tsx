@@ -9,7 +9,7 @@ import {
 } from "../../functions/dataFunctions";
 import FadeIn from "react-fade-in";
 import data from "../../data/data.json";
-import ReadingGuide from "../readingGuide/Index";
+import Leeswijzer from "../readingGuide/Index";
 import { LastLocationProvider } from "react-router-last-location";
 
 import KritischeVragen from "../pages/KritischeVragen";
@@ -20,6 +20,10 @@ import PrototypeDevelopen from "../pages/PrototypeDevelopen";
 import VoortgangsPresentatie from "../pages/VoortgangsPresentatie";
 import Developen from "../pages/Developen";
 import Brainstorm from "../pages/Brainstorm";
+import EndProduct from "../pages/EndProduct";
+import BusinessModel from "../pages/BusinessModel";
+import ProbleemAnalyse from "../pages/ProbleemAnalyse";
+import ReadingGuide from "../pages/ReadingGuide";
 
 function Routing() {
   let dataByWeek: iWeek[];
@@ -34,6 +38,10 @@ function Routing() {
     VoortgangsPresentatie,
     Developen,
     Brainstorm,
+    EndProduct,
+    BusinessModel,
+    ReadingGuide,
+    ProbleemAnalyse,
   };
 
   if (typeof data !== "undefined") {
@@ -57,7 +65,7 @@ function Routing() {
               </Route>
               <Route exact path="/leeswijzer">
                 <div className="">
-                  <ReadingGuide data={dataByLearningGoal} />
+                  <Leeswijzer data={dataByLearningGoal} />
                 </div>
               </Route>
               <Route exact path="/documents">
