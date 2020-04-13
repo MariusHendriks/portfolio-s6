@@ -1,7 +1,7 @@
 .s-tables {
   display: flex;
-  justify-content: space-between;
-  margin-bottom: $spacing-huge;
+  justify-content: space-evenly;
+  margin-bottom: 40vh;
 }
 @media only screen and (max-width: 600px) {
   .s-tables {
