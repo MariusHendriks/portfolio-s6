@@ -185,17 +185,13 @@ const Page: React.FC = () => {
                 <p>
                   Deze oplossingen zijn in duo’s uitgewerkt door middel van
                   design thinking. De page builder is eerst ontworpen (
-                  <Link to="http://localhost:3000/page/OntwerpDocument">
-                    Link naar ontwerp
-                  </Link>
+                  <Link to="page/OntwerpDocument">Link naar ontwerp</Link>
                   ), daarna gebouwd (
                   <Link to="page/PrototypeDevelopen">
                     Link naar prototype ontwikkelen
                   </Link>
                   ) om beter te kunnen usability testen, en getest (
-                  <Link to="http://localhost:3000/page/UsabilityTest">
-                    Link naar usability test
-                  </Link>
+                  <Link to="page/UsabilityTest">Link naar usability test</Link>
                   ).
                 </p>
                 <p>
