@@ -30,7 +30,7 @@ const Page: React.FC = () => {
   return (
     <>
       <div className="o-pagenav">
-        <div>
+        <div className="o-pagenav__fill">
           <Link to="/">
             <FontAwesomeIcon icon={faArrowLeft} /> <i>Ga terug</i>
           </Link>
@@ -54,7 +54,7 @@ const Page: React.FC = () => {
           </button>
           <button onClick={() => executeScroll(Bewijs, 400)}>Bewijs</button>
         </div>
-        <div></div>
+        <div className="o-pagenav__fill"></div>
       </div>
 
       <div className="s-page">

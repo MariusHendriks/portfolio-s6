@@ -40,7 +40,7 @@ const Page: React.FC = () => {
   return (
     <>
       <div className="o-pagenav">
-        <Link to="/">
+        <Link className="o-pagenav__fill" to="/">
           <FontAwesomeIcon icon={faArrowLeft} /> <i>Ga terug</i>
         </Link>
         <div>
@@ -59,7 +59,7 @@ const Page: React.FC = () => {
             Derde iteratie
           </button>
         </div>
-        <div></div>
+        <div className="o-pagenav__fill"></div>
       </div>
       <div className="s-page">
         <div className="s-page__content">
