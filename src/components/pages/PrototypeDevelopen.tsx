@@ -89,8 +89,9 @@ const Page: React.FC = () => {
           <div>
             <h2>Conclusie</h2>
             <p>
-              Het maken van dit prototypen was erg nuttig om de usertests beter
+              Het maken van dit prototypen was erg nuttig om de user tests beter
               uit te kunnen voeren.
+              {/* To-do uitbreiden */}
             </p>
           </div>
         </FadeIn>

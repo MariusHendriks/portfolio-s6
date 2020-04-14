@@ -30,6 +30,16 @@ const Page: React.FC = () => {
             </p>
           </div>
           <div>
+            <h2>Werkwijze</h2>
+
+            <p>
+              Er is gestructureerd gewerkt met Github. Er zijn veel branches
+              gebruikt om het overzicht te behouden welke code waar werd
+              toegevoegd. Om de code qualiteit hoog te houden zijn er code
+              reviews gehouden.
+            </p>
+          </div>
+          <div>
             <h2>Verantwoording</h2>
             <p>
               De backend is geschreven door mij. De frontend is geschreven door

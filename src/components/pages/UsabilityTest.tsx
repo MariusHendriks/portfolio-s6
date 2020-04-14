@@ -85,9 +85,7 @@ const Page: React.FC = () => {
               Er is een derde iteratie gemaak. Voordat deze klaar was, is door
               de Nederlandse overheid de stichting gesloten voor ten minste een
               maand. In deze tijd is er een{" "}
-              <Link to="/pages/VoortgangsPresentatie.tsx">
-                presentatie gegeven{" "}
-              </Link>
+              <Link to="/page/VoortgangsPresentatie">presentatie gegeven </Link>
               met alle gemaakte producten en komt dit product op een andere,
               kleinere manier terug waardoor deze derde versie irrelevant is
               geworden.

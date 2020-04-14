@@ -69,7 +69,7 @@ const Page: React.FC = () => {
             <div ref={Reason}>
               <h2>Aanleiding</h2>
               <p>
-                Dit product is gemaakt om meer duideiljkheid te geven hoe het
+                Dit product is gemaakt om meer duidelijkheid te geven hoe het
                 deelproduct gevisualiseerd moest gaan worden.
               </p>
             </div>
@@ -175,7 +175,7 @@ const Page: React.FC = () => {
                     src={Iteratie23}
                   ></img>
                   <p>
-                    <i>Landing pagina bedrijf na invullen gegevens</i>
+                    <i>Landingspagina bedrijf na invullen gegevens</i>
                   </p>
                   <img
                     alt="2nd itartion"
@@ -219,7 +219,7 @@ const Page: React.FC = () => {
                     src={Iteratie33}
                   ></img>
                   <p>
-                    <i>Landing pagina bedrijf na invullen gegevens</i>
+                    <i>Landingspagina bedrijf na invullen gegevens</i>
                   </p>
                   <img
                     alt="1st itartion"

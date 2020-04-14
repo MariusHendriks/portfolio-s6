@@ -48,11 +48,11 @@ const Page: React.FC = () => {
                   Wil gecommuniceerd naar deelnemers en bedrijven?
                 </b>
                 <br />
-                De missie en vissie worden voornamelijk via de betaalde
+                De missie en visie worden voornamelijk via de betaalde
                 medewerkers doorgecommuniceerd naar de deelnemers. Opvallend was
                 dat de geïnterviewde deelnemer dacht dat het specifiek voor
                 vrouwen bedoeld was. Je kan hieruit concluderen ten niet voor
-                iedereen de missie en vissie duidelijk zijn.
+                iedereen de missie en visie duidelijk zijn.
               </li>
 
               <li>

@@ -75,7 +75,7 @@ const Page: React.FC = () => {
           <div>
             <h2>Verantwoording</h2>
             <p>
-              De presenatie is gemaakt en gegeven door mij. Er is gekeken naar
+              De presentatie is gemaakt en gegeven door mij. Er is gekeken naar
               de conclusies en het proces van de andere duo's, en deze zijn in
               de presentatie terug te vinden.
             </p>

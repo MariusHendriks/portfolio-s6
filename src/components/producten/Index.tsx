@@ -95,7 +95,7 @@ const Producten: React.FC<Props> = ({ sortedData }) => {
         );
         aanvulling = (
           <p>
-            Nadat de brainstorm sessie had plaatsgevonden, zijn er 4 mogelijke
+            Nadat de brainstormsessie had plaatsgevonden, zijn er 4 mogelijke
             oplossingen verzonnen. Deze worden in duo's uitgewerkt. In deze fase
             zijn Bart van de Klundert en ik bezig geweest met een page-builder.
             Daar gaan de producten binFnen de ideation fase over.

@@ -22,10 +22,10 @@ const Page: React.FC = () => {
           <div>
             <h2>Uitvoering</h2>
             <p>
-              Om tot een goed business model gekomen is er een workshop gevolgt,
-              gegeven door Bob Nieme, eigenaar van Datstreams. Daarnaast heb ik
-              van Frank Laarakker (director product manager van Philips) een
-              uitgebreidde uitleg gehad over het business model canvas. Als
+              Om tot een goed business model gekomen is er een workshop gevolgd,
+              gegeven door Bob Nieme, eigenaar van Data streams. Daarnaast heb
+              ik van Frank Laarakker (director product manager van Philips) een
+              uitgebreide uitleg gehad over het business model canvas. Als
               laatst is er feedback en extra uitleg gevraagd aan Michiel
               Groenemeijer.
             </p>

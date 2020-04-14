@@ -1,5 +1,5 @@
 import React from "react";
-// import ReadingGuide from "../readingGuide/Index";
+
 import Producten from "../producten/Index";
 import Intro from "../intro/Index";
 import Menu from "../menu/Index";
@@ -14,7 +14,6 @@ const Homepage: React.FC<Props> = ({ sortedData, readingGuideData }) => {
       <Intro />
       <Producten sortedData={sortedData} />
       <Menu />
-      {/* <ReadingGuide data={readingGuideData} /> */}
     </div>
   );
 };

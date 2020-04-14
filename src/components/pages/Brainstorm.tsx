@@ -55,16 +55,16 @@ const Page: React.FC = () => {
           <div>
             <h2>Conclusie</h2>
             <p>
-              Na deze brainstorm sessie was duidelijk wat er in de volgende
-              weken (ideation fase) moest gebeuren. In duo's werden de volgende
-              ideeën uitgewerkt:
+              Na deze brainstormsessie was duidelijk wat er in de volgende weken
+              (ideation fase) moest gebeuren. In duo's werden de volgende ideeën
+              uitgewerkt:
             </p>
             <ul className="c-double-ul">
               <li>
                 <b>Een zonnestelsel.</b>
                 <br />
                 Dit idee zal de structuur van de stichting weergeven. Alles in
-                de stichting is opgedeeld in categoriën met elk hen eigen
+                de stichting is opgedeeld in categorieën met elk hen eigen
                 activiteiten eronder. Dit zou visueel worden weergeven in een
                 soort zonnestelsel. Dit idee is opgepakt door{" "}
                 <i>Timo van de Laar</i>
@@ -80,7 +80,7 @@ const Page: React.FC = () => {
                 <br />
               </li>
               <li>
-                <b>Een pagebuilder.</b> <br /> Dit idee helpt beginnende
+                <b>Een page builder.</b> <br /> Dit idee helpt beginnende
                 bedrijven die veel in de stichting zitten te promoten door
                 eenvoudig een professionele website voor ze te genereren. Dit
                 idee is opgepakt door <i>Mij en Bart van de Klundert</i>

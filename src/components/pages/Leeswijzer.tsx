@@ -4,6 +4,7 @@ import BackButton from "../common/BackButton";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
+
 const scrollToRef = (ref: any, offset: number) =>
   window.scrollTo({ top: ref.current.offsetTop + offset, behavior: "smooth" });
 
@@ -150,9 +151,9 @@ const Page: React.FC = () => {
                     <b>Een zonnestelsel.</b>
                     <br />
                     Dit idee zal de structuur van de stichting weergeven. Alles
-                    in de stichting is opgedeeld in categoriën met elk hen eigen
-                    activiteiten eronder. Dit zou visueel worden weergeven in
-                    een soort zonnestelsel. Dit idee is opgepakt door{" "}
+                    in de stichting is opgedeeld in categorieën met elk hun
+                    eigen activiteiten eronder. Dit zou visueel worden weergeven
+                    in een soort zonnestelsel. Dit idee is opgepakt door{" "}
                     <i>Timo van de Laar</i>
                   </li>
                   <li>
@@ -166,7 +167,7 @@ const Page: React.FC = () => {
                     <br />
                   </li>
                   <li>
-                    <b>Een pagebuilder.</b> <br /> Dit idee helpt beginnende
+                    <b>Een page builder.</b> <br /> Dit idee helpt beginnende
                     bedrijven die veel in de stichting zitten te promoten door
                     eenvoudig een professionele website voor ze te genereren.
                     Dit idee is opgepakt door <i>Mij en Bart van de Klundert</i>
@@ -177,7 +178,7 @@ const Page: React.FC = () => {
                     <br />
                     Dit idee helpt de leden van de stichting overzicht te
                     krijgen over welke activiteiten er bij de stichting zijn, en
-                    ze kunnen zich hier voor inschrijven{" "}
+                    ze kunnen zich hiervoor inschrijven{" "}
                     <i>Noël Herwig en Dylano Hartman</i>
                     <br />
                   </li>
@@ -216,8 +217,14 @@ const Page: React.FC = () => {
                 <h2>Resultaat</h2>
                 <p>
                   Er is een geheel uitgewerkte app en dashboard. Deze zijn{" "}
-                  <Link to="http://Stichting-ik-wil.web.app">hier</Link> te
-                  bekijken.
+                  <a
+                    href="http://Stichting-ik-wil.web.app"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    hier
+                  </a>{" "}
+                  te bekijken.
                 </p>
 
                 <b>Dashboard</b>

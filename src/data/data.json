@@ -25,7 +25,7 @@
       ]
     },
     {
-      "name": "Brainstorm sessie",
+      "name": "Brainstormsessie",
       "id": "brainstorm",
       "week": 2,
       "page": "Brainstorm",
@@ -50,7 +50,7 @@
       ]
     },
     {
-      "name": "Usability test | Pagebuilder",
+      "name": "Usability test",
       "page": "UsabilityTest",
       "id": "usability-test",
       "week": 4,
@@ -92,7 +92,7 @@
       ]
     },
     {
-      "name": "Voortgangs presentatie",
+      "name": "Voortgangspresentatie",
       "id": "voortgangs-presentatie",
       "page": "VoortgangsPresentatie",
       "week": 5,
@@ -151,7 +151,7 @@
     {
       "name": "SCO",
       "learningGoals": [
-        { "name": "Oordeelvorming", "id": 1 },
+        { "name": "Oordeelsvorming", "id": 1 },
         { "name": "Concept", "id": 2 },
         { "name": "Business model", "id": 3 },
         { "name": "Marketing", "id": 4 },
@@ -166,7 +166,7 @@
       "name": "UXU",
       "learningGoals": [
         { "name": "User Experience", "id": 8 },
-        { "name": "Gebruikers Onderzoek", "id": 9 },
+        { "name": "Gebruikersonderzoek", "id": 9 },
         { "name": "Design", "id": 10 }
       ]
     },
