@@ -15,7 +15,7 @@
     color: $color-light-blue;
   }
   h1 {
-    margin: $spacing-huge 0 $spacing-small 0;
+    margin: 125px 0 $spacing-small 0;
     line-height: 1.2em;
   }
   h2 {
@@ -23,7 +23,7 @@
   }
   h3,
   h4 {
-    margin: $spacing-large 0 0 0;
+    margin: $spacing-large 0 $spacing-small 0;
   }
   a {
     color: $color-light-blue;

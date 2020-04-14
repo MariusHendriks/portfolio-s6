@@ -60,7 +60,6 @@ const Page: React.FC = () => {
       <div className="s-page">
         <div className="s-page__content">
           <FadeIn>
-            <BackButton />
             <h1>Leeswijzer</h1>
             <div>
               <div ref={Opdrachtgever}>

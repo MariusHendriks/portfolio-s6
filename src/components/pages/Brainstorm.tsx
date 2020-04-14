@@ -1,7 +1,12 @@
 import React, { useEffect } from "react";
 import FadeIn from "react-fade-in";
 import BackButton from "../common/BackButton";
-
+import Brainstorm1 from "../../img/brainstorm1.jpg";
+import Brainstorm2 from "../../img/brainstorm2.jpg";
+import Brainstorm3 from "../../img/brainstorm3.jpg";
+import Brainstorm4 from "../../img/brainstorm4.jpg";
+import Zoom from "react-medium-image-zoom";
+import "react-medium-image-zoom/dist/styles.css";
 const Page: React.FC = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -42,8 +47,8 @@ const Page: React.FC = () => {
             <p>
               Per vraag werd 10 minten gebrainstormed over mogelijke
               oplossingen. Van deze oplossingen gaf ieder zijn voorkeur aan voor
-              de meest haalbare, leuke en nuttige ideeën. Daar zijn vier ideeën
-              aan overgebleven die in duo's uitgewerkt zijn.
+              de meest haalbare, leuke en nuttige ideeën (gems). Daar zijn vier
+              ideeën aan overgebleven die in duo's uitgewerkt zijn.
             </p>
           </div>
           <div>
@@ -96,6 +101,49 @@ const Page: React.FC = () => {
                 <br />
               </li>
             </ul>
+
+            <div className="s-page__content__img__container">
+              <div className="s-page__content__img__container__img">
+                <h3>Brainstorm</h3>
+                <Zoom>
+                  <img
+                    className="s-page__content__img__full"
+                    alt="brainstorm"
+                    src={Brainstorm1}
+                  />
+                </Zoom>
+              </div>
+              <div className="s-page__content__img__container__img">
+                <h3>How might we</h3>
+                <Zoom>
+                  <img
+                    className="s-page__content__img__full"
+                    alt="How might we"
+                    src={Brainstorm2}
+                  />
+                </Zoom>
+              </div>
+              <div className="s-page__content__img__container__img">
+                <h3>Gems</h3>
+                <Zoom>
+                  <img
+                    className="s-page__content__img__full"
+                    alt="Value proposition voor begeleider"
+                    src={Brainstorm4}
+                  />
+                </Zoom>
+              </div>
+              <div className="s-page__content__img__container__img">
+                <h3>Ideeën</h3>
+                <Zoom>
+                  <img
+                    className="s-page__content__img__full"
+                    alt="Value proposition voor begeleider"
+                    src={Brainstorm3}
+                  />
+                </Zoom>
+              </div>
+            </div>
           </div>
         </FadeIn>
       </div>

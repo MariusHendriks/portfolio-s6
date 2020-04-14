@@ -1,7 +1,11 @@
 .o-back-button {
   margin-top: $spacing-medium;
   transition: 0.3s;
-
+  position: fixed;
+  left: 23%;
+  top: 5%;
+  margin-top: $spacing-large;
+  cursor: pointer;
   a {
     text-decoration: none;
     &:hover {
@@ -12,5 +16,13 @@
   }
   &:hover {
     transition: 0.3s;
+    color: $color-light-blue;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .o-back-button {
+    position: unset;
+    top: unset;
+    left: unset;
   }
 }

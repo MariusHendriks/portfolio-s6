@@ -44,18 +44,18 @@ const Page: React.FC = () => {
           <FontAwesomeIcon icon={faArrowLeft} /> <i>Ga terug</i>
         </Link>
         <div>
-          <button onClick={() => executeScroll(Reason, 0)}>Aanleiding</button>
-          <button onClick={() => executeScroll(Method, 250)}>Methode</button>
-          <button onClick={() => executeScroll(Accountability, 400)}>
+          <button onClick={() => executeScroll(Reason, 110)}>Aanleiding</button>
+          <button onClick={() => executeScroll(Method, 230)}>Methode</button>
+          <button onClick={() => executeScroll(Accountability, 460)}>
             Verantwoording
           </button>
-          <button onClick={() => executeScroll(Iteration1, 400)}>
+          <button onClick={() => executeScroll(Iteration1, 460)}>
             Eerste iteratie
           </button>
-          <button onClick={() => executeScroll(Iteration2, 400)}>
+          <button onClick={() => executeScroll(Iteration2, 460)}>
             Tweede iteratie
           </button>
-          <button onClick={() => executeScroll(Iteration3, 400)}>
+          <button onClick={() => executeScroll(Iteration3, 460)}>
             Derde iteratie
           </button>
         </div>
@@ -64,7 +64,6 @@ const Page: React.FC = () => {
       <div className="s-page">
         <div className="s-page__content">
           <FadeIn>
-            <BackButton />
             <h1>Ontwerpdocument</h1>
             <div ref={Reason}>
               <h2>Aanleiding</h2>
