@@ -17,7 +17,7 @@ const Page: React.FC = () => {
             <p>
               Dit product is gemaakt om de deelvraag "Hoe zien de processen
               binnen de stichting er uit?" te beantwoorden. Deze deelvraag is
-              deel van de hoofdvraag: : “Hoe kunnen we een middel maken dat
+              deel van de hoofdvraag: “Hoe kunnen we een middel maken dat
               Stichting Ik Wil en/of hun bezoekers helpt om duidelijkheid te
               creëren in termen van: activiteiten, aanwezigheid van het bestuur
               en andere zaken binnen de stichting”.
@@ -37,10 +37,10 @@ const Page: React.FC = () => {
           </div>
           <div>
             <h2>Verantwoording</h2>
-            <p>Dit product is gemaakt door Mij en Timo van de Laar.</p>
+            <p>Dit product is gemaakt door mij en Timo van de Laar.</p>
             <p>
               Timo heeft andere onderzoeken gemaakt die toevoeging hadden voor
-              de conclusie van dit document. Timo heeft 2 andere onderzoeken
+              de conclusie van dit document. Timo heeft twee andere onderzoeken
               uitgevoerd, namelijk een Customer journey en een interview met de
               opdrachtgever.
             </p>
@@ -50,7 +50,7 @@ const Page: React.FC = () => {
             <p>
               Uit dit onderzoek zijn verschillende dingen gebleken. Een bezoeker
               komt bij Stichting Ik Wil met een van de volgende drie
-              mogelijkheden; Ik wil iets, Ik heb een idee en ik heb hulp nodig.
+              mogelijkheden; Ik wil iets, Ik heb een idee of ik heb hulp nodig.
               Dit wordt verwerkt tijdens het inloopuur, hier worden bezoekers
               gekoppeld aan een verbinder en daarna aan een activiteit. Het kan
               voorkomen dat een bezoeker interesse heeft in meerdere
@@ -66,7 +66,7 @@ const Page: React.FC = () => {
               starttijd. Tijdens de activiteit was er de mogelijkheid om zelf te
               werken, maar er was geen gezamenlijke uitleg. De lesvorm bestond
               uit individuele uitleg. De voertaal is de taal waar de deelnemers
-              zich het meest comfortabel bij voelen er werden dus verschillende
+              zich het meest comfortabel bij voelen, er werden dus verschillende
               talen gesproken. Dit werd door de deelnemers als prettig ervaren.
               Deze lesvorm zorgt ervoor dat het niveauverschil tussen de
               verschillende bezoekers niet storend is.

@@ -16,8 +16,13 @@ const Page: React.FC = () => {
           <div>
             <h2>Aanleiding</h2>
             <p>
-              Dit product is gemaakt om het gebouwde prototype te testen. Om de
-              laatste versie van het geteste prototype te bekijken, klik{" "}
+              Dit product is gemaakt om het gebouwde prototype te testen. Deze
+              tests zijn van belang om tot een beter eindproduct te komen. Er
+              werd met de resultaten van deze test een iteratie gemaakt op het
+              bestaande ontwerp. Deze werd vervolgens verwerkt in het prototype.
+            </p>
+            <p>
+              Om de laatste versie van het geteste prototype te bekijken, klik{" "}
               <a
                 target="_blank"
                 rel="noopener noreferrer"

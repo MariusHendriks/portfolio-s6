@@ -98,7 +98,7 @@ const Producten: React.FC<Props> = ({ sortedData }) => {
             Nadat de brainstormsessie had plaatsgevonden, zijn er 4 mogelijke
             oplossingen verzonnen. Deze worden in duo's uitgewerkt. In deze fase
             zijn Bart van de Klundert en ik bezig geweest met een page-builder.
-            Daar gaan de producten binFnen de ideation fase over.
+            Daar gaan de producten binnen de ideation fase over.
           </p>
         );
         break;
@@ -143,7 +143,7 @@ const Producten: React.FC<Props> = ({ sortedData }) => {
             implementation Fase (2/2)
           </h3>
         );
-        aanvulling = <p>Deze weken is er enkel geprogrammeerd.</p>;
+        aanvulling = <p>Deze weken is het dashboard geprogrammeerd.</p>;
         break;
       case 9:
         header = (
@@ -152,7 +152,12 @@ const Producten: React.FC<Props> = ({ sortedData }) => {
             Eindfase
           </h3>
         );
-        aanvulling = <p>Deze weken is er enkel geprogrammeerd.</p>;
+        aanvulling = (
+          <p>
+            In deze fase zijn de puntjes op de i gezet en is de overdracht
+            gedaan.
+          </p>
+        );
         break;
       default:
         break;

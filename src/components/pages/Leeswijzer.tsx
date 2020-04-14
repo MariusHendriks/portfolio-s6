@@ -304,8 +304,8 @@ const Page: React.FC = () => {
                   toch in kunnen vullen. Het lastige eraan voor mij was dat het
                   een non-profit organisatie is. Ik wist niet hoe ze aan geld
                   komen, en wat ze bijvoorbeeld te besteden hadden. Na gebeld te
-                  hebben met Ihsan is dit duidelijk geworden en heb ik het
-                  document ingevuld.
+                  hebben met Ihsan De Jong is dit duidelijk geworden en heb ik
+                  het document ingevuld.
                 </p>
               </div>
 

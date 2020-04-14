@@ -50,6 +50,17 @@
   &__content {
     width: 40%;
     &__img {
+      &__container {
+        h3 {
+          text-align: center;
+        }
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        &__img {
+          width: 48%;
+        }
+      }
       &__full {
         width: 100%;
       }

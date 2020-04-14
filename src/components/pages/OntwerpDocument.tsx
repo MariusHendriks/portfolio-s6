@@ -76,15 +76,22 @@ const Page: React.FC = () => {
             <div>
               <h2 ref={Method}>Methode</h2>
               <h3>Ontwerp</h3>
-              <p>Er is een ontwerp gemaakt met Adobe xD. </p>
+              <p>
+                Er is een ontwerp gemaakt met Adobe xD. Hiervoor is gekozen
+                omdat ik zelf prettig werk met Adobe xD en snel veel iteraties
+                kan maken. Ook kun je met Adobe xD goed prototypes testen. Dit
+                bleek later echter niet ideaal te zijn voor die specifieke
+                product omdat er veel textfields in zitten.
+              </p>
             </div>
             <div ref={Accountability}>
               <h2>Verantwoording</h2>
               <p>
-                Dit is een vroeg ontwerp. Omdat mijn duo ziek was, is er door
-                mij een ontwerp gemaakt. Mijn Duo, Bart van de Klundert had ook
-                een ontwerp gemaakt. Er is voor zijn ontwerp gekozen om verder
-                mee te gaan in de toekomst.
+                Dit is een vroeg ontwerp. Omdat Bart van de Klundert, mijn duo
+                ziek was, is er door mij een ontwerp gemaakt. Bart had ook een
+                ontwerp gemaakt. Er is voor zijn ontwerp gekozen om verder mee
+                te gaan in verdere versies, omdat deze er simpelweg visueel een
+                stuk beter uit ziet. De content was zo goed als hetzelfde.
               </p>
               <p>
                 Van het gemaakte ontwerp is een quick-prototype gemaakt in

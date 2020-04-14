@@ -16,7 +16,7 @@ const Page: React.FC = () => {
             <h2>Aanleiding</h2>
             <p>
               Dit product is gemaakt omdat er voor gekozen is een gerealiseerd
-              product op te leveren aan de oprachtgever.
+              product op te leveren aan de opdrachtgever.
             </p>
           </div>
           <div>
