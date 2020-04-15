@@ -62,7 +62,6 @@ const Page: React.FC = () => {
               </div>
               <div ref={GebruikteTalen}>
                 <h2>Gebruikte talen</h2>
-
                 <p>
                   Er is in dit project met React Typescript, SCSS, Firebase en
                   Redux gewerkt. De reden hiervoor is omdat de delen React en
@@ -70,10 +69,36 @@ const Page: React.FC = () => {
                   bekend, en dit was een goede mogelijkheid daar meer in te
                   verdiepen.
                 </p>
+                <h3>React</h3>
+                <p>
+                  Er is voor react gekozen omdat hier al enige ervaring in was,
+                  het extreem snel is en er op een gestructureerde manier
+                  modulair in gewerkt kan worden.
+                </p>
+                <h3>Typescript</h3>
+                <p>
+                  Er is voor typescript react gekozen omdat het een kleine
+                  upgrade is van normaal React. Omdat je veel types moet
+                  definiëren legt de code zichzelf beter uit. Daarnaast was het
+                  leerzaam om typescript te gebruiken.
+                </p>
+                <h3>Redux</h3>
+                <p>Redux is de go-to store manager van React.</p>
+                <h3>SCSS</h3>
+                <p>
+                  Er is SCSS gebruikt om breder en efficiënter met SCSS te
+                  kunndne werken.
+                </p>
+                <h3>Firebase</h3>
+                <p>
+                  Er is voor Firebase gekozen omdat je met firebase sne,
+                  schaalbare apps kunt bouwen, zonder de gehele infrastructuur
+                  op te zetten. Daarnaast is firebase ontzettend betrouwbaar en
+                  snel.
+                </p>
               </div>
               <div ref={Werkwijze}>
                 <h2>Werkwijze</h2>
-
                 <p>
                   Er is gestructureerd gewerkt met Github. Er zijn veel branches
                   gebruikt om het overzicht te behouden welke code waar werd
