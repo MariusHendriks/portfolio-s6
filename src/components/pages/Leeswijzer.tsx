@@ -1,10 +1,10 @@
 import React, { useEffect, useRef } from "react";
 import FadeIn from "react-fade-in";
-import BackButton from "../common/BackButton";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
-
+import Dev from "../../img/dev.png";
+import App from "../../img/app.png";
 const scrollToRef = (ref: any, offset: number) =>
   window.scrollTo({ top: ref.current.offsetTop + offset, behavior: "smooth" });
 
@@ -169,7 +169,7 @@ const Page: React.FC = () => {
                     <b>Een page builder.</b> <br /> Dit idee helpt beginnende
                     bedrijven die veel in de stichting zitten te promoten door
                     eenvoudig een professionele website voor ze te genereren.
-                    Dit idee is opgepakt door <i>Mij en Bart van de Klundert</i>
+                    Dit idee is opgepakt door <i>mij en Bart van de Klundert</i>
                     <br />
                   </li>
                   <li>
@@ -215,16 +215,40 @@ const Page: React.FC = () => {
               <div ref={Resultaat}>
                 <h2>Resultaat</h2>
                 <p>
-                  Er is een geheel uitgewerkte app en dashboard. Deze zijn{" "}
-                  <a
-                    href="http://Stichting-ik-wil.web.app"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
-                    hier
-                  </a>{" "}
-                  te bekijken.
+                  Er is een volledig dashboard en app gebouwd. De app is gebouwd
+                  door Noël Herwig, Dylano Hartman en Max Altena. Het dashboard
+                  is gebouwd door Bart van de Klundert, Mike Hendriks en ikzelf.
                 </p>
+                <div className="s-page__content__img__container">
+                  <div className="s-page__content__img__container__img">
+                    <h3>Dashboard live-versie</h3>
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href="https://ikwil-dashboard.web.app/"
+                    >
+                      <img
+                        className="s-page__content__img__full"
+                        alt="Development"
+                        src={Dev}
+                      />
+                    </a>
+                  </div>
+                  <div className="s-page__content__img__container__img">
+                    <h3>App live-versie</h3>
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href="https://ikwil-app.web.app/"
+                    >
+                      <img
+                        className="s-page__content__img__full"
+                        alt="App"
+                        src={App}
+                      />
+                    </a>
+                  </div>
+                </div>
 
                 <b>Dashboard</b>
 

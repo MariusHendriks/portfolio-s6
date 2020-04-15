@@ -2,7 +2,6 @@ import React, { useEffect, useRef } from "react";
 import FadeIn from "react-fade-in";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
-import BackButton from "../common/BackButton";
 import { Link } from "react-router-dom";
 import Iteratie11 from "../../img/iteratie-1-3.png";
 import Iteratie12 from "../../img/iteratie-1-2.png";

@@ -19,7 +19,6 @@ import PrototypeDevelopen from "../pages/PrototypeDevelopen";
 import VoortgangsPresentatie from "../pages/VoortgangsPresentatie";
 import Developen from "../pages/Developen";
 import Brainstorm from "../pages/Brainstorm";
-import EndProduct from "../pages/EndProduct";
 import BusinessModel from "../pages/BusinessModel";
 import ProbleemAnalyse from "../pages/ProbleemAnalyse";
 import ReadingGuide from "../pages/ReadingGuide";
@@ -37,7 +36,7 @@ function Routing() {
     VoortgangsPresentatie,
     Developen,
     Brainstorm,
-    EndProduct,
+
     BusinessModel,
     ReadingGuide,
     ProbleemAnalyse,

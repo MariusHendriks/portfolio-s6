@@ -77,7 +77,7 @@ const Page: React.FC = () => {
               <div ref={Aanleiding}>
                 <h2>Aanleiding</h2>
                 <p>
-                  Dit document is gemaakt om de waarde van het gemaakte product
+                  Deze pagina is gemaakt om de waarde van het gemaakte product
                   in te schatten. Dit is gedaan om te oefenen hoe dit zal gaan
                   gebeuren als het product echt verkocht zou worden. Er is
                   nagedacht over op wat voor manier het product verkocht kan
@@ -148,7 +148,7 @@ const Page: React.FC = () => {
               <div ref={Verantwoording}>
                 <h2>Verantwoording</h2>
                 <p>
-                  Dit gehele document is door mij gemaakt. Er is geen fusie
+                  Deze pagina is enkel door mij gemaakt. Er is geen fusie
                   geweest van business modellen. De resultaten van mijn gesprek
                   met Ihsan is gedeeld met mijn groep.
                 </p>
@@ -156,7 +156,7 @@ const Page: React.FC = () => {
               <div ref={Resultaat}>
                 <h2>Resultaat</h2>
                 Dit business model canvas is gemaakt met eronder een value
-                proposition canvas van de beozker en de coördinator/kartrekker.
+                proposition canvas van de bezoeker en de coördinator/kartrekker.
                 <div>
                   <h3>Business Model Canvas</h3>
                   <Zoom>

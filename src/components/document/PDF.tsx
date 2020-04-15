@@ -1,36 +1,36 @@
-import React, { useState, useRef } from "react";
-import { usePdf } from "@mikecousins/react-pdf";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowRight, faArrowLeft } from "@fortawesome/free-solid-svg-icons";
+import React from "react";
+// import { usePdf } from "@mikecousins/react-pdf";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faArrowRight, faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 
 interface Props {
   docName: string | undefined;
 }
-function getScale() {
-  if (window.innerWidth <= 1920) {
-    return 1.22;
-  } else if (window.innerWidth <= 2560) {
-    return 1.62;
-  }
-}
+// function getScale() {
+//   if (window.innerWidth <= 1920) {
+//     return 1.22;
+//   } else if (window.innerWidth <= 2560) {
+//     return 1.62;
+//   }
+// }
 const PDF: React.FC<Props> = ({ docName }) => {
-  const [page, setPage] = useState(1);
-  const canvasRef = useRef(null);
-  let file = require(`../../documents/GeenDocument.pdf`);
+  // const [page, setPage] = useState(1);
+  // const canvasRef = useRef(null);
+  //let file = require(`../../documents/GeenDocument.pdf`);
   if (typeof docName !== "undefined") {
-    file = require(`../../documents/${docName}.pdf`);
+    //file = require(`../../documents/${docName}.pdf`);
   }
-  const scale = getScale();
-  const { pdfDocument } = usePdf({
-    file: file,
-    page,
-    canvasRef,
-    scale: scale
-  });
+  // const scale = getScale();
+  //const { pdfDocument } = usePdf({
+  //file: file,
+  //page,
+  //canvasRef,
+  //scale: scale,
+  //});
   if (docName !== "undefined") {
     return (
       <div className="s-pdf">
-        {!pdfDocument && <span>Loading...</span>}
+        {/* {!pdfDocument && <span>Loading...</span>}
         <canvas ref={canvasRef} />
         {Boolean(pdfDocument && pdfDocument.numPages) && (
           <div className="s-pdf__buttons">
@@ -44,7 +44,7 @@ const PDF: React.FC<Props> = ({ docName }) => {
               <FontAwesomeIcon icon={faArrowRight} />
             </button>
           </div>
-        )}
+        )} */}
       </div>
     );
   } else {

@@ -121,13 +121,6 @@
     },
 
     {
-      "name": "Eindproduct",
-      "id": "finish",
-      "week": 9,
-      "page": "EndProduct",
-      "learningGoals": []
-    },
-    {
       "name": "Business model",
       "id": "business-model",
       "week": 9,

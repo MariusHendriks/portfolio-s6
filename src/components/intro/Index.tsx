@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const index: React.FC = () => {
   return (
     <div className="o-intro">
-      <h1>Project</h1>
+      <h1>Project Stichting Ik wil </h1>
       <div className="o-intro__text">
         <p>
           Op deze website vind je alle gemaakte documenten en producten van Mark
