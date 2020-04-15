@@ -44,17 +44,17 @@ const Page: React.FC = () => {
         </Link>
         <div>
           <button onClick={() => executeScroll(Reason, 110)}>Aanleiding</button>
-          <button onClick={() => executeScroll(Method, 230)}>Methode</button>
-          <button onClick={() => executeScroll(Accountability, 460)}>
+          <button onClick={() => executeScroll(Method, 260)}>Methode</button>
+          <button onClick={() => executeScroll(Accountability, 510)}>
             Verantwoording
           </button>
-          <button onClick={() => executeScroll(Iteration1, 460)}>
+          <button onClick={() => executeScroll(Iteration1, 510)}>
             Eerste iteratie
           </button>
-          <button onClick={() => executeScroll(Iteration2, 460)}>
+          <button onClick={() => executeScroll(Iteration2, 510)}>
             Tweede iteratie
           </button>
-          <button onClick={() => executeScroll(Iteration3, 460)}>
+          <button onClick={() => executeScroll(Iteration3, 510)}>
             Derde iteratie
           </button>
         </div>

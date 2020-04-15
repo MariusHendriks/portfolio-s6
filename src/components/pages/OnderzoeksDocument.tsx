@@ -34,14 +34,14 @@ const Page: React.FC = () => {
           <FontAwesomeIcon icon={faArrowLeft} /> <i>Ga terug</i>
         </Link>
         <div>
-          <button onClick={() => executeScroll(Aanleiding, 120)}>
+          <button onClick={() => executeScroll(Aanleiding, 150)}>
             Aanleiding
           </button>
-          <button onClick={() => executeScroll(Method, 120)}>Methode</button>
-          <button onClick={() => executeScroll(Verantwoording, 120)}>
+          <button onClick={() => executeScroll(Method, 150)}>Methode</button>
+          <button onClick={() => executeScroll(Verantwoording, 150)}>
             Verantwoording
           </button>
-          <button onClick={() => executeScroll(Conclusie, 120)}>
+          <button onClick={() => executeScroll(Conclusie, 150)}>
             Conclusie
           </button>
         </div>

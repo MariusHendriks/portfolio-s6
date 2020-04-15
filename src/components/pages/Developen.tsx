@@ -1,6 +1,5 @@
 import React, { useEffect, useRef } from "react";
 import FadeIn from "react-fade-in";
-import BackButton from "../common/BackButton";
 import GhDev from "../../img/gh_dev.png";
 import Dev from "../../img/dev.png";
 import XD from "../../img/xd.png";
@@ -51,7 +50,6 @@ const Page: React.FC = () => {
       <div className="s-page">
         <div className="s-page__content">
           <FadeIn>
-            <BackButton />
             <h1>Developen</h1>
             <div>
               {" "}

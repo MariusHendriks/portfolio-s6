@@ -188,8 +188,8 @@ const Producten: React.FC<Props> = ({ sortedData }) => {
                     }}
                     date={
                       week.weekNummer === 6
-                        ? "week 6 tot 8"
-                        : "week " + week.weekNummer
+                        ? "Week 6 tot 8"
+                        : "Week " + week.weekNummer
                     }
                     iconStyle={{
                       background: "rgb(110, 174, 249)",

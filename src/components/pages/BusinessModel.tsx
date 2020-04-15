@@ -1,6 +1,5 @@
 import React, { useEffect, useRef } from "react";
 import FadeIn from "react-fade-in";
-import BackButton from "../common/BackButton";
 import ValuePropCanv1 from "../../img/ValuePropositionCanvas1.png";
 import ValuePropCanv2 from "../../img/ValuePropositionCanvas2.png";
 import ValuePropCanv3 from "../../img/ValuePropositionCanvas3.png";
@@ -71,7 +70,6 @@ const Page: React.FC = () => {
       <div className="s-page">
         <div className="s-page__content">
           <FadeIn>
-            <BackButton />
             <h1>Business model</h1>
             <div>
               <div ref={Aanleiding}>
