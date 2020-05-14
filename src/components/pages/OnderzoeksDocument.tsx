@@ -5,7 +5,6 @@ import Zoom from "react-medium-image-zoom";
 import "react-medium-image-zoom/dist/styles.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
-import { Link } from "react-router-dom";
 
 const scrollToRef = (ref: any, offset: number) =>
   window.scrollTo({ top: ref.current.offsetTop + offset, behavior: "smooth" });
@@ -30,9 +29,9 @@ const Page: React.FC = () => {
   return (
     <>
       <div className="o-pagenav">
-        <Link className="o-pagenav__fill" to="/">
+        <div className="o-pagenav__nav" onClick={() => window.history.back()}>
           <FontAwesomeIcon icon={faArrowLeft} /> <i>Ga terug</i>
-        </Link>
+        </div>
         <div>
           <button onClick={() => executeScroll(Aanleiding, 150)}>
             Aanleiding

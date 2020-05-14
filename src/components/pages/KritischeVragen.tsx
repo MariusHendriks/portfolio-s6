@@ -27,9 +27,9 @@ const Page: React.FC = () => {
   return (
     <>
       <div className="o-pagenav">
-        <Link className="o-pagenav__fill" to="/">
+        <div className="o-pagenav__nav" onClick={() => window.history.back()}>
           <FontAwesomeIcon icon={faArrowLeft} /> <i>Ga terug</i>
-        </Link>
+        </div>
         <div>
           <button onClick={() => executeScroll(Aanleiding, 120)}>
             Aanleiding

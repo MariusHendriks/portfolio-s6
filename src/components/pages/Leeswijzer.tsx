@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 import Dev from "../../img/dev.png";
 import App from "../../img/app.png";
+
 const scrollToRef = (ref: any, offset: number) =>
   window.scrollTo({ top: ref.current.offsetTop + offset, behavior: "smooth" });
 
@@ -30,10 +31,8 @@ const Page: React.FC = () => {
   return (
     <>
       <div className="o-pagenav">
-        <div className="o-pagenav__fill">
-          <Link to="/">
-            <FontAwesomeIcon icon={faArrowLeft} /> <i>Ga terug</i>
-          </Link>
+        <div className="o-pagenav__nav" onClick={() => window.history.back()}>
+          <FontAwesomeIcon icon={faArrowLeft} /> <i>Ga terug</i>
         </div>
         <div>
           <button onClick={() => executeScroll(Opdrachtgever, 120)}>

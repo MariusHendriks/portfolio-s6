@@ -9,7 +9,6 @@ import "react-h5-audio-player/lib/styles.css";
 import Zoom from "react-medium-image-zoom";
 import "react-medium-image-zoom/dist/styles.css";
 
-import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 
@@ -40,12 +39,11 @@ const Page: React.FC = () => {
 
   return (
     <>
-      {" "}
       <div className="o-pagenav">
         <div className="o-pagenav__fill">
-          <Link to="/">
+          <div className="o-pagenav__nav" onClick={() => window.history.back()}>
             <FontAwesomeIcon icon={faArrowLeft} /> <i>Ga terug</i>
-          </Link>
+          </div>
         </div>
         <div>
           <button onClick={() => executeScroll(Aanleiding, 120)}>

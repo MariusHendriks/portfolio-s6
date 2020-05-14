@@ -26,6 +26,15 @@
       font-weight: bold;
     }
   }
+  &__nav {
+    width: 7%;
+    cursor: pointer;
+    transition: 0.3s;
+    &:hover {
+      transition: 0.3s;
+      font-weight: bold;
+    }
+  }
 }
 .hasNav {
   padding-top: $spacing-huge;

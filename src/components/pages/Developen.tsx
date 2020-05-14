@@ -5,7 +5,6 @@ import Dev from "../../img/dev.png";
 import XD from "../../img/xd.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
-import { Link } from "react-router-dom";
 
 const scrollToRef = (ref: any, offset: number) =>
   window.scrollTo({ top: ref.current.offsetTop + offset, behavior: "smooth" });
@@ -28,9 +27,9 @@ const Page: React.FC = () => {
   return (
     <>
       <div className="o-pagenav">
-        <Link className="o-pagenav__fill" to="/">
+        <div className="o-pagenav__nav" onClick={() => window.history.back()}>
           <FontAwesomeIcon icon={faArrowLeft} /> <i>Ga terug</i>
-        </Link>
+        </div>
         <div>
           <button onClick={() => executeScroll(Aanleiding, 120)}>
             Aanleiding
@@ -87,7 +86,7 @@ const Page: React.FC = () => {
                 <h3>SCSS</h3>
                 <p>
                   Er is SCSS gebruikt om breder en efficiënter met SCSS te
-                  kunndne werken.
+                  kunnen werken.
                 </p>
                 <h3>Firebase</h3>
                 <p>
