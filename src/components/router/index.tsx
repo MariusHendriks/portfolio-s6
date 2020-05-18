@@ -2,13 +2,13 @@ import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Homepage from "../homepage/Index";
 import Document from "../document/Index";
-import Producten from "../producten/Index";
 import {
   SortDataByWeek,
   SortDataByCourse,
 } from "../../functions/dataFunctions";
 import FadeIn from "react-fade-in";
 import data from "../../data/data.json";
+import dataPidz from "../../data/dataPidz.json";
 import Leeswijzer from "../readingGuide/Index";
 
 import KritischeVragen from "../pages/KritischeVragen";
@@ -23,9 +23,16 @@ import BusinessModel from "../pages/BusinessModel";
 import ProbleemAnalyse from "../pages/ProbleemAnalyse";
 import ReadingGuide from "../pages/ReadingGuide";
 
+import HomepagePidz from "../homepage/HomepagePidz";
+
+import PidzConcurrentieanalyse from "../pages/PidzConcurrentieanalyse";
+
 function Routing() {
-  let dataByWeek: iWeek[];
-  let dataByLearningGoal: iCourseReadingGuide[];
+  let dataByWeekIkWil: iWeek[];
+  let dataByLearningGoalIkWil: iCourseReadingGuide[];
+
+  let dataByWeekPidz: iWeek[];
+  let dataByLearningGoalPidz: iCourseReadingGuide[];
 
   const components: any = {
     KritischeVragen,
@@ -36,36 +43,47 @@ function Routing() {
     VoortgangsPresentatie,
     Developen,
     Brainstorm,
-
     BusinessModel,
     ReadingGuide,
     ProbleemAnalyse,
+
+    PidzConcurrentieanalyse,
   };
 
   if (typeof data !== "undefined") {
-    dataByWeek = SortDataByWeek(data);
-    dataByLearningGoal = SortDataByCourse(data);
+    dataByWeekIkWil = SortDataByWeek(data);
+    dataByLearningGoalIkWil = SortDataByCourse(data);
+
+    dataByWeekPidz = SortDataByWeek(dataPidz);
+    dataByLearningGoalPidz = SortDataByCourse(dataPidz);
 
     return (
       <Router>
         <Switch>
-          <Route exact path="/">
+          <Route exact path="/ikwil">
             <FadeIn>
               <div className="o-me"></div>
               <Homepage
-                readingGuideData={dataByLearningGoal}
-                sortedData={dataByWeek}
+                readingGuideData={dataByLearningGoalIkWil}
+                sortedData={dataByWeekIkWil}
               />
             </FadeIn>
           </Route>
-          <Route exact path="/leeswijzer">
+          <Route exact path="/pidz">
+            <FadeIn>
+              <div className="o-me"></div>
+              <HomepagePidz
+                readingGuideData={dataByLearningGoalPidz}
+                sortedData={dataByWeekPidz}
+              />
+            </FadeIn>
+          </Route>
+          <Route exact path="/ikwil/leeswijzer">
             <div className="">
-              <Leeswijzer data={dataByLearningGoal} />
+              <Leeswijzer data={dataByLearningGoalIkWil} />
             </div>
           </Route>
-          <Route exact path="/documents">
-            <Producten sortedData={dataByWeek} />
-          </Route>
+
           <Route
             path="/page/:pageId"
             render={({ match }) => {
@@ -78,7 +96,7 @@ function Routing() {
               path="/documents/:documentId"
               render={({ match }) => (
                 <Document
-                  pDocument={dataByWeek
+                  pDocument={dataByWeekIkWil
                     .flatMap((w) => w.documents)
                     .find(
                       (document) => document.id === match.params.documentId

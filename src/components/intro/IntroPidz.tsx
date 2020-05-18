@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const index: React.FC = () => {
+const IntroPidz: React.FC = () => {
   return (
     <div className="o-intro">
-      <h1>Project Stichting Ik wil </h1>
+      <h1>Project PIDZ </h1>
       <div className="o-intro__text">
         <p>
           Op deze website vind je alle gemaakte documenten en producten van Mark
@@ -28,4 +28,4 @@ const index: React.FC = () => {
     </div>
   );
 };
-export default index;
+export default IntroPidz;
