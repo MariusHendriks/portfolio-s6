@@ -1,5 +1,10 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch,
+  Redirect,
+} from "react-router-dom";
 import Homepage from "../homepage/Index";
 import Document from "../document/Index";
 import {
@@ -26,6 +31,7 @@ import ReadingGuide from "../pages/ReadingGuide";
 import HomepagePidz from "../homepage/HomepagePidz";
 
 import PidzConcurrentieanalyse from "../pages/PidzConcurrentieanalyse";
+import { Button } from "react-scroll";
 
 function Routing() {
   let dataByWeekIkWil: iWeek[];
@@ -60,6 +66,14 @@ function Routing() {
     return (
       <Router>
         <Switch>
+          <Route exact path="/">
+            <div>
+              <a href="/ikwil">Ikwil</a>
+            </div>
+            <div>
+              <a href="/pidz">Pidz</a>
+            </div>
+          </Route>
           <Route exact path="/ikwil">
             <FadeIn>
               <div className="o-me"></div>
