@@ -59,7 +59,7 @@ const Page: React.FC = () => {
                 <h2>Aanleiding</h2>
                 <p>
                   Om tot een goed product te komen, is het relevant om te weten
-                  waar de concurrenten fouten of imperfecties hebben. Als deze
+                  waar de concurrenten fouten en imperfecties hebben. Als deze
                   en alle goede punten van de concurrenten opgepakt worden zal
                   het product in theorie beter zijn dan die van de concurrent.
                   Daarnaast kan het ook relevant zijn als er geen concurrenten
@@ -162,9 +162,20 @@ const Page: React.FC = () => {
               <div ref={Conclusie}>
                 <h2>Conclusie</h2>
                 <p>
-                  Met deze probleemanalyse kan er onderzocht worden of de
-                  gemaakte hypotheses ook problemen zijn voor de bezoekers van
-                  de stichting.
+                  Er is geen concurrent die zich focust op het onderling delen
+                  van kennis en zelfstandige zorgprofessionals in contact
+                  stellen met elkaar. Echter zijn er wel indirecte concurrenten
+                  waar de zzp’ers nu naartoe gaan om hun vragen te stellen en
+                  contact te zoeken. Er zijn verschillende facebook groepen waar
+                  nu actief vragen gesteld en beantwoord worden.
+                </p>
+                <p>
+                  Het deelproduct moet ervoor zorgen dat de zzp’ers vragen
+                  kunnen stellen aan elkaar, de persoon die de vraag stelde
+                  duidelijk kan aangeven welk antwoord hem of haar geholpen
+                  heeft (zoals dat bij Reddit en Stack overflow gebeurd). Als
+                  laatst is het uit de conclusie van Max Altena gekomen dat een
+                  Chatfunctie ook belangrijk is voor het product.
                 </p>
               </div>
               <div ref={Bronnen}>

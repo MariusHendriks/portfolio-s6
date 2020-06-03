@@ -1,6 +1,42 @@
 {
   "documents": [
     {
+      "name": "Kritische Vragen",
+      "page": "PidzKritischeVragen",
+      "id": "pidz-kritische-vragen",
+      "week": 1,
+      "learningGoals": [
+        {
+          "id": 1,
+          "why": ""
+        }
+      ]
+    },
+    {
+      "name": "Projectplan",
+      "page": "PidzProjectPlan",
+      "id": "pidz-project-plan",
+      "week": 2,
+      "learningGoals": [
+        {
+          "id": 1,
+          "why": ""
+        }
+      ]
+    },
+    {
+      "name": "Individuele analyse",
+      "page": "PidzIndividueleAnalyse",
+      "id": "pidz-individuele-analyse",
+      "week": 1,
+      "learningGoals": [
+        {
+          "id": 1,
+          "why": ""
+        }
+      ]
+    },
+    {
       "name": "Concurrentieanalyse",
       "page": "PidzConcurrentieanalyse",
       "id": "concurrentie-analyse",
@@ -8,6 +44,42 @@
       "learningGoals": [
         {
           "id": 1,
+          "why": ""
+        }
+      ]
+    },
+    {
+      "name": "Conceptdocument",
+      "page": "PidzConceptDocument",
+      "id": "concept-document",
+      "week": 4,
+      "learningGoals": [
+        {
+          "id": 2,
+          "why": ""
+        }
+      ]
+    },
+    {
+      "name": "Trendanalyse",
+      "page": "PidzTrendAnalyse",
+      "id": "trend-analyse",
+      "week": 4,
+      "learningGoals": [
+        {
+          "id": 12,
+          "why": ""
+        }
+      ]
+    },
+    {
+      "name": "Business Model",
+      "page": "PidzBusinessModel",
+      "id": "pidz-business-model",
+      "week": 5,
+      "learningGoals": [
+        {
+          "id": 3,
           "why": ""
         }
       ]
@@ -21,7 +93,8 @@
         { "name": "Concept", "id": 2 },
         { "name": "Business model", "id": 3 },
         { "name": "Marketing", "id": 4 },
-        { "name": "Communicatie", "id": 6 }
+        { "name": "Communicatie", "id": 6 },
+        { "name": "Trends", "id": 12 }
       ]
     },
     {

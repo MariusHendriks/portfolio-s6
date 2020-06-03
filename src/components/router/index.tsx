@@ -1,10 +1,5 @@
 import React from "react";
-import {
-  BrowserRouter as Router,
-  Route,
-  Switch,
-  Redirect,
-} from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Homepage from "../homepage/Index";
 import Document from "../document/Index";
 import {
@@ -29,9 +24,12 @@ import ProbleemAnalyse from "../pages/ProbleemAnalyse";
 import ReadingGuide from "../pages/ReadingGuide";
 
 import HomepagePidz from "../homepage/HomepagePidz";
+import PidzKritischeVragen from "../pages/PidzKritischeVragen";
+import PidzProjectPlan from "../pages/PidzProjectPlan";
+import PidzIndividueleAnalyse from "../pages/PidzIndividueleAnalyse";
+import PidzConceptDocument from "../pages/PidzConceptDocument";
 
 import PidzConcurrentieanalyse from "../pages/PidzConcurrentieanalyse";
-import { Button } from "react-scroll";
 
 function Routing() {
   let dataByWeekIkWil: iWeek[];
@@ -52,8 +50,11 @@ function Routing() {
     BusinessModel,
     ReadingGuide,
     ProbleemAnalyse,
-
+    PidzKritischeVragen,
+    PidzProjectPlan,
+    PidzIndividueleAnalyse,
     PidzConcurrentieanalyse,
+    PidzConceptDocument,
   };
 
   if (typeof data !== "undefined") {
