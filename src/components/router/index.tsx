@@ -28,8 +28,9 @@ import PidzKritischeVragen from "../pages/PidzKritischeVragen";
 import PidzProjectPlan from "../pages/PidzProjectPlan";
 import PidzIndividueleAnalyse from "../pages/PidzIndividueleAnalyse";
 import PidzConceptDocument from "../pages/PidzConceptDocument";
-
+import PidzTrendAnalyse from "../pages/PidzTrendAnalyse";
 import PidzConcurrentieanalyse from "../pages/PidzConcurrentieanalyse";
+import PidzBusinessModel from "../pages/PidzBusinessModel";
 
 function Routing() {
   let dataByWeekIkWil: iWeek[];
@@ -55,6 +56,8 @@ function Routing() {
     PidzIndividueleAnalyse,
     PidzConcurrentieanalyse,
     PidzConceptDocument,
+    PidzTrendAnalyse,
+    PidzBusinessModel,
   };
 
   if (typeof data !== "undefined") {

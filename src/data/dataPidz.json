@@ -49,18 +49,6 @@
       ]
     },
     {
-      "name": "Conceptdocument",
-      "page": "PidzConceptDocument",
-      "id": "concept-document",
-      "week": 4,
-      "learningGoals": [
-        {
-          "id": 2,
-          "why": ""
-        }
-      ]
-    },
-    {
       "name": "Trendanalyse",
       "page": "PidzTrendAnalyse",
       "id": "trend-analyse",
@@ -72,6 +60,19 @@
         }
       ]
     },
+    {
+      "name": "Conceptdocument",
+      "page": "PidzConceptDocument",
+      "id": "concept-document",
+      "week": 4,
+      "learningGoals": [
+        {
+          "id": 2,
+          "why": ""
+        }
+      ]
+    },
+
     {
       "name": "Business Model",
       "page": "PidzBusinessModel",
