@@ -34,6 +34,11 @@ import PidzBusinessModel from "../pages/PidzBusinessModel";
 import PidzOntwerpen from "../pages/PidzOntwerpen";
 import PidzUsabilityTest from "../pages/PidzUsabilityTest";
 
+import PidzLeeswijzer from "../readingGuide/PidzIndex";
+
+import Pidz from "../../img/pidz.jpg";
+import Ikwil from "../../img/ikwil.png";
+
 function Routing() {
   let dataByWeekIkWil: iWeek[];
   let dataByLearningGoalIkWil: iCourseReadingGuide[];
@@ -75,16 +80,41 @@ function Routing() {
       <Router>
         <Switch>
           <Route exact path="/">
-            <div>
-              <a href="/ikwil">Ikwil</a>
-            </div>
-            <div>
-              <a href="/pidz">Pidz</a>
+            <div className="o-card__container">
+              <a href="/ikwil">
+                <div className="o-card">
+                  <div className="o-card__img">
+                    <img src={Ikwil} alt="Ikwil" />
+                  </div>
+                  <h1>ikwil</h1>
+                  <p className="o-card__text">
+                    Tijdens dit project is er een dashboard gebouwd voor
+                    stichting ik wil. Er is onderzoek gedaan dichbij de
+                    gebruikers en er werd op locatie gewerkt.
+                  </p>
+                </div>
+              </a>
+              <a href="/pidz">
+                <div className="o-card">
+                  <div className="o-card__img">
+                    <img src={Pidz} alt="Pidz" />
+                  </div>
+                  <h1>Pidz</h1>
+                  <p className="o-card__text">
+                    Tijdens dit project is er een nieuw platform
+                    ontworpen:"WijPIDZ". Op dit platform kunnen ZZP'ers die in
+                    de zorg werken opleidingen volgen, artikelen kopen en
+                    communities vormen door o.a. vragen te stellen aan elkaar.
+                  </p>
+                </div>
+              </a>
             </div>
           </Route>
           <Route exact path="/ikwil">
             <FadeIn>
-              <div className="o-me"></div>
+              <a href="/">
+                <div className="o-me"></div>
+              </a>
               <Homepage
                 readingGuideData={dataByLearningGoalIkWil}
                 sortedData={dataByWeekIkWil}
@@ -93,7 +123,9 @@ function Routing() {
           </Route>
           <Route exact path="/pidz">
             <FadeIn>
-              <div className="o-me"></div>
+              <a href="/">
+                <div className="o-me"></div>
+              </a>
               <HomepagePidz
                 readingGuideData={dataByLearningGoalPidz}
                 sortedData={dataByWeekPidz}
@@ -105,7 +137,11 @@ function Routing() {
               <Leeswijzer data={dataByLearningGoalIkWil} />
             </div>
           </Route>
-
+          <Route exact path="/pidz/leeswijzer">
+            <div className="">
+              <PidzLeeswijzer data={dataByLearningGoalPidz} />
+            </div>
+          </Route>
           <Route
             path="/page/:pageId"
             render={({ match }) => {

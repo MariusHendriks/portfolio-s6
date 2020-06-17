@@ -1,11 +1,25 @@
 .o-card {
   background-color: $color-white;
-  width: fit-content;
   padding: $spacing-medium;
   box-shadow: $shadow-regular;
   margin: $spacing-medium;
+  text-align: center;
+  width: 20vw;
+
   a {
     color: $color-light-blue;
     font-weight: bold;
   }
+  &__img {
+    height: 25vh;
+  }
+  &__text {
+    height: 24vh;
+  }
+}
+.o-card__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
