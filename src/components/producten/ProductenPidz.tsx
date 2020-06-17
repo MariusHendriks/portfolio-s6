@@ -10,14 +10,14 @@ import DevelopmentIcon from "../../img/development-icon.png";
 import DocumentIcon from "../../img/document-icon.png";
 import DesignIcon from "../../img/design-icon.png";
 import DoneIcon from "../../img/done-icon.png";
-// import BrainstormIcon from "../../img/brainstorm-icon.png";
+import BrainstormIcon from "../../img/brainstorm-icon.png";
 import PresentationIcon from "../../img/presentation-icon.png";
 import UsabilityIcon from "../../img/usability-icon.png";
-// import Milestone0 from "../../img/milestone0.png";
-// import Milestone1 from "../../img/milestone1.png";
-// import Milestone2 from "../../img/milestone2.png";
-// import Milestone3 from "../../img/milestone3.png";
-// import Milestone4 from "../../img/milestone4.png";
+import Milestone0 from "../../img/milestone0.png";
+import Milestone1 from "../../img/milestone1.png";
+import Milestone2 from "../../img/milestone2.png";
+import Milestone3 from "../../img/milestone3.png";
+import Milestone4 from "../../img/milestone4.png";
 
 interface Props {
   sortedData?: iWeek[];
@@ -59,28 +59,98 @@ const Producten: React.FC<Props> = ({ sortedData }) => {
     let aanvulling = <></>;
     switch (weekNummer) {
       case 1:
-        header = <h3>Niks :D</h3>;
-        aanvulling = <p>Niks :D</p>;
+        header = (
+          <h3>
+            <img src={Milestone0} alt="milestone zero" />
+            Oriëntatie
+          </h3>
+        );
+        aanvulling = (
+          <p>
+            Start van het project. In deze week werd er gekeken naar wat de
+            opdracht in ging houden. Dit werd individueel gemaakt en werd daarna
+            als groep besproken.
+          </p>
+        );
         break;
       case 2:
-        header = <h3>Niks :D</h3>;
-        aanvulling = <p>Niks :D</p>;
+        header = (
+          <h3>
+            <img src={Milestone1} alt="milestone one" />
+            Start project
+          </h3>
+        );
+        aanvulling = (
+          <p>
+            Als eerst is er een projectplan gemaakt om de rest van te weken een
+            idee te hebben wat er allemaal gedaan moest worden.
+          </p>
+        );
         break;
       case 3:
-        header = <h3>Niks :D</h3>;
-        aanvulling = <p>Niks :D</p>;
+        header = (
+          <h3>
+            <img src={Milestone2} alt="milestone two" />
+            Research (1/3)
+          </h3>
+        );
+        aanvulling = (
+          <p>
+            Het was van belang te onderzoeken waar PIDZ in kan uitstralen ten
+            opzichte van concurrenten. om deze reden is er individueel een
+            concurentie analyse gemaakt.
+          </p>
+        );
         break;
       case 4:
-        header = <h3>Niks :D</h3>;
-        aanvulling = <p>Niks :D</p>;
+        header = (
+          <h3>
+            <img src={Milestone2} alt="milestone two" />
+            Research (2/3)
+          </h3>
+        );
+        aanvulling = (
+          <p>
+            Om met de laatste trends mee te gaan is er gekeken naar welke trends
+            er zijn, en uitgezocht welke aansloot op het product. Dit was
+            relevant omdat de kans op het slagen van het product toeneemt met
+            dit onderzoek. Met alle informatie die tot deze week vergaard is, is
+            een conceptdocument gemaakt. Hier staat een proof of concpet, SWOT
+            en USP in.
+          </p>
+        );
         break;
       case 5:
-        header = <h3>Niks :D</h3>;
-        aanvulling = <p>Niks :D</p>;
+        header = (
+          <h3>
+            <img src={Milestone2} alt="milestone two" />
+            Research (3/3)
+          </h3>
+        );
+        aanvulling = (
+          <p>
+            Nu het concept duidelijk was is er een business model gemaakt om te
+            bekijken wat de gecreeërde waardes zijn en waar er geld te verdienen
+            valt. Deze week was ik persoonlijk minder productief omdat ik een
+            plotselinge operatie ben ondergaan.
+          </p>
+        );
         break;
       case 6:
-        header = <h3>Niks :D</h3>;
-        aanvulling = <p> Niks :D</p>;
+        header = (
+          <h3>
+            <img src={Milestone3} alt="milestone three" />
+            Bouwfase
+          </h3>
+        );
+        aanvulling = (
+          <p>
+            Nu al het onderzoek gedaan was, was het tijd om te ontwerpen en
+            testen. Het ontwerp en de usability test zijn geleidelijk gemaakt.
+            Er is eerst een prototype gemaakt, en deze is daarna getest en
+            verbetert.{" "}
+          </p>
+        );
         break;
       case 9:
         header = <h3>Niks :D</h3>;

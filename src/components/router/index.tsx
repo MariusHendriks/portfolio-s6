@@ -31,6 +31,8 @@ import PidzConceptDocument from "../pages/PidzConceptDocument";
 import PidzTrendAnalyse from "../pages/PidzTrendAnalyse";
 import PidzConcurrentieanalyse from "../pages/PidzConcurrentieanalyse";
 import PidzBusinessModel from "../pages/PidzBusinessModel";
+import PidzOntwerpen from "../pages/PidzOntwerpen";
+import PidzUsabilityTest from "../pages/PidzUsabilityTest";
 
 function Routing() {
   let dataByWeekIkWil: iWeek[];
@@ -58,6 +60,8 @@ function Routing() {
     PidzConceptDocument,
     PidzTrendAnalyse,
     PidzBusinessModel,
+    PidzOntwerpen,
+    PidzUsabilityTest,
   };
 
   if (typeof data !== "undefined") {

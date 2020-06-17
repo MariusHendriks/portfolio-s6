@@ -84,6 +84,34 @@
           "why": ""
         }
       ]
+    },
+    {
+      "name": "Ontwerpen",
+      "page": "PidzOntwerpen",
+      "id": "pidz-ontwerp",
+      "week": 6,
+      "learningGoals": [
+        {
+          "id": 10,
+          "why": ""
+        }
+      ]
+    },
+    {
+      "name": "Usability test",
+      "page": "PidzUsabilityTest",
+      "id": "pidz-usability-test",
+      "week": 6,
+      "learningGoals": [
+        {
+          "id": 8,
+          "why": ""
+        },
+        {
+          "id": 9,
+          "why": ""
+        }
+      ]
     }
   ],
   "courses": [

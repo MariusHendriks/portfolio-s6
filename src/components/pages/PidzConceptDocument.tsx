@@ -105,17 +105,16 @@ const Page: React.FC = () => {
                 </a>
               </p>
             </div>
-            <div className="s-page__content__img__container">
-              <div className="s-page__content__img__container__img">
-                <h3>Proof of concept</h3>
-                <Zoom>
-                  <img
-                    className="s-page__content__img__full"
-                    alt="Poc"
-                    src={pidzPOC}
-                  />
-                </Zoom>
-              </div>
+
+            <div className="s-page__content__img__container__img">
+              <h3>Proof of concept</h3>
+              <Zoom>
+                <img
+                  className="s-page__content__img__full"
+                  alt="Poc"
+                  src={pidzPOC}
+                />
+              </Zoom>
             </div>
 
             <p>
