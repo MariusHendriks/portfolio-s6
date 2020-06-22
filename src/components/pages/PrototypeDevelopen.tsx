@@ -87,7 +87,7 @@ const Page: React.FC = () => {
                     </a>
                   </div>
                   <div className="s-page__content__img__container__img">
-                    <h3>Prototype xD</h3>
+                    <h3>Prototype XD</h3>
                     <a
                       target="_blank"
                       rel="noopener noreferrer"
@@ -95,7 +95,7 @@ const Page: React.FC = () => {
                     >
                       <img
                         className="s-page__content__img__full"
-                        alt="Prototype xD"
+                        alt="Prototype XD"
                         src={ProtoXD}
                       />
                     </a>

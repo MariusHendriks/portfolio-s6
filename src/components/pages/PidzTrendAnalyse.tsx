@@ -64,11 +64,12 @@ const Page: React.FC = () => {
                 eigenlijk is. Toen dit duidelijk was is er besloten in welk
                 gebied er onderzocht gaat worden waarvan de trends relevant
                 zullen zijn. Na veel discussie en speculatie is er besloten om
-                te bekijken wat de trends zijn voor ZZP’ers. De resultaten
-                kunnen gebruikt worden bij het concept bouwen. De kans is zeer
-                groot dat er iets gevonden zal worden wat het concept zal
-                veranderen. De gevonden trends zijn hierna geanalyseerd met een
-                consumer trend canvas. Hiermee kan de trend echt begrepen en
+                te bekijken wat de trends zijn voor ZZP’ers (dus niet alleen
+                voor ZZP'ers in de zorg). De resultaten kunnen gebruikt worden
+                bij het concept bouwen. De kans is zeer groot dat er iets
+                gevonden zal worden wat het concept zal veranderen. De gevonden
+                trends zijn hierna geanalyseerd met een consumer trend canvas.
+                Hiermee kan de trend overzichtelijk gemaakt worden en beter
                 gebruikt worden.
               </p>
             </div>
@@ -104,7 +105,7 @@ const Page: React.FC = () => {
                 <p>
                   Uit onderzoek van Vilans (bron [3]) is gebleken dat
                   zorgprogressionals steeds vaker werken als ZZP’er, in plaats
-                  van wijkteams en zorgorganisaties. Hierdoor wordt hun werkvak
+                  van wijkteams en zorgorganisaties. Hierdoor wordt hun werkvlak
                   breder.
                 </p>
                 <p>
@@ -149,10 +150,10 @@ const Page: React.FC = () => {
             <div ref={Conclusie}>
               <h2>Conclusie</h2>
               <p>
-                Na deze trendanalyse hoe het concept aangepast kan worden op wat
-                dit moment de trends zijn. Het is nu duidelijk wat ZZP’ers
-                verwachten van dergelijke platforms. Er zijn enkele punten
-                opgesteld wat het platform kan helpen verbeteren, namelijk:
+                Na deze trendanalyse is het concept aangepast naar de
+                onderzochte trends. Het is nu duidelijk wat ZZP’ers verwachten
+                van dergelijke platforms. Er zijn enkele punten opgesteld wat
+                het platform kan helpen verbeteren. Deze punten zijn:
               </p>
               <ul className="c-double-ul">
                 <li>Generieke vragen al beantwoord hebben.</li>
@@ -161,7 +162,7 @@ const Page: React.FC = () => {
                   van de benoemde punten).
                 </li>
                 <li>
-                  De zzp’ers de mogelijkheid geven vragen kunnen laten stellen
+                  De ZZP’ers de mogelijkheid geven vragen kunnen laten stellen
                   aan elkaar.
                 </li>
                 <li>
@@ -172,28 +173,51 @@ const Page: React.FC = () => {
             </div>
             <div ref={Bronnen}>
               <h2>Bronnen</h2>
-
               <ul className="c-double-ul">
                 <li>
                   [1] I. (2017, 6 april). Wat zijn trends nou eigenlijk?
                   Geraadpleegd op 18 mei 2020, van
-                  http://inspiratiebrigade.nl/wat-zijn-trends/
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="http://inspiratiebrigade.nl/wat-zijn-trends/"
+                  >
+                    http://inspiratiebrigade.nl/wat-zijn-trends/
+                  </a>
                 </li>
                 <li>
                   [2] Younger, J. (2018, 11 oktober). 15 Important Trends In
                   Freelancing: Why This Matters Now. Geraadpleegd op 19 mei
                   2020, van
-                  https://www.forbes.com/sites/jonyounger/2018/10/11/fifteen-important-trends-in-freelancing-why-this-matters-now/#4f13a49a3c10
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://www.forbes.com/sites/jonyounger/2018/10/11/fifteen-important-trends-in-freelancing-why-this-matters-now/#4f13a49a3c10"
+                  >
+                    https://www.forbes.com/sites/jonyounger/2018/10/11/fifteen-important-trends-in-freelancing-why-this-matters-now/#4f13a49a3c10
+                  </a>
                 </li>
                 <li>
                   [3] 9 trends in de ouderenzorg. (2017, 31 augustus).
                   Geraadpleegd op 19 mei 2020, van
-                  https://www.vilans.nl/artikelen/trends-ouderenzorg
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://www.vilans.nl/artikelen/trends-ouderenzorg"
+                  >
+                    https://www.vilans.nl/artikelen/trends-ouderenzorg
+                  </a>
                 </li>
                 <li>
                   [4] Wortell. (2020). 7 trends die de zorg in 2020 ingrijpend
                   veranderen. Geraadpleegd op 19 mei 2020, van
-                  https://www.wortell.nl/assets/uploads/2018/08/Trendrapport-7-trends-in-de-zorg.pdf
+                  <a
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    href="https://www.wortell.nl/assets/uploads/2018/08/Trendrapport-7-trends-in-de-zorg.pdf"
+                  >
+                    https://www.wortell.nl/assets/uploads/2018/08/Trendrapport-7-trends-in-de-zorg.pdf
+                  </a>
                 </li>
               </ul>
             </div>

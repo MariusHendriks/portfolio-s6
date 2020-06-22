@@ -57,7 +57,8 @@ const Page: React.FC = () => {
               <h2>Aanleiding</h2>
               <p>
                 Dit document is gemaakt zodat er op een snelle manier
-                presenteerbare concepten gemaakt worden voor de opdrachtgever.
+                presenteerbare concepten gemaakt kunnen worden voor de
+                opdrachtgever.
               </p>
             </div>
             <div ref={Concept}>
@@ -65,13 +66,13 @@ const Page: React.FC = () => {
               <p>
                 Het onderdeel dat door Dylano Hartman, Max Altena en mij wordt
                 opgepakt is ‘Het onderling delen van kennis en zelfstandige
-                zorgprofessionals in contact stellen met elkaar.’ Meet hierover
-                in het project plan (klik daarvoor{"  "}
-                <Link to="/page/PidzProjectPlan">hier</Link>)
+                zorgprofessionals in contact stellen met elkaar.’ Meer hierover
+                in het project plan (`
+                <Link to="/page/PidzProjectPlan">Link naar projectplan</Link>)
               </p>
               <p>
-                Wat op dit moment voor ogen was, was een mix tussen reddit en
-                stackoverflow, voor alle vragen voor de ZZP’ers in de zorg. De
+                Wat op dit moment voor ogen was, was een mix tussen Reddit en
+                Stackoverflow, voor alle vragen voor de ZZP’ers in de zorg. De
                 onderzoeksresultaten van de trendanalyse (klik daarvoor{"  "}
                 <Link to="/page/PidzTrendAnalyse">hier</Link>) en de
                 concurrentieanalyse zijn gebruikt als punten in de gemaakte
@@ -81,9 +82,9 @@ const Page: React.FC = () => {
             <div ref={Uitwerking}>
               <h2>Uitwerking</h2>
               <p>
-                Er is inspiratie voor de layout van reddit gehaald, omdat dit
+                Er is inspiratie voor de layout van Reddit gehaald, omdat dit
                 een prettige en directe manier van interactie is. Daarnaast is
-                het puntensysteem van stackoverflow ‘geleend’ omdat daar een
+                het puntensysteem van Stackoverflow ‘geleend’ omdat daar een
                 duidelijke, to the point, systeem is.
               </p>
               <p>
@@ -93,7 +94,7 @@ const Page: React.FC = () => {
                   rel="noopener noreferrer"
                   href="https://drive.google.com/file/d/1gmzZwL026u-SovqFRmTkm6DAZCtOlIun/view?usp=sharing"
                 >
-                  <i>adobe xd bestand (download)</i>
+                  <i>adobe XD bestand (download)</i>
                 </a>{" "}
                 of{" "}
                 <a
@@ -101,7 +102,7 @@ const Page: React.FC = () => {
                   rel="noopener noreferrer"
                   href="https://xd.adobe.com/view/a72aa389-60a2-4b96-7ca7-08a28518c6a0-d11b/"
                 >
-                  <i>adobe xd klikbaar</i>
+                  <i>adobe XD klikbaar</i>
                 </a>
               </p>
             </div>
@@ -118,15 +119,20 @@ const Page: React.FC = () => {
             </div>
 
             <p>
-              Er is rekening gehouden met de onderzoeksresultaten van de
-              concurrentieanalyse en de trendanalyse. Dat waren de volgende
-              punten:
+              De onderzoeksresultaten van de trendanalyse (
+              <Link to="/page/PidzTrendAnalyse">link naar trendanalyse</Link>)
+              en de Concurrentieanalyse (
+              <Link to="/page/PidzConcurrentieAnalyse">
+                link naar concurrentieanalyse
+              </Link>
+              ) zijn gebruikt als punten in de gemaakte proof of concept. Dat
+              waren de volgende punten:
             </p>
             <p>
               <ul className="c-double-ul">
                 <li>
                   Generieke vragen al beantwoord hebben. Dit is aangepakt door
-                  de F.A.Q.op de pagina te hebben.
+                  de F.A.Q. op de pagina te hebben.
                 </li>
                 <li>
                   Tips geven over hoe ze bijvoorbeeld een goede cv maken (een
@@ -163,17 +169,17 @@ const Page: React.FC = () => {
               </div>
               <p>
                 Op facebook zijn er al groepen met tienduizenden leden voor
-                specifiek zzp’ers in de zorg. Hierdoor is het mogelijk dat de
-                zzp’ers daar niet van af zullen stappen.
+                specifiek ZZP’ers in de zorg. Hierdoor is het mogelijk dat de
+                ZZP’ers daar niet van af zullen stappen.
               </p>
               <h3>Unique selling point</h3>
               <p>
                 Er is een USP opgesteld om in één zin te vertellen wat het
-                product is, doet en betekent voor de zzp’ers in de zorg.
+                product is, doet en betekent voor de ZZP’ers in de zorg.
               </p>
               <p className="quote">ZZP’ers in de zorg, zorgen voor elkaar</p>
               <p>
-                Dit product is gemaakt voor zzp’ers die elkaar kunnen helpen
+                Dit product is gemaakt voor ZZP’ers die elkaar kunnen helpen
                 door vragen van elkaar te beantwoorden, en zelf de mogelijkheid
                 hebben vragen te kunnen stellen. Met deze USP is het direct
                 duidelijk voor de ZZP’ers dat het gaat om een product voor hen,
@@ -194,9 +200,9 @@ const Page: React.FC = () => {
                 geworden. Er is een basis waarmee het concept kan worden
                 doorontwikkeld. Omdat een ontwerp beter te begrijpen is dan
                 tekst, kan er betere feedback verwacht worden op het concept.
-                Daarnaast is het duidelijk geworden wat het product uniek maakt,
-                en wat de sterkten, zwakten, kansen en bedreigingen zijn. Dit
-                wordt allemaal meegenomen in verdere fases van het project.
+                Daarnaast is het puntensysteem van stackoverflow ‘geleend’ omdat
+                dit een duidelijke, straight to the point systeem is. Dit wordt
+                allemaal meegenomen in verdere fases van het project.
               </p>
             </div>
           </FadeIn>

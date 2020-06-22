@@ -111,13 +111,13 @@ const Page: React.FC = () => {
                     </b>
                     <br />
                     Momenteel is er geen vaste plek waar de ZZP'ers zich
-                    bevinden. Er zijn groepen op facebook en bijvoorbeeld
-                    zzp-forums.
+                    bevinden. Er zijn groepen op facebook en bijvoorbeeld ZZP
+                    forums.
                   </li>
 
                   <li>
                     <b>
-                      Hoe breed is het veld waarin de zzp-ers zich bevinden
+                      Hoe breed is het veld waarin de ZZP'ers zich bevinden
                       waarvoor de applicatie bedoeld is (mantelzorg, ggz,
                       thuiszorg)? Deze informatie is nodig zodat we weten of we
                       categorieën moeten toevoegen in het ontwerp.

@@ -75,9 +75,9 @@ const Page: React.FC = () => {
               <h2 ref={Method}>Methode</h2>
               <h3>Ontwerp</h3>
               <p>
-                Er is een ontwerp gemaakt met Adobe xD. Hiervoor is gekozen
-                omdat ik zelf prettig werk met Adobe xD en snel veel iteraties
-                kan maken. Ook kun je met Adobe xD goed prototypes testen. Dit
+                Er is een ontwerp gemaakt met Adobe XD. Hiervoor is gekozen
+                omdat ik zelf prettig werk met Adobe XD en snel veel iteraties
+                kan maken. Ook kun je met Adobe XD goed prototypes testen. Dit
                 bleek later echter niet ideaal te zijn voor die specifieke
                 product omdat er veel textfields in zitten.
               </p>
@@ -106,7 +106,7 @@ const Page: React.FC = () => {
                   rel="noopener noreferrer"
                   href="https://drive.google.com/file/d/1ydqD_-yUI7flEWrBkTxC1goga2r4CTLf/view?usp=sharing"
                 >
-                  <i>adobe xd bestand (download)</i>
+                  <i>adobe XD bestand (download)</i>
                 </a>{" "}
                 of{" "}
                 <a
@@ -114,7 +114,7 @@ const Page: React.FC = () => {
                   rel="noopener noreferrer"
                   href="https://xd.adobe.com/view/fffbb7b8-8854-4892-592f-a1ff31ffae68-89ca/"
                 >
-                  <i>adobe xd klikbaar</i>
+                  <i>adobe XD klikbaar</i>
                 </a>
               </p>
               <p>

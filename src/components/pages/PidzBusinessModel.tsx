@@ -62,8 +62,8 @@ const Page: React.FC = () => {
                   gebeuren als het product echt verkocht zou worden. Er is
                   nagedacht over op wat voor manier het product verkocht kan
                   worden (bijvoorbeeld door een abonnement, of een eenmalige
-                  aankoop), en wat de waarde van het product is voor de
-                  opdrachtgever.
+                  aankoop). Daarnaast is het een manier om te laten zien wat de
+                  waarde van het product is voor de opdrachtgever.
                 </p>
               </div>
               <div ref={Resultaat}>
@@ -115,8 +115,8 @@ const Page: React.FC = () => {
                 <div>
                   <h3>Uitleg</h3>
                   <p>
-                    Sommige kaartjes hebben wat uitleg nodig. Hieronder de
-                    kaartjes met de uitelg.
+                    Sommige kaartjes hebben wat uitleg nodig. Hieronder staat
+                    wat op de kaartjes staat met uitleg.
                   </p>
                   <div>
                     <h3>Key Partnerships</h3>
@@ -125,7 +125,8 @@ const Page: React.FC = () => {
                       <div>
                         Fontys is een partner omdat het product door studenten
                         van Fontys gemaakt word. Nadat het product klaar is, is
-                        Fontys niet meer een key partner
+                        Fontys geen key partner meer omdat ze op dat moment los
+                        staan van het product.
                       </div>
                     </div>
                     <div>
@@ -173,9 +174,9 @@ const Page: React.FC = () => {
                 <h2>Conclusie</h2>
                 <p>
                   Door dit business model gemaakt te hebben, is er meer
-                  duidelijkheid waar de gebruikers verbeting nodig hebben (door
-                  de value propositions). Ook is er een goed overzicht wat er
-                  nodig is om dit project succesvol voort te zetten.
+                  duidelijkheid waar de gebruikers verbetering nodig hebben
+                  (door de value propositions). Ook is er een goed overzicht wat
+                  er nodig is om dit project succesvol voort te zetten.
                 </p>
               </div>
             </div>

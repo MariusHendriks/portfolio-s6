@@ -88,9 +88,12 @@ const Page: React.FC = () => {
               <div ref={Opdracht}>
                 <h2>De opdracht</h2>
                 <p>
-                  PIDZ heeft op het moment MijnPIDZ, en willen dit gaan
-                  verbreden met het onderdeel WijPIDZ. Op WijPIDZ kunnen er
-                  verschillende activiteiten uitgevoerd worden. Dat zijn
+                  PIDZ heeft op het moment MijnPIDZ. Dit is een platform waar de
+                  ZZP'ers opdrachten kunnen zoeken. Er zijn bemiddelaars in
+                  contact die vragen om bepaalde skills waar PIDZ een ZZP'er aan
+                  koppelt. Nu wil PIDZ dit gaan verbreden met het onderdeel
+                  WijPIDZ. Op WijPIDZ kunnen er verschillende activiteiten
+                  uitgevoerd worden. Dat zijn
                 </p>
                 <ul className="c-double-ul">
                   <li>Het aanbieden van betrouwbare artikelen van experts</li>
@@ -120,9 +123,11 @@ const Page: React.FC = () => {
               <div ref={Probleemstelling}>
                 <h2>Probleemstelling</h2>
                 <p>
-                  De gevonden problemen die opgelost, zijn duidelijker geworden
-                  na mate er meer weken en onderzoek overheen is gegaan. Dit
-                  zijn de problemen die gevonden zijn:
+                  De gevonden problemen die opgelost konden worden, zijn
+                  gebaseerd in de oriëntatiefase, door kritishce vragen (link
+                  naar kritische vragen), een individuele analyse (link naar
+                  individuele analyse) en het vooronderzoek dat is geleverd door
+                  PIDZ. Dit zijn de problemen die gevonden zijn:
                 </p>
                 <ul className="c-double-ul">
                   <li>
@@ -143,9 +148,8 @@ const Page: React.FC = () => {
                     terugkomen in een platform waar kennis gedeelt wordt.
                   </li>
                   <li>
-                    PIDZ heeft nog geen unieke punten. Wat hiermee bedoelt
-                    wordt, is dat PIDZ nog geen dingen doen die concurrenten
-                    niet doen.
+                    PIDZ heeft nog geen unieke punten. Hiermee word bedoeld dat
+                    PIDZ geen dingen doet die concurrenten niet doen.
                   </li>
                 </ul>
               </div>
@@ -161,38 +165,69 @@ const Page: React.FC = () => {
                 </p>
                 <p>
                   In de eerste weken is er individueel onderzoek gedaan naar wat
-                  het probleem is. Dit is gedaan door kritische vragen op te
-                  stellen en door een individuele analyse te maken.{" "}
+                  het probleem is. Dit is gedaan door kritische vragen (
+                  <Link to="/page/PidzKritischeVragen">
+                    Link naar kritische vragen
+                  </Link>
+                  ) op te stellen en door een individuele analyse (
+                  <Link to="/page/PidzIndividueleAnalyse">
+                    Link naar Individuele analyse
+                  </Link>
+                  ) te maken.
                 </p>
                 <p>
                   Toen het probleem duidelijk was is er een project plan
-                  opgezet. In dit projectplan is het duidelijk geworden wat er
-                  zal gaan gebeuren in de komende weken.
+                  opgezet. In dit projectplan (
+                  <Link to="/page/PidzProjectPlan">Link naar projectplan</Link>)
+                  is het duidelijk geworden wat er zal gaan gebeuren in de
+                  komende weken.
                 </p>
                 <p>
-                  Het eerste wat onderzocht is, is wat de concurrenten doen. Dit
-                  is individueel gemaakt en de conclusies zijn met elkaar
+                  Het eerste wat onderzocht is, is wat de concurrenten doen (
+                  <Link to="/page/PidzConcurrentieAnalyse">
+                    Link naar concurrentieanalyse
+                  </Link>
+                  ). Dit is individueel gemaakt en de conclusies zijn met elkaar
                   gedeelt zodat de gehele groep (Dylano, Max en ik) bewust was
                   van de resultaten van elkaar.
                 </p>
                 <p>
                   Om met de laatste trends mee te gaan is er individueel
                   onderzocht welke trends er zijn die relevant waren voor het
-                  product. Deze trends zijn verder onderzocht en ook hiervan
-                  zijn de conclusies met elkaar gedeelt.
+                  product (
+                  <Link to="/page/PidzTrendAnalyse">
+                    Link naar trendanalyse
+                  </Link>
+                  ). Deze trends zijn verder onderzocht en ook hiervan zijn de
+                  conclusies met elkaar gedeelt.
                 </p>
                 <p>
                   Met alle benoemde resultaten is een conceptdocument gemaakt
-                  die geheel gebaseerd was op de voorgaande onderzoeken. Van dit
-                  concept is een business model gemaakt om te zien waar het
-                  product waarde zal creeëren en waar extra aandacht nodig is
-                  voor de gebruikers.
+                  die geheel gebaseerd was op de voorgaande onderzoeken (
+                  <Link to="/page/PidzConceptDocument">
+                    Link naar conceptdocument
+                  </Link>
+                  ). Van dit concept is een business model gemaakt om te zien
+                  waar het product waarde zal creeëren en waar extra aandacht
+                  nodig is voor de gebruikers (
+                  <Link to="/page/PidzBusinessModel">
+                    Link naar business model
+                  </Link>
+                  ).
                 </p>
                 <p>
-                  Toen dit allemaal duidelijk was is er een ontwerp gemaakt. Van
-                  dit ontwerp is daarna een usability test gemaakt. Deze hangen
-                  samen met elkaar omdat de resultaten van de usability test
-                  verwerkt werden in het ontwerp.
+                  Toen dit allemaal duidelijk was is er een ontwerp gemaakt (
+                  <Link to="/page/PidzOntwerpen">
+                    Link naar ontwerpdocument
+                  </Link>
+                  ). Dit was een van de vereisten van het project. Van dit
+                  ontwerp is daarna een usability test gemaakt (
+                  <Link to="/page/PidzUsabilityTest">
+                    Link naar usability test document
+                  </Link>
+                  ) om te kijken of het prototype goed bruikbaar is.. Deze
+                  hangen samen met elkaar omdat de resultaten van de usability
+                  test verwerkt werden in het ontwerp.
                 </p>
               </div>
               <div ref={Resultaat}>

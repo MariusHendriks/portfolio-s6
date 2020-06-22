@@ -55,7 +55,7 @@ const Page: React.FC = () => {
       <div className="s-page">
         <div className="s-page__content">
           <FadeIn>
-            <h1>Projectplan</h1>
+            <h1>Usability test</h1>
             <div ref={Aanleiding}>
               <h2>Aanleiding</h2>
               <p>
@@ -75,6 +75,15 @@ const Page: React.FC = () => {
             <div ref={Methode}>
               <h2>Methode</h2>
               <h3>Thinking aloud</h3>
+              <p>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.cmdmethods.nl/cards/lab/thinking-aloud"
+                >
+                  Link naar CMD Methods
+                </a>
+              </p>
               <p>
                 Deze methode is gekozen omdat het belangrijk is dat wat de
                 doelgroep denkt over de workflow van het prototype. Doordat de
@@ -121,7 +130,7 @@ const Page: React.FC = () => {
                 <a
                   rel="noopener noreferrer"
                   target="_blank"
-                  href="https://www.youtube.com/watch?v=F6G5p-RnA6g&list=PLMWlQzQKAU5m9UGNoi-mbT3fVUFjFY32-&index=1"
+                  href="https://www.youtube.com/watch?v=TdZVSQ3VCGA&list=PLMWlQzQKAU5m9UGNoi-mbT3fVUFjFY32-&index=1"
                 >
                   deze youtube playlist{" "}
                 </a>
@@ -162,15 +171,16 @@ const Page: React.FC = () => {
                 <h3>Iteratie 2 naar 2.5</h3>
                 <p>
                   De personen probeerde altijd het beste antwoord te selecteren
-                  door te upvoten. Nu is het zo dat de eerste upvote ook het
-                  beste antwoord instelt.{" "}
+                  door te upvoten. De eerste upvote die de persoon nu geeft op
+                  zijn/haar eigen post, wordt automatisch gemarkeerd als het
+                  'beste' antwoord. Dit is omdat de gebruiker pas op de upvote
+                  of de markering van het juiste antwoord klikt zodra hij/zij
+                  zeker weet wat hij/zij het beste antwoord vind.
                 </p>
                 <h3>Iteratie 2.5</h3>
                 <p>
                   Iteratie twee is met vier gebruikers getest. Er waren geen
-                  bijzonderheden die uit deze test kwamen. De issue die er nog
-                  was is hierboven benoemd en is sindsdien geen probleem meer
-                  geweest.{" "}
+                  bijzonderheden die uit deze test kwamen.
                 </p>
               </div>
             </div>

@@ -47,6 +47,7 @@ const Page: React.FC = () => {
           <button onClick={() => executeScroll(Conclusie, 120)}>
             Conclusie
           </button>
+          <button onClick={() => executeScroll(Bronnen, 120)}>Bronnen</button>
         </div>
         <div className="o-pagenav__fill"></div>
       </div>
@@ -64,7 +65,7 @@ const Page: React.FC = () => {
                   het product in theorie beter zijn dan die van de concurrent.
                   Daarnaast kan het ook relevant zijn als er geen concurrenten
                   gevonden worden, en kan er gekeken worden naar hoe andere
-                  groepen zzp’ers en beroepen waar weinig collegiaal contact is
+                  groepen ZZP’ers en beroepen waar weinig collegiaal contact is
                   dat oplost.
                 </p>
               </div>
@@ -73,7 +74,7 @@ const Page: React.FC = () => {
                 <p>
                   Er is onderzocht wie de directe en indirecte concurrenten
                   zijn. Daarnaast is er onderzoek gedaan door in verschillende
-                  Facebook groepen deel te nemen voor zzp'ers in de zorg. Ook is
+                  Facebook groepen deel te nemen voor ZZP'ers in de zorg. Ook is
                   er een feature matrix gemaakt om te zien welke concurrenten
                   waar aan voldoen. Als laatst is er een SWOT analyse gemaakt om
                   te bekijken waar de sterke en zwakke punten van het product
@@ -85,25 +86,25 @@ const Page: React.FC = () => {
                 <p>De gevonden directe concurrenten zijn</p>
                 <ul className="c-double-ul">
                   <li>
-                    Zorgzuster. Een platform waar zzp'ers in de zorg alleen of
-                    in teams in contact worden gebracht met bemiddelaars. Dit is
-                    een concurrent omdat zorgzuster kleine teams samenbrengt en
-                    daardoor wordt er kennis gedeeld en komen de zzp'ers in
+                    Zorgzuster [1]. Een platform waar ZZP'ers in de zorg alleen
+                    of in teams in contact worden gebracht met bemiddelaars. Dit
+                    is een concurrent omdat zorgzuster kleine teams samenbrengt
+                    en daardoor wordt er kennis gedeeld en komen de ZZP'ers in
                     contact met collega's.
                   </li>
                   <li>
-                    ZZP-FORUM. Op dit platform kunnen zzp'ers (niet alleen van
-                    de zorg) vragen stellen over daadwerkelijk alles. Dit is een
-                    concurrent omdat hier het delen van kennis kan gebeuren.
+                    ZZP-FORUM [2]. Op dit platform kunnen ZZP'ers (niet alleen
+                    van de zorg) vragen stellen over daadwerkelijk alles. Dit is
+                    een concurrent omdat hier kennis wordt gedeeld.
                   </li>
                   <li>
-                    Facebook. Dit is waarschijnlijk de grootste concurrent. Alle
-                    vragen die gesteld worden, antwoorden die gegeven worden en
-                    ook zorgbemiddelaars zijn te vinden in Facebook groepen. Op
-                    de foto's hieronder is te zien dat er soms 100e reacties
-                    komen. Ook is er een foto te zien dat er uitgebreidde
-                    antwoorden gegeven worden en de persoon die de vraag steldde
-                    niet meer weet wat het beste antwoord is.
+                    Facebook [3]. Dit is de grootste concurrent. Alle vragen die
+                    gesteld worden, antwoorden die gegeven worden en ook
+                    zorgbemiddelaars zijn te vinden in Facebook groepen. Op de
+                    foto's hieronder is te zien dat er soms 100e reacties komen.
+                    Ook is er een foto te zien dat er uitgebreidde antwoorden
+                    gegeven worden en de persoon die de vraag stelde niet meer
+                    weet wat het beste antwoord is.
                   </li>
                 </ul>
                 <div className="s-page__content__img__container">
@@ -133,16 +134,16 @@ const Page: React.FC = () => {
                 <p>De gevonden indirecte concurrenten en inspiratie zijn</p>
                 <ul className="c-double-ul">
                   <li>
-                    Reddit. Op deze site zijn honderden verschillende pagina's
-                    waar elk individu kan antwoorden. Antwoorden worden
+                    Reddit [4]. Op deze site zijn honderden verschillende
+                    pagina's waar elk individu kan antwoorden. Antwoorden worden
                     ge-upvote of ge-downvote om te zien wat het beste antwoord
                     is. Reddit is momenteel nog geen directe concurrent omdat er
-                    nog geen vragen over zzp'ers in de zorg op gesteld zijn. De
+                    nog geen vragen over ZZP'ers in de zorg op gesteld zijn. De
                     manier van aangeven wat het beste antwoord is en reacties op
                     elkaar zou gebruikt kunnen worden in het product.
                   </li>
                   <li>
-                    Stackoverflow. Stackoverflow is geen directe concurrent
+                    Stackoverflow [5]. Stackoverflow is geen directe concurrent
                     omdat Stackoverflow gebruikt wordt om vragen over code te
                     stellen. Toch kan hier erg veel van gebruikt worden ter
                     inspiratie. Het beste antwoord is ontzettend duidelijk en er
@@ -165,12 +166,12 @@ const Page: React.FC = () => {
                   Er is geen concurrent die zich focust op het onderling delen
                   van kennis en zelfstandige zorgprofessionals in contact
                   stellen met elkaar. Echter zijn er wel indirecte concurrenten
-                  waar de zzp’ers nu naartoe gaan om hun vragen te stellen en
+                  waar de ZZP’ers nu naartoe gaan om hun vragen te stellen en
                   contact te zoeken. Er zijn verschillende facebook groepen waar
                   nu actief vragen gesteld en beantwoord worden.
                 </p>
                 <p>
-                  Het deelproduct moet ervoor zorgen dat de zzp’ers vragen
+                  Het deelproduct moet ervoor zorgen dat de ZZP’ers vragen
                   kunnen stellen aan elkaar, de persoon die de vraag stelde
                   duidelijk kan aangeven welk antwoord hem of haar geholpen
                   heeft (zoals dat bij Reddit en Stack overflow gebeurd). Als
@@ -181,10 +182,61 @@ const Page: React.FC = () => {
               <div ref={Bronnen}>
                 <h2>Bronnen</h2>
                 <p>
-                  <b>bron 1: </b>
-                  zorgzuster. (2020). Zorgzuster. Geraadpleegd op 12 mei 2020,
-                  van
-                  https://www.zorgzuster.nl/zzp/meer-over-zorgzuster/werken-in-teams
+                  <b>bron [1]: </b>
+                  Zorgzuster. (2020). Geraadpleegd op 16 mei 2020, van{" "}
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://www.zorgzuster.nl/zzp/meer-over-zorgzuster/werken-in-teams"
+                  >
+                    https://www.zorgzuster.nl/zzp/meer-over-zorgzuster/werken-in-teams
+                  </a>
+                </p>
+                <p>
+                  <b>bron [2]: </b>
+                  ZZP-Forum.nl - Home. (z.d.). Geraadpleegd op 16 mei 2020, van{" "}
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://www.zzp-forum.nl"
+                  >
+                    https://www.zzp-forum.nl/
+                  </a>
+                </p>
+                <p>
+                  <b>bron [3]: </b>
+                  Facebook. (z.d.). Geraadpleegd op 16 mei 2020, van{" "}
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://www.facebook.com/"
+                  >
+                    https://www.facebook.com/
+                  </a>
+                </p>
+                <p>
+                  <b>bron [4]: </b>
+                  reddit: the front page of the internet. (z.d.). Geraadpleegd
+                  op 16 mei 2020, van{" "}
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://www.reddit.com/"
+                  >
+                    https://www.reddit.com/
+                  </a>
+                </p>
+                <p>
+                  <b>bron [5]: </b>
+                  Stack Overflow - Where Developers Learn, Share, & Build
+                  Careers. (z.d.). Stack Overflow. Geraadpleegd 16 mei 2020, van{" "}
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://www.stackoverflow.com/"
+                  >
+                    https://stackoverflow.com
+                  </a>
                 </p>
               </div>
             </div>

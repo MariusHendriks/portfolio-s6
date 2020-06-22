@@ -37,7 +37,6 @@ const Page: React.FC = () => {
           <button onClick={() => executeScroll(Verantwoording, 120)}>
             Verantwoording
           </button>
-          
         </div>
         <div className="o-pagenav__fill"></div>
       </div>
@@ -73,6 +72,7 @@ const Page: React.FC = () => {
                     Het makkelijker maken voor zelfstandige zorgprofessionals om
                     de juiste opleidingen en cursussen te vinden.
                   </li>
+                  <li>Het voordelig inkopen van goederen en diensten.</li>
                 </ul>
               </p>
               <p>
@@ -88,12 +88,12 @@ const Page: React.FC = () => {
               <p>
                 Het doel van dit project is om een deel van het WijPIDZ platform
                 uit te werken tot een getest prototype. Dit gedeelte is het
-                component voor het delen van kennis tussen gebruikers,
-                zelfstandige zorgprofessionals, van het WijPIDZ platform. Er
-                zullen USP’s (Unique Selling Points) zijn opgesteld voor het
-                prototype waarmee het zichzelf differentieert van andere
-                oplossingen en concurrenten. Het differentiëren in het prototype
-                zal waarde voor het eindproduct opleveren.
+                component voor het delen van kennis tussen de zelfstandige
+                zorgprofessionals op het WijPIDZ platform. Er zullen USP’s
+                (Unique Selling Points) opgesteld worden voor het prototype.
+                Hiermee differentieert het zichzelf van andere oplossingen en
+                concurrenten. Het differentiëren in het prototype zal waarde
+                voor het eindproduct opleveren.
               </p>
             </div>
             <div ref={Verantwoording}>

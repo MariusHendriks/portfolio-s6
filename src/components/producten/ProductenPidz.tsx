@@ -10,14 +10,10 @@ import DevelopmentIcon from "../../img/development-icon.png";
 import DocumentIcon from "../../img/document-icon.png";
 import DesignIcon from "../../img/design-icon.png";
 import DoneIcon from "../../img/done-icon.png";
-import BrainstormIcon from "../../img/brainstorm-icon.png";
-import PresentationIcon from "../../img/presentation-icon.png";
-import UsabilityIcon from "../../img/usability-icon.png";
 import Milestone0 from "../../img/milestone0.png";
 import Milestone1 from "../../img/milestone1.png";
 import Milestone2 from "../../img/milestone2.png";
 import Milestone3 from "../../img/milestone3.png";
-import Milestone4 from "../../img/milestone4.png";
 
 interface Props {
   sortedData?: iWeek[];
@@ -27,19 +23,11 @@ let lastIcon = (
 );
 let icons: any = [
   <img className="o-timeline__icon" src={DocumentIcon} alt="Document icon" />,
-  <img className="o-timeline__icon" src={ResearchIcon} alt="Research icon" />,
-  <img className="o-timeline__icon" src={DesignIcon} alt="Design icon" />,
-  <img className="o-timeline__icon" src={UsabilityIcon} alt="Usability icon" />,
-  <img
-    className="o-timeline__icon"
-    src={PresentationIcon}
-    alt="Presentation icon"
-  />,
-  <img
-    className="o-timeline__icon"
-    src={DevelopmentIcon}
-    alt="Document icon"
-  />,
+  <img className="o-timeline__icon" src={DocumentIcon} alt="Document icon" />,
+  <img className="o-timeline__icon" src={ResearchIcon} alt="ResearchIcon" />,
+  <img className="o-timeline__icon" src={ResearchIcon} alt="ResearchIcon" />,
+  <img className="o-timeline__icon" src={ResearchIcon} alt="ResearchIcon" />,
+  <img className="o-timeline__icon" src={DesignIcon} alt="DesignIcon" />,
   <img
     className="o-timeline__icon"
     src={DevelopmentIcon}
@@ -83,7 +71,9 @@ const Producten: React.FC<Props> = ({ sortedData }) => {
         aanvulling = (
           <p>
             Als eerst is er een projectplan gemaakt om de rest van te weken een
-            idee te hebben wat er allemaal gedaan moest worden.
+            idee te hebben wat er allemaal gedaan moest worden. Het projectplan
+            is gebaseerd op het vooronderzoek van PIDZ, de gemaakte individuele
+            analyse en de kritische vragen.
           </p>
         );
         break;
@@ -115,7 +105,7 @@ const Producten: React.FC<Props> = ({ sortedData }) => {
             er zijn, en uitgezocht welke aansloot op het product. Dit was
             relevant omdat de kans op het slagen van het product toeneemt met
             dit onderzoek. Met alle informatie die tot deze week vergaard is, is
-            een conceptdocument gemaakt. Hier staat een proof of concpet, SWOT
+            een conceptdocument gemaakt. Hier staat een proof of concept, SWOT
             en USP in.
           </p>
         );
@@ -145,10 +135,10 @@ const Producten: React.FC<Props> = ({ sortedData }) => {
         );
         aanvulling = (
           <p>
-            Nu al het onderzoek gedaan was, was het tijd om te ontwerpen en
+            Nu al het onderzoek gedaan is, is het tijd om te ontwerpen en
             testen. Het ontwerp en de usability test zijn geleidelijk gemaakt.
             Er is eerst een prototype gemaakt, en deze is daarna getest en
-            verbetert.{" "}
+            verbeterd.
           </p>
         );
         break;

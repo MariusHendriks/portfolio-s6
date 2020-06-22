@@ -152,7 +152,7 @@ const Page: React.FC = () => {
                     >
                       <img
                         className="s-page__content__img__full"
-                        alt="Adobe xd"
+                        alt="Adobe XD"
                         src={XD}
                       />
                     </a>
