@@ -1,146 +1,158 @@
 {
-  "documents": [
-    {
-      "name": "Kritische Vragen",
-      "page": "PidzKritischeVragen",
-      "id": "pidz-kritische-vragen",
-      "week": 1,
-      "learningGoals": [
+    "documents": [
         {
-          "id": 1,
-          "why": ""
-        }
-      ]
-    },
-    {
-      "name": "Projectplan",
-      "page": "PidzProjectPlan",
-      "id": "pidz-project-plan",
-      "week": 2,
-      "learningGoals": [
-        {
-          "id": 1,
-          "why": ""
-        }
-      ]
-    },
-    {
-      "name": "Individuele analyse",
-      "page": "PidzIndividueleAnalyse",
-      "id": "pidz-individuele-analyse",
-      "week": 1,
-      "learningGoals": [
-        {
-          "id": 1,
-          "why": ""
-        }
-      ]
-    },
-    {
-      "name": "Concurrentieanalyse",
-      "page": "PidzConcurrentieanalyse",
-      "id": "concurrentie-analyse",
-      "week": 3,
-      "learningGoals": [
-        {
-          "id": 1,
-          "why": ""
-        }
-      ]
-    },
-    {
-      "name": "Trendanalyse",
-      "page": "PidzTrendAnalyse",
-      "id": "trend-analyse",
-      "week": 4,
-      "learningGoals": [
-        {
-          "id": 12,
-          "why": ""
-        }
-      ]
-    },
-    {
-      "name": "Conceptdocument",
-      "page": "PidzConceptDocument",
-      "id": "concept-document",
-      "week": 4,
-      "learningGoals": [
-        {
-          "id": 2,
-          "why": ""
-        }
-      ]
-    },
-
-    {
-      "name": "Business Model",
-      "page": "PidzBusinessModel",
-      "id": "pidz-business-model",
-      "week": 5,
-      "learningGoals": [
-        {
-          "id": 3,
-          "why": ""
-        }
-      ]
-    },
-    {
-      "name": "Ontwerpen",
-      "page": "PidzOntwerpen",
-      "id": "pidz-ontwerp",
-      "week": 6,
-      "learningGoals": [
-        {
-          "id": 10,
-          "why": ""
-        }
-      ]
-    },
-    {
-      "name": "Usability test",
-      "page": "PidzUsabilityTest",
-      "id": "pidz-usability-test",
-      "week": 6,
-      "learningGoals": [
-        {
-          "id": 8,
-          "why": ""
+            "name": "Kritische Vragen",
+            "page": "PidzKritischeVragen",
+            "id": "pidz-kritische-vragen",
+            "week": 1,
+            "learningGoals": [
+                {
+                    "id": 1,
+                    "why": ""
+                }
+            ]
         },
         {
-          "id": 9,
-          "why": ""
+            "name": "Projectplan",
+            "page": "PidzProjectPlan",
+            "id": "pidz-project-plan",
+            "week": 2,
+            "learningGoals": [
+                {
+                    "id": 1,
+                    "why": ""
+                }
+            ]
+        },
+        {
+            "name": "Individuele analyse",
+            "page": "PidzIndividueleAnalyse",
+            "id": "pidz-individuele-analyse",
+            "week": 1,
+            "learningGoals": [
+                {
+                    "id": 1,
+                    "why": ""
+                }
+            ]
+        },
+        {
+            "name": "Concurrentieanalyse",
+            "page": "PidzConcurrentieanalyse",
+            "id": "concurrentie-analyse",
+            "week": 3,
+            "learningGoals": [
+                {
+                    "id": 1,
+                    "why": ""
+                }
+            ]
+        },
+        {
+            "name": "Trendanalyse",
+            "page": "PidzTrendAnalyse",
+            "id": "trend-analyse",
+            "week": 4,
+            "learningGoals": [
+                {
+                    "id": 12,
+                    "why": ""
+                }
+            ]
+        },
+        {
+            "name": "Conceptdocument",
+            "page": "PidzConceptDocument",
+            "id": "concept-document",
+            "week": 4,
+            "learningGoals": [
+                {
+                    "id": 2,
+                    "why": ""
+                }
+            ]
+        },
+
+        {
+            "name": "Business Model",
+            "page": "PidzBusinessModel",
+            "id": "pidz-business-model",
+            "week": 5,
+            "learningGoals": [
+                {
+                    "id": 3,
+                    "why": ""
+                }
+            ]
+        },
+        {
+            "name": "Ontwerpen",
+            "page": "PidzOntwerpen",
+            "id": "pidz-ontwerp",
+            "week": 6,
+            "learningGoals": [
+                {
+                    "id": 10,
+                    "why": ""
+                }
+            ]
+        },
+        {
+            "name": "Usability test",
+            "page": "PidzUsabilityTest",
+            "id": "pidz-usability-test",
+            "week": 6,
+            "learningGoals": [
+                {
+                    "id": 8,
+                    "why": ""
+                },
+                {
+                    "id": 9,
+                    "why": ""
+                }
+            ]
+        },
+        {
+            "name": "Communicatiestrategie",
+            "page": "PidzCommunicatieStrategie",
+            "id": "pidz-communicatie-strategie",
+            "week": 9,
+            "learningGoals": [
+                {
+                    "id": 4,
+                    "why": ""
+                }
+            ]
         }
-      ]
-    }
-  ],
-  "courses": [
-    {
-      "name": "SCO",
-      "learningGoals": [
-        { "name": "Oordeelsvorming", "id": 1 },
-        { "name": "Concept", "id": 2 },
-        { "name": "Business model", "id": 3 },
-        { "name": "Marketing", "id": 4 },
-        { "name": "Communicatie", "id": 6 },
-        { "name": "Trends", "id": 12 }
-      ]
-    },
-    {
-      "name": "PRO",
-      "learningGoals": [{ "name": "Professionele ontwikkeling", "id": 7 }]
-    },
-    {
-      "name": "UXU",
-      "learningGoals": [
-        { "name": "User Experience", "id": 8 },
-        { "name": "Gebruikers- onderzoek", "id": 9 },
-        { "name": "Design", "id": 10 }
-      ]
-    },
-    {
-      "name": "DED",
-      "learningGoals": [{ "name": "Programmeren", "id": 11 }]
-    }
-  ]
+    ],
+    "courses": [
+        {
+            "name": "SCO",
+            "learningGoals": [
+                { "name": "Oordeelsvorming", "id": 1 },
+                { "name": "Concept", "id": 2 },
+                { "name": "Business model", "id": 3 },
+                { "name": "Marketing", "id": 4 },
+                { "name": "Communicatie", "id": 6 },
+                { "name": "Trends", "id": 12 }
+            ]
+        },
+        {
+            "name": "PRO",
+            "learningGoals": [{ "name": "Professionele ontwikkeling", "id": 7 }]
+        },
+        {
+            "name": "UXU",
+            "learningGoals": [
+                { "name": "User Experience", "id": 8 },
+                { "name": "Gebruikers- onderzoek", "id": 9 },
+                { "name": "Design", "id": 10 }
+            ]
+        },
+        {
+            "name": "DED",
+            "learningGoals": [{ "name": "Programmeren", "id": 11 }]
+        }
+    ]
 }
