@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from "react";
 import FadeIn from "react-fade-in";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
 const scrollToRef = (ref: any, offset: number) =>
   window.scrollTo({ top: ref.current.offsetTop + offset, behavior: "smooth" });
@@ -11,9 +12,12 @@ const Page: React.FC = () => {
     window.scrollTo(0, 0);
   }, []);
 
-  const Video = useRef(null);
+  const Aanleiding = useRef(null);
   const Design = useRef(null);
-  const Aanbevelingen = useRef(null);
+  const Video = useRef(null);
+  const Adviesrapport = useRef(null);
+  const Verantwoording = useRef(null);
+  const Conclusie = useRef(null);
 
   const executeScroll = (reference: any, offset?: number) => {
     if (typeof offset === "undefined") {
@@ -27,16 +31,20 @@ const Page: React.FC = () => {
         <div className="o-pagenav__nav" onClick={() => window.history.back()}>
           <FontAwesomeIcon icon={faArrowLeft} /> <i>Ga terug</i>
         </div>
-
         <div>
-          <button onClick={() => executeScroll(Video, 120)}>Video</button>
-        </div>
-        <div>
+          <button onClick={() => executeScroll(Aanleiding, 120)}>
+            Aanleiding
+          </button>
           <button onClick={() => executeScroll(Design, 120)}>Design</button>
-        </div>
-        <div>
-          <button onClick={() => executeScroll(Aanbevelingen, 120)}>
-            Aanbevelingen
+          <button onClick={() => executeScroll(Video, 120)}>Video</button>
+          <button onClick={() => executeScroll(Adviesrapport, 120)}>
+            Adviesrapport
+          </button>
+          <button onClick={() => executeScroll(Verantwoording, 120)}>
+            Verantwoording
+          </button>
+          <button onClick={() => executeScroll(Conclusie, 120)}>
+            Conclusie
           </button>
         </div>
         <div className="o-pagenav__fill"></div>
@@ -45,30 +53,33 @@ const Page: React.FC = () => {
         <div className="s-page__content">
           <FadeIn>
             <h1>Deliverables</h1>
-            <div ref={Video}>
-              <h2>Video</h2>
+            <div ref={Aanleiding}>
+              <h2>Aanleiding</h2>
               <p>
-                Een van de deliverables, is een video waarin de prototypes
-                worden weergegeven. Hier is mijn bijdrage het deel van het Delen
-                van Kennis gedeelte.
+                Deze pagina is gemaakt om een opsomming te maken van de
+                deliverables, en om een plek te creeëren waar geen aparte pagina
+                voor nodig was.
               </p>
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://www.youtube.com/watch?v=HrVwj1Vyy1U&feature=youtu.be"
-              >
-                https://www.youtube.com/watch?v=HrVwj1Vyy1U&feature=youtu.be
-              </a>
             </div>
             <div ref={Design}>
               <h2>Design</h2>
-              <p>Een van de deliverables is het gevalideerde ontwerp. </p>
+              <p>
+                De eerste Deliverable is een ontwerp. Deze is uitgebreid te
+                bekijken op de ontwerp pagina (
+                <Link
+                  to="/page/PidzOntwerpen
+                "
+                >
+                  Link naar Ontwerp pagina
+                </Link>
+                ).
+              </p>
               <p>
                 Het eindresultaat is te vinden in dit{" "}
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://drive.google.com/file/d/1gmzZwL026u-SovqFRmTkm6DAZCtOlIun/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1o-vYrQykUjvX8Pxo_9YYJAFNAu6t-qpK/view?usp=sharing"
                 >
                   <i>adobe XD bestand (download)</i>
                 </a>{" "}
@@ -76,15 +87,45 @@ const Page: React.FC = () => {
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://xd.adobe.com/view/a72aa389-60a2-4b96-7ca7-08a28518c6a0-d11b/"
+                  href="https://xd.adobe.com/view/faa42e85-6263-422b-7a25-7186a00886c7-8c95/?fullscreen&hints=off"
                 >
-                  <i>adobe XD klikbaar</i>
+                  <i>adobe XD klikbaar</i>.
                 </a>
               </p>
             </div>
-            <div ref={Aanbevelingen}>
-              <h2>Aanbevelingen</h2>
-              <p>Daarnaast zijn er Aanbevelingen voor de opdrachtgever</p>
+            <div ref={Video}>
+              <h2>Video</h2>
+              <p>
+                Er is een video gemaakt waar de prototypes in worden uitgelegd.
+              </p>
+              <p>
+                De video is te vinden op{" "}
+                <a
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  href="https://youtu.be/HrVwj1Vyy1U"
+                >
+                  deze youtube video.
+                </a>
+              </p>
+            </div>
+            <div ref={Adviesrapport}>
+              <h2>Adviesrapport</h2>
+              <p>Er is een uitgebreid adives rapport opgesteld.</p>
+              <p>
+                De is te vinden op{" "}
+                <a
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  href="https://docs.google.com/document/d/18CDEe6Pf5EhB5r3azcfRIpL8-jm6IzIlSznYHjGsFjc/edit?usp=sharing"
+                >
+                  deze link
+                </a>
+              </p>
+            </div>
+            <div ref={Verantwoording}>
+              <h2>Verantwoording</h2>
+              <p>De deliverables zijn gemaakt door de gehele groep.</p>
             </div>
           </FadeIn>
         </div>

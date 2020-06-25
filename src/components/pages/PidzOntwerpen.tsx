@@ -22,7 +22,6 @@ const Page: React.FC = () => {
   const Aanleiding = useRef(null);
   const Methode = useRef(null);
   const Verantwoording = useRef(null);
-  const Conclusie = useRef(null);
   const Resultaat = useRef(null);
   const Uitprobeersels = useRef(null);
 
@@ -52,10 +51,6 @@ const Page: React.FC = () => {
           </button>
           <button onClick={() => executeScroll(Verantwoording, 120)}>
             Verantwoording
-          </button>
-
-          <button onClick={() => executeScroll(Conclusie, 120)}>
-            Conclusie
           </button>
         </div>
         <div className="o-pagenav__fill"></div>
@@ -101,7 +96,7 @@ const Page: React.FC = () => {
                   rel="noopener noreferrer"
                   href="https://xd.adobe.com/view/faa42e85-6263-422b-7a25-7186a00886c7-8c95/?fullscreen&hints=off"
                 >
-                  <i>adobe XD klikbaar</i>
+                  <i>adobe XD klikbaar</i>.
                 </a>
               </p>
             </div>
