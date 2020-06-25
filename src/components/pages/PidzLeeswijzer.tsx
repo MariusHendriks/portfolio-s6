@@ -3,7 +3,7 @@ import FadeIn from "react-fade-in";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
-
+import ProtoXD from "../../img/protoXDPidz.png";
 const scrollToRef = (ref: any, offset: number) =>
   window.scrollTo({ top: ref.current.offsetTop + offset, behavior: "smooth" });
 
@@ -232,11 +232,49 @@ const Page: React.FC = () => {
               </div>
               <div ref={Resultaat}>
                 <h2>Resultaat</h2>
-                <p>text</p>
-
+                <p>
+                  Er is een uitgewerkt deel van het WijPIDZ platform gemaakt in
+                  de vorm van een high fidelity prototype. Dit is gemaakt door
+                  Dylano Hartman, Max Altena en ikzelf.
+                </p>
+                <div className="s-page__content__img__container__img">
+                  <h3>Prototype XD</h3>
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://xd.adobe.com/view/82785a97-4146-4087-6a49-f162d10fa60f-f449/"
+                  >
+                    <img
+                      className="s-page__content__img__full"
+                      alt="Prototype XD"
+                      src={ProtoXD}
+                    />
+                  </a>
+                </div>
                 <div ref={Reflectie}>
                   <h2>Reflectie</h2>
-                  <p>text</p>
+                  <p>
+                    Ik vond dit een erg lastig project, veel taken die
+                    uitgevoerd moesten worden zag ik de logica en reden nog niet
+                    van.{" "}
+                  </p>
+                  <p>
+                    Een van de onderdelen waar ik tegenopzag was de
+                    trendanalyse. Ik zag hier simpelweg het nut niet van en ik
+                    wilde hier later niets mee doen. Toch kwam ik er aan het
+                    einde achter waarom het nuttig is en hoe ik het uitvoer.
+                  </p>
+                  <p>
+                    Daarnaast vond ik het lastig dat programmeren een 'extra'
+                    zou zijn dit project. Hierdoor lag de motivatie wellicht wat
+                    lager dan normaal, want programmeren doe ik het liefst.
+                  </p>
+                  <p>
+                    Om goed te kunnen reflecteren zijn er uitgebreidde peer
+                    reviews gehouden door de groep. Hier kwam inderdaad ook uit
+                    dat ik niet heel gemotiveerd was, maar toch de disipline had
+                    om alles af te maken.
+                  </p>
                 </div>
 
                 <div ref={Bewijs}></div>
