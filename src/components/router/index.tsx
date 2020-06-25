@@ -34,7 +34,7 @@ import PidzBusinessModel from "../pages/PidzBusinessModel";
 import PidzOntwerpen from "../pages/PidzOntwerpen";
 import PidzUsabilityTest from "../pages/PidzUsabilityTest";
 import PidzCommunicatiestrategie from "../pages/PidzCommunicatiestrategie";
-
+import PidzFeedback from "../pages/PidzFeedback";
 import PidzLeeswijzer from "../readingGuide/PidzIndex";
 
 import Pidz from "../../img/pidz.jpg";
@@ -69,6 +69,7 @@ function Routing() {
     PidzOntwerpen,
     PidzUsabilityTest,
     PidzCommunicatiestrategie,
+    PidzFeedback,
   };
 
   if (typeof data !== "undefined") {

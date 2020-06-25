@@ -124,6 +124,18 @@
           "why": ""
         }
       ]
+    },
+    {
+      "name": "Feedback",
+      "page": "PidzFeedback",
+      "id": "pidz-feedback",
+      "week": 9,
+      "learningGoals": [
+        {
+          "id": 7,
+          "why": ""
+        }
+      ]
     }
   ],
   "courses": [
