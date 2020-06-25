@@ -23,7 +23,7 @@ const IntroPidz: React.FC = () => {
           Om dit project beter te begrijpen, kun je het best eerst de leeswijzer
           lezen.
         </p>
-        <Link to="/pidz/leeswijzer">Naar leeswijzer!</Link>
+        <Link to="/pidz/leeswijzer">Naar leeswijzer</Link>
       </div>
     </div>
   );

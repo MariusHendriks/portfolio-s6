@@ -136,6 +136,18 @@
           "why": ""
         }
       ]
+    },
+    {
+      "name": "Deliverables",
+      "page": "PidzDeliverables",
+      "id": "pidz-deliverables",
+      "week": 9,
+      "learningGoals": [
+        {
+          "id": 6,
+          "why": ""
+        }
+      ]
     }
   ],
   "courses": [

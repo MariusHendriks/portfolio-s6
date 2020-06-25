@@ -14,6 +14,7 @@ import Milestone0 from "../../img/milestone0.png";
 import Milestone1 from "../../img/milestone1.png";
 import Milestone2 from "../../img/milestone2.png";
 import Milestone3 from "../../img/milestone3.png";
+import Milestone4 from "../../img/milestone4.png";
 
 interface Props {
   sortedData?: iWeek[];
@@ -143,8 +144,19 @@ const Producten: React.FC<Props> = ({ sortedData }) => {
         );
         break;
       case 9:
-        header = <h3>Niks :D</h3>;
-        aanvulling = <p>Niks :D</p>;
+        header = (
+          <h3>
+            <img src={Milestone4} alt="milestone four" />
+            Eindfase
+          </h3>
+        );
+        aanvulling = (
+          <p>
+            In deze fase zijn de puntjes op de i gezet en zijn de deliverables
+            ingeleverd. Daarnaast is er feedback op elkaar gegeven om onszelf te
+            verbeteren.
+          </p>
+        );
         break;
       default:
         break;

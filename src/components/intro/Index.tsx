@@ -23,7 +23,7 @@ const index: React.FC = () => {
           Om dit project beter te begrijpen, kun je het best eerst de leeswijzer
           lezen.
         </p>
-        <Link to="/ikwil/leeswijzer">Naar leeswijzer!</Link>
+        <Link to="/ikwil/leeswijzer">Naar leeswijzer</Link>
       </div>
     </div>
   );

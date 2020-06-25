@@ -26,6 +26,7 @@ import ReadingGuide from "../pages/ReadingGuide";
 import HomepagePidz from "../homepage/HomepagePidz";
 import PidzKritischeVragen from "../pages/PidzKritischeVragen";
 import PidzProjectPlan from "../pages/PidzProjectPlan";
+import PidzDeliverables from "../pages/PidzDeliverables";
 import PidzIndividueleAnalyse from "../pages/PidzIndividueleAnalyse";
 import PidzConceptDocument from "../pages/PidzConceptDocument";
 import PidzTrendAnalyse from "../pages/PidzTrendAnalyse";
@@ -70,6 +71,7 @@ function Routing() {
     PidzUsabilityTest,
     PidzCommunicatiestrategie,
     PidzFeedback,
+    PidzDeliverables,
   };
 
   if (typeof data !== "undefined") {
