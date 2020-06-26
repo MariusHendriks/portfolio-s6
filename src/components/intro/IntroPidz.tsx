@@ -8,7 +8,7 @@ const IntroPidz: React.FC = () => {
       <div className="o-intro__text">
         <p>
           Op deze website vind je alle gemaakte documenten en producten van Mark
-          Hendriks, gemaakt voor het project van Stichting Ik Wil.
+          Hendriks, gemaakt voor het project PIDZ.
         </p>
         <p>
           Op deze website wordt gerefereerd naar "de groep". Hiermee wordt

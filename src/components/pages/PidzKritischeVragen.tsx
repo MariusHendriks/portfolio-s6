@@ -13,7 +13,6 @@ const Page: React.FC = () => {
 
   const Aanleiding = useRef(null);
   const Uitvoering = useRef(null);
-  const Verantwoording = useRef(null);
   const Conclusie = useRef(null);
 
   const executeScroll = (reference: any, offset?: number) => {
@@ -34,10 +33,7 @@ const Page: React.FC = () => {
             Aanleiding
           </button>
           <button onClick={() => executeScroll(Uitvoering, 120)}>
-            Methode
-          </button>
-          <button onClick={() => executeScroll(Verantwoording, 120)}>
-            Verantwoording
+            Uitvoering
           </button>
           <button onClick={() => executeScroll(Conclusie, 120)}>
             Conclusie
@@ -151,14 +147,6 @@ const Page: React.FC = () => {
                     </b>
                     <br />
                     De opdrachtgever heeft graag beargumenteerd advies hierover.
-                  </li>
-                  <li>
-                    <b>
-                      Is het platform bedoeld voor alle devices (mobiel, tablet,
-                      pc)?
-                    </b>
-                    <br />
-                    Ja.
                   </li>
                 </ol>
               </div>

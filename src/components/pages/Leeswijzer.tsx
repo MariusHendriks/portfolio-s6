@@ -124,7 +124,7 @@ const Page: React.FC = () => {
                   kritische vragen opgesteld. Terwijl de groep het projectplan
                   afgemaakt, hebben Timo van de Laar en ik de kritische vragen
                   gesteld in vorm van interviews (
-                  <Link to="page/KritischeVragen">
+                  <Link to="/page/KritischeVragen">
                     Link naar kritische vragen
                   </Link>
                   ).
@@ -138,11 +138,13 @@ const Page: React.FC = () => {
                   opgesteld die in duo’s beantwoord zijn. De deelvraag die ik
                   beantwoord heb is: Hoe zien de processen binnen de stichting
                   er uit? (
-                  <Link to="page/OnderzoeksDocument/">Link naar onderzoek</Link>
+                  <Link to="/page/OnderzoeksDocument/">
+                    Link naar onderzoek
+                  </Link>
                   ). Nadat alle duo’s conclusies hebben getrokken uit de
                   onderzoeken is er een brainstormsessie geweest (
-                  <Link to="page/Brainstorm">Link naar brainstormsessie</Link>).
-                  Hieruit zijn 4 mogelijke oplossingen gekomen. Dit waren:
+                  <Link to="/page/Brainstorm">Link naar brainstormsessie</Link>
+                  ). Hieruit zijn 4 mogelijke oplossingen gekomen. Dit waren:
                 </p>
                 <ul className="c-double-ul">
                   <li>
@@ -184,20 +186,20 @@ const Page: React.FC = () => {
                 <p>
                   Deze oplossingen zijn in duo’s uitgewerkt door middel van
                   design thinking. De page builder is eerst ontworpen (
-                  <Link to="page/OntwerpDocument">Link naar ontwerp</Link>
+                  <Link to="/page/OntwerpDocument">Link naar ontwerp</Link>
                   ), daarna gebouwd (
-                  <Link to="page/PrototypeDevelopen">
+                  <Link to="/page/PrototypeDevelopen">
                     Link naar prototype ontwikkelen
                   </Link>
                   ) om beter te kunnen usability testen, en getest (
-                  <Link to="page/UsabilityTest">Link naar usability test</Link>
+                  <Link to="/page/UsabilityTest">Link naar usability test</Link>
                   ).
                 </p>
                 <p>
                   Nadat elk duo een prototype had gemaakt en daarop had
                   geëtaleerd is er een presentatie gegeven aan de opdrachtgever
                   (
-                  <Link to="page/VoortgangsPresentatie">
+                  <Link to="/page/VoortgangsPresentatie">
                     Link naar voortgangspresentatie
                   </Link>
                   ). De opdrachtgever heeft 2 voorkeuren gegeven, de app en het
@@ -208,7 +210,7 @@ const Page: React.FC = () => {
                   Dylano Hartman, Max Altena en Noël Herwig zijn hebben de app
                   gebouwd. Bart van de Klundert, Mike Hendriks en ik hebben het
                   dashboard gebouwd (
-                  <Link to="page/Developen">Link naar developen</Link>).
+                  <Link to="/page/Developen">Link naar developen</Link>).
                 </p>
               </div>
               <div ref={Resultaat}>

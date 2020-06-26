@@ -38,20 +38,20 @@ const Page: React.FC = () => {
           <FontAwesomeIcon icon={faArrowLeft} /> <i>Ga terug</i>
         </div>
         <div>
-          <button onClick={() => executeScroll(Aanleiding, 120)}>
+          <button onClick={() => executeScroll(Aanleiding, 20)}>
             Aanleiding
           </button>
-          <button onClick={() => executeScroll(Methode, 120)}>Methode</button>
-          <button onClick={() => executeScroll(Resultaat, 120)}>
+          <button onClick={() => executeScroll(Methode, 20)}>Methode</button>
+          <button onClick={() => executeScroll(Resultaat, 20)}>
             Resultaat
           </button>
-          <button onClick={() => executeScroll(Verantwoording, 120)}>
+          <button onClick={() => executeScroll(Verantwoording, 20)}>
             Verantwoording
           </button>
-          <button onClick={() => executeScroll(Reflectie, 120)}>
+          <button onClick={() => executeScroll(Reflectie, 20)}>
             Reflectie
           </button>
-          <button onClick={() => executeScroll(FeedbackOut, 120)}>
+          <button onClick={() => executeScroll(FeedbackOut, 20)}>
             Gegeven feedback
           </button>
         </div>
@@ -60,116 +60,123 @@ const Page: React.FC = () => {
       <div className="s-page">
         <div className="s-page__content">
           <FadeIn>
-            <h1>Feedback</h1>
-            <div ref={Aanleiding}>
-              <h2>Aanleiding</h2>
-              <p>
-                Om een betere student, groepswerker, leider en professional te
-                worden, is er feedback gevraagd aan elkaar en aan elkaar
-                gegeven.
-              </p>
-            </div>
-            <div ref={Methode}>
-              <h2>Methode</h2>
-              <h3>Peer feedback</h3>
-              <p>
-                Er is voor deze manier gekozen omdat we op deze manier van
-                elkaar kunnen leren, er achter komen wat onze sterke en zwakke
-                punten zijn en het zorgt voor professionaliteit.
-              </p>
-            </div>
-            <div ref={Resultaat}>
-              <h2>Resultaat</h2>
-              <p>De volgende feedback is ontvangen</p>
-              <div className="s-page__content__img__container__img">
-                <h3>Ontvangen feedback</h3>
-                <Zoom>
-                  <img
-                    className="s-page__content__img__full"
-                    alt="Feedback"
-                    src={Feedback}
-                  />
-                </Zoom>
+            <div>
+              <h1>Feedback</h1>
+              <div ref={Aanleiding}>
+                <h2>Aanleiding</h2>
+                <p>
+                  Om een betere student, groepswerker, leider en professional te
+                  worden, is er feedback gevraagd aan elkaar en aan elkaar
+                  gegeven.
+                </p>
               </div>
-            </div>
-            <div className="s-page__content__img__container">
-              <div className="s-page__content__img__container__img">
-                <h3>Feedback Max</h3>
-                <Zoom>
-                  <img
-                    className="s-page__content__img__full"
-                    alt="Lange antwoorden"
-                    src={FeedbackMax}
-                  />
-                </Zoom>
+              <div ref={Methode}>
+                <h2>Methode</h2>
+                <h3>Peer feedback</h3>
+                <p>
+                  Er is voor deze manier gekozen omdat we op deze manier van
+                  elkaar kunnen leren, er achter komen wat onze sterke en zwakke
+                  punten zijn en het zorgt voor professionaliteit.
+                </p>
               </div>
-              <div className="s-page__content__img__container__img">
-                <h3>Feedback Bart</h3>
-                <Zoom>
-                  <img
-                    className="s-page__content__img__full"
-                    alt="hondert comments"
-                    src={FeedbackBart}
-                  />
-                </Zoom>
+              <div ref={Resultaat}>
+                <h2>Resultaat</h2>
+                <p>De volgende feedback is ontvangen</p>
+                <div className="s-page__content__img__container__img">
+                  <h3>Ontvangen feedback</h3>
+                  <Zoom>
+                    <img
+                      className="s-page__content__img__full"
+                      alt="Feedback"
+                      src={Feedback}
+                    />
+                  </Zoom>
+                </div>
               </div>
-            </div>
-            <div className="s-page__content__img__container">
-              <div className="s-page__content__img__container__img">
-                <h3>Feedback Dylano</h3>
-                <Zoom>
-                  <img
-                    className="s-page__content__img__full"
-                    alt="Lange antwoorden"
-                    src={FeedbackDylano}
-                  />
-                </Zoom>
+              <div className="s-page__content__img__container">
+                <div className="s-page__content__img__container__img">
+                  <h3>Feedback Max</h3>
+                  <Zoom>
+                    <img
+                      className="s-page__content__img__full"
+                      alt="Lange antwoorden"
+                      src={FeedbackMax}
+                    />
+                  </Zoom>
+                </div>
+                <div className="s-page__content__img__container__img">
+                  <h3>Feedback Bart</h3>
+                  <Zoom>
+                    <img
+                      className="s-page__content__img__full"
+                      alt="hondert comments"
+                      src={FeedbackBart}
+                    />
+                  </Zoom>
+                </div>
               </div>
-              <div className="s-page__content__img__container__img">
-                <h3>Feedback Mike</h3>
-                <Zoom>
-                  <img
-                    className="s-page__content__img__full"
-                    alt="hondert comments"
-                    src={FeedbackMike}
-                  />
-                </Zoom>
+              <div className="s-page__content__img__container">
+                <div className="s-page__content__img__container__img">
+                  <h3>Feedback Dylano</h3>
+                  <Zoom>
+                    <img
+                      className="s-page__content__img__full"
+                      alt="Lange antwoorden"
+                      src={FeedbackDylano}
+                    />
+                  </Zoom>
+                </div>
+                <div className="s-page__content__img__container__img">
+                  <h3>Feedback Mike</h3>
+                  <Zoom>
+                    <img
+                      className="s-page__content__img__full"
+                      alt="hondert comments"
+                      src={FeedbackMike}
+                    />
+                  </Zoom>
+                </div>
               </div>
-            </div>
-            <div ref={Verantwoording}>
-              <h2>Verantwoording</h2>
-              <p>
-                Er is feedback ontvangen en gegeven aan Max Altena, Dylano
-                Hartman, Mike Hendriks en Bart van de Klundert.
-              </p>
-            </div>
-            <div ref={Reflectie}>
-              <h2>Reflectie</h2>
-              <p>
-                Over het algemeen vond ik de ontvangen feedback erg positief. Ik
-                was het ook erg eens met wat er gezegd werd. De punten over
-                motivatie zou ik persoonlijk niet zien als 'weinig motivatie',
-                maar meer aan hoog klaag niveau. Ik klaag relatief veel als ik
-                met onderdelen bezig ben waarvan ik het op dat moment nutteloos
-                vind, en dat laat ik dus ook aan de docenten en mede-studenten
-                merken. Ik ga er op letten in de toekomst dat de frustraties die
-                ik uit niet storend zijn voor de mensen om me heen, en daarbij
-                pas klagen als ik de opdrachten heb gemaakt. Want meestal zie ik
-                het nut van de opdracht als ik hem gemaakt heb.
-              </p>
-            </div>
-            <div ref={FeedbackOut}>
-              <h2>Gegeven feedback</h2>
-              <p>De volgende feedback is gegeven:</p>
-              <div className="s-page__content__img__container__img">
-                <h3>Gegeven feedback</h3>
-                <Zoom>
-                  <img
-                    className="s-page__content__img__full"
-                    alt="Feedback"
-                    src={FeedbackGiven}
-                  />
-                </Zoom>
+              <div ref={Verantwoording}>
+                <h2>Verantwoording</h2>
+                <p>
+                  Er is feedback ontvangen en gegeven aan Max Altena, Dylano
+                  Hartman, Mike Hendriks en Bart van de Klundert.
+                </p>
+              </div>
+              <div ref={Reflectie}>
+                <h2>Reflectie</h2>
+                <p>
+                  Over het algemeen vond ik de ontvangen feedback erg positief.
+                  Ik was het ook erg eens met wat er gezegd werd. De punten over
+                  motivatie zou ik persoonlijk niet zien als 'weinig motivatie',
+                  maar meer aan hoog klaag niveau. Ik klaag relatief veel als ik
+                  met onderdelen bezig ben waarvan ik het op dat moment
+                  nutteloos vind, en dat laat ik dus ook aan de docenten en
+                  mede-studenten merken. Ik ga er op letten in de toekomst dat
+                  de frustraties die ik uit niet storend zijn voor de mensen om
+                  me heen, en daarbij pas klagen als ik de opdrachten heb
+                  gemaakt. Want meestal zie ik het nut van de opdracht als ik
+                  hem gemaakt heb.
+                </p>
+              </div>
+              <div ref={FeedbackOut}>
+                <h2>Gegeven feedback</h2>
+                <p>De volgende feedback is gegeven:</p>
+                <div className="s-page__content__img__container__img">
+                  <h3>Gegeven feedback</h3>
+                  <Zoom>
+                    <img
+                      className="s-page__content__img__full"
+                      alt="Feedback"
+                      src={FeedbackGiven}
+                    />
+                  </Zoom>
+                </div>
+                <p>
+                  Er is gelet op dat de feedback constructief is en dat ze er
+                  echt iets mee kunnen.
+                </p>
               </div>
             </div>
           </FadeIn>

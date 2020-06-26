@@ -32,10 +32,8 @@ const Page: React.FC = () => {
           <button onClick={() => executeScroll(Aanleiding, 120)}>
             Aanleiding
           </button>
-          <button onClick={() => executeScroll(Probleem, 120)}>Methode</button>
-          <button onClick={() => executeScroll(Doel, 120)}>
-            Verantwoording
-          </button>
+          <button onClick={() => executeScroll(Probleem, 120)}>Probleem</button>
+          <button onClick={() => executeScroll(Doel, 120)}>Doel</button>
           <button onClick={() => executeScroll(Conclusie, 120)}>
             Conclusie
           </button>

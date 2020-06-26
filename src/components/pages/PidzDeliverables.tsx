@@ -17,7 +17,6 @@ const Page: React.FC = () => {
   const Video = useRef(null);
   const Adviesrapport = useRef(null);
   const Verantwoording = useRef(null);
-  const Conclusie = useRef(null);
 
   const executeScroll = (reference: any, offset?: number) => {
     if (typeof offset === "undefined") {
@@ -42,9 +41,6 @@ const Page: React.FC = () => {
           </button>
           <button onClick={() => executeScroll(Verantwoording, 120)}>
             Verantwoording
-          </button>
-          <button onClick={() => executeScroll(Conclusie, 120)}>
-            Conclusie
           </button>
         </div>
         <div className="o-pagenav__fill"></div>
