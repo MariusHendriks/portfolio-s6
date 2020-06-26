@@ -88,7 +88,7 @@ const Producten: React.FC<Props> = ({ sortedData }) => {
         aanvulling = (
           <p>
             Het was van belang te onderzoeken waar PIDZ in kan uitstralen ten
-            opzichte van concurrenten. om deze reden is er individueel een
+            opzichte van concurrenten. Om deze reden is er individueel een
             concurentie analyse gemaakt.
           </p>
         );
