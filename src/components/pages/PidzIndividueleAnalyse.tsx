@@ -73,13 +73,13 @@ const Page: React.FC = () => {
                 <li>
                   Een compliment ontvangen. Dit is iets wat de ZZP’ers fijn
                   vinden om te horen van andere ZZP’ers, en kan zeker terugkomen
-                  in een platform waar kennis gedeelt wordt.
+                  in een platform waar kennis gedeeld wordt.
                 </li>
                 <li>PIDZ heeft nog geen unieke punten.</li>
               </ul>
               <p>
                 Deze problemen zijn gebaseerd op het onderzoek dat gemaakt is
-                door PIDZ en gedeelt is met de studenten.
+                door PIDZ en gedeeld is met de studenten.
               </p>
             </div>
             <div ref={Doel}>

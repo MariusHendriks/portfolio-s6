@@ -64,7 +64,7 @@ const Page: React.FC = () => {
               <a
                 rel="noopener noreferrer"
                 target="_blank"
-                href="https://drive.google.com/file/d/1XWLaYxwkc3h_NLBv5ltvrD-YjYd5AT8K/view?usp=sharing"
+                href="https://drive.google.com/file/d/1az6nEACUcqKHzFKcCHttoWt7v62t7-qk/view?usp=sharing"
               >
                 Klik daarvoor hier.
               </a>
@@ -81,7 +81,7 @@ const Page: React.FC = () => {
                   >
                     https://pidz.nl/
                   </a>
-                  ) is een bedrijf die zicht focust op ZZP'ers in de zorg. De
+                  ) is een bedrijf die zich focust op ZZP'ers in de zorg. De
                   ZZP'ers kunnen via PIDZ in contact komen met bemiddelaars. Er
                   zijn drieduizend ZZP'ers op werkdagen actief, en er zijn in
                   totaal negenduizend gebruikers.
@@ -167,7 +167,7 @@ const Page: React.FC = () => {
               <div ref={Aanpak}>
                 <h2>Aanpak</h2>
                 <p>
-                  Tijdens dit project is er niet met een speciefiek framework
+                  Tijdens dit project is er niet met een specifiek framework
                   gewerkt om door het project heen te lopen. Er is tijdens het
                   opzetten van het project plan (
                   <Link to="/page/PidzProjectPlan">Link naar project plan</Link>
@@ -199,7 +199,7 @@ const Page: React.FC = () => {
                     Link naar concurrentieanalyse
                   </Link>
                   ). Dit is individueel gemaakt en de conclusies zijn met elkaar
-                  gedeelt zodat de gehele groep (Dylano, Max en ik) bewust was
+                  gedeeld zodat de gehele groep (Dylano, Max en ik) bewust was
                   van de resultaten van elkaar.
                 </p>
                 <p>
@@ -210,7 +210,7 @@ const Page: React.FC = () => {
                     Link naar trendanalyse
                   </Link>
                   ). Deze trends zijn verder onderzocht en ook hiervan zijn de
-                  conclusies met elkaar gedeelt.
+                  conclusies met elkaar gedeeld.
                 </p>
                 <p>
                   Met alle benoemde resultaten is een conceptdocument gemaakt
@@ -236,9 +236,9 @@ const Page: React.FC = () => {
                   <Link to="/page/PidzUsabilityTest">
                     Link naar usability test document
                   </Link>
-                  ) om te kijken of het prototype goed bruikbaar is.. Deze
-                  hangen samen met elkaar omdat de resultaten van de usability
-                  test verwerkt werden in het ontwerp.
+                  ) om te kijken of het prototype goed bruikbaar is. Deze hangen
+                  samen met elkaar omdat de resultaten van de usability test
+                  verwerkt werden in het ontwerp.
                 </p>
               </div>
               <div ref={Resultaat}>
@@ -281,7 +281,7 @@ const Page: React.FC = () => {
                     lager dan normaal, want programmeren doe ik het liefst.
                   </p>
                   <p>
-                    Om goed te kunnen reflecteren zijn er uitgebreidde peer
+                    Om goed te kunnen reflecteren zijn er uitgebreide peer
                     reviews gehouden door de groep. Hier kwam inderdaad ook uit
                     dat ik niet heel gemotiveerd was, maar toch de disipline had
                     om alles af te maken.

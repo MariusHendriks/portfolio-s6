@@ -101,7 +101,7 @@ const Page: React.FC = () => {
                 <p>
                   Het prototype is gemaakt door Dylano Hartman, Max altena en
                   ikzelf. De test is gemaakt en uitgevoerd door mij. De
-                  conclusies van de tests zijn gedeelt met Dylano en Max, en
+                  conclusies van de tests zijn gedeeld met Dylano en Max, en
                   verwerkt in nieuwe iteraties waarmee verdere tests uitgevoerd
                   zijn.
                 </p>
