@@ -26,6 +26,7 @@ const Page: React.FC = () => {
   const Resultaat = useRef(null);
   const Reflectie = useRef(null);
   const Bewijs = useRef(null);
+
   return (
     <>
       <div className="o-pagenav">
@@ -58,6 +59,16 @@ const Page: React.FC = () => {
         <div className="s-page__content">
           <FadeIn>
             <h1>Leeswijzer</h1>
+            <div>
+              Deze leeswijzer is ook als PDF versie te bekijken.{" "}
+              <a
+                rel="noopener noreferrer"
+                target="_blank"
+                href="https://drive.google.com/file/d/1XWLaYxwkc3h_NLBv5ltvrD-YjYd5AT8K/view?usp=sharing"
+              >
+                Klik daarvoor hier.
+              </a>
+            </div>
             <div>
               <div ref={Opdrachtgever}>
                 <h2>De Opdrachtgever</h2>
