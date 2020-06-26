@@ -123,7 +123,7 @@ const Page: React.FC = () => {
                 De onderzoeksresultaten van de trendanalyse (
                 <Link to="/page/PidzTrendAnalyse">link naar trendanalyse</Link>)
                 en de Concurrentieanalyse (
-                <Link to="/page/PidzConcurrentieAnalyse">
+                <Link to="/page/PidzConcurrentieanalyse">
                   link naar concurrentieanalyse
                 </Link>
                 ) zijn gebruikt als punten in de gemaakte proof of concept. Dat

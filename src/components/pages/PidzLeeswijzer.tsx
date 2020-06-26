@@ -49,7 +49,7 @@ const Page: React.FC = () => {
           <button onClick={() => executeScroll(Reflectie, 120)}>
             Reflectie
           </button>
-          <button onClick={() => executeScroll(Bewijs, 400)}>Bewijs</button>
+          <button onClick={() => executeScroll(Bewijs, 130)}>Bewijs</button>
         </div>
         <div className="o-pagenav__fill"></div>
       </div>
@@ -184,7 +184,7 @@ const Page: React.FC = () => {
                 </p>
                 <p>
                   Het eerste wat onderzocht is, is wat de concurrenten doen (
-                  <Link to="/page/PidzConcurrentieAnalyse">
+                  <Link to="/page/PidzConcurrentieanalyse">
                     Link naar concurrentieanalyse
                   </Link>
                   ). Dit is individueel gemaakt en de conclusies zijn met elkaar
