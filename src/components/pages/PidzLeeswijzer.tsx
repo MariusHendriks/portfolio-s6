@@ -64,7 +64,7 @@ const Page: React.FC = () => {
               <a
                 rel="noopener noreferrer"
                 target="_blank"
-                href="https://drive.google.com/file/d/1az6nEACUcqKHzFKcCHttoWt7v62t7-qk/view?usp=sharing"
+                href="https://drive.google.com/file/d/1G5sTr9lmbU3wea6Uv6skZKnPuvVojhJa/view?usp=sharing"
               >
                 Klik daarvoor hier.
               </a>
