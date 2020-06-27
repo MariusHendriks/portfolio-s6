@@ -240,6 +240,15 @@ const Page: React.FC = () => {
                   samen met elkaar omdat de resultaten van de usability test
                   verwerkt werden in het ontwerp.
                 </p>
+                <p>
+                  Als laatst is er een communicatiestrategie gemaakt waarin een
+                  advies staat waar en waarom PIDZ op bepaalde plekken media kan
+                  inzetten om onder andere nieuwe gebruikres te krijgen. (
+                  <Link to="/page/PidzCommunicatiestrategie">
+                    Link naar communicatiestrategie
+                  </Link>
+                  )
+                </p>
               </div>
               <div ref={Resultaat}>
                 <h2>Resultaat</h2>
