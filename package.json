@@ -27,7 +27,7 @@
     "@types/react-vertical-timeline-component": "^2.5.0",
     "@types/react-window-size": "^1.2.0",
     "jsonpath": "^1.0.2",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "pdf-viewer-reactjs": "^2.0.2",
     "react": "^16.13.0",
     "react-audio-player": "^0.11.1",
